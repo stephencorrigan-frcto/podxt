@@ -57,9 +57,11 @@ Drop `--usb` when using a MIDI port. `--port NAME` picks a specific one.
 
 | Banks | Contents |
 |---|---|
-| 1-20 | Top Spotify artists, four patches each: Smashing Pumpkins, Placebo, Arctic Monkeys, The Strokes, Stereophonics, Muse, Radiohead, RATM, Future Islands, Fontaines D.C., Oasis, Villagers, The Verve, Arcade Fire, Beck, Marilyn Manson, The Killers, Manics, Blur, Still Corners |
+| 1-20 | Top Spotify artists, four patches each: Smashing Pumpkins, Placebo, Arctic Monkeys, The Strokes, Stereophonics, Muse, Radiohead, RATM, Future Islands, Fontaines D.C., Oasis, more Manics (bank 12: one per era), The Verve, Arcade Fire, Beck, Marilyn Manson, The Killers, Manics, Blur, Still Corners |
 | 21-22 | Mayer Clean, Mayer Gravity, Deftones Heavy, Deftones Clean, The xx, Clean / Crunch / Lead platforms |
 | 23-32 | Discoveries: Johnny Marr, shoegaze (MBV, Slowdive, Ride), The Edge, Gilmour, Jack White, QOTSA, post-punk (Television, Interpol, The Cure), Khruangbin / Mdou Moctar / Knopfler / Nile Rodgers, Hendrix, Dinosaur Jr / Sonic Youth / Mogwai / Explosions in the Sky |
+
+Four more Manics patches are in `patches.json` without a slot (EMG Title, TwinBoost, Crystal, RAT Riff). Audition them from the app, or `store` one over a slot you don't use.
 
 ## Licence
 

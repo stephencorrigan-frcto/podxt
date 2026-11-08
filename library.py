@@ -217,16 +217,18 @@ P("Oasis LiveForev", "Singing lead with delay", "Brit J-800", "4x12 Green 25's",
 P("Oasis Champagne", "Phased crunch, wide hall", "Brit J-800", "4x12 Green 25's", "57 Off Axis",
   55, (55, 55, 55, 50), 58, md=mod("Phaser", 0.4, 40, 50), reverb=rev("Large Hall", 18, 50))
 
-# ------------------------------------------------------------ 12 Villagers
-P("Vill Fingerpick", "Warm jazz-clean for fingerstyle", "Jazz Clean", "2x12 Jazz", "67 Condenser",
-  15, (50, 50, 50, 40), 70, comp=(-24, 4), reverb=rev("Small Room", 15, 30))
-P("Vill Acoustic", "Acoustic body for folk parts", "Line 6 Acoustic 2", "No Cab", "67 Condenser",
-  15, (50, 50, 55, 50), 70, comp=(-22, 3), reverb=rev("Rich Chamber", 18, 40))
-P("Vill Becoming", "Clean with gentle trem", "Blackface Lux", "1x12 Blackface", "67 Condenser",
-  20, (50, 50, 55, 45), 70, md=mod("Bias Trem", 4.0, 40, 40), reverb=rev("Lux Spring", 20, 40))
-P("Vill Ambient", "Soft swell into long echoes", "Jazz Clean", "2x12 Jazz", "67 Condenser",
-  15, (45, 50, 55, 45), 68, stomp=("Auto Swell", {"stomp_p2": 50, "stomp_p3": 60}),
-  delay=dly("Analog Delay w/ Mod", 550, 40, 30, 30, 40), reverb=rev("Large Hall", 30, 65))
+# ------------------------------------------------------------ 12 More Manics, one per era
+# From Bradfield's documented rig: Les Paul Custom / Tele Thinline into a Marshall
+# JCM900 (Brit J-800 is the closest XT model), TS-808/TS9DX (Screamer), Boss FZ-2 (Fuzz Pi).
+P("Manics YouLoveUs", "Generation Terrorists glam: FZ-2 fuzz into Marshall", "Brit J-800", "4x12 Brit V30's", "57 Off Axis",
+  45, (55, 60, 60, 55), 56, stomp=fuzz("Fuzz Pi", 60, 55, 55), gate=(-55, 20))
+P("Manics Faster", "Holy Bible: dry, mid-heavy Marshall, Screamer tightening", "Brit J-800", "4x12 Green 25's", "57 On Axis",
+  60, (50, 70, 58, 55), 56, stomp=fuzz("Screamer", 15, 75, 55), gate=(-55, 20), reverb=None)
+P("Manics Australia", "Everything Must Go anthem crunch", "Brit J-800", "4x12 Green 25's", "57 Off Axis",
+  55, (55, 60, 58, 55), 58, stomp=fuzz("Screamer", 25, 65, 50), reverb=rev("Medium Hall", 15, 40))
+P("Manics Autumnsng", "Send Away the Tigers: Les Paul, JCM900, TS9DX", "Brit J-800", "4x12 Green 25's", "57 On Axis",
+  62, (55, 62, 58, 55), 56, stomp=fuzz("Screamer", 30, 70, 55), delay=dly("Analog Delay", 380, 20, 12),
+  reverb=rev("Medium Hall", 12, 35))
 
 # ------------------------------------------------------------ 13 The Verve
 P("Verve BitterSwt", "Bright clean strum", "Double Verb", "2x12 Blackface", "67 Condenser",
@@ -282,8 +284,8 @@ P("Killers Lead", "Driven lead with delay", "Brit J-800", "4x12 Green 25's", "57
 # ------------------------------------------------------------ 18 Manic Street Preachers
 P("Manics Design", "Les Paul into Plexi, anthemic", "Plexi 45", "4x12 Green 25's", "57 Off Axis",
   55, (55, 55, 58, 55), 58, reverb=rev("Medium Hall", 15, 40))
-P("Manics Motorcyc", "Chorused lead with long delay", "Brit J-800", "4x12 Green 25's", "57 On Axis",
-  55, (55, 60, 55, 50), 58, md=mod("Analog Chorus", 0.8, 35, 30), delay=dly("Analog Delay", 450, 30, 20))
+P("Manics Motorcyc", "Tele riff: Shredmaster-style Marshall grit, CH-1 chorus, delay", "Brit J-800", "4x12 Green 25's", "57 On Axis",
+  55, (50, 60, 62, 55), 58, md=mod("Sine Chorus", 0.9, 40, 35), delay=dly("Analog Delay", 450, 30, 20))
 P("Manics Bradfld", "Boosted Bradfield lead", "Plexi Lead 100", "4x12 Green 25's", "57 On Axis",
   60, (55, 65, 58, 55), 56, stomp=fuzz("Screamer", 35, 70, 55), delay=dly("Analog Delay", 380, 20, 15))
 P("Manics Tolerate", "Clean with echo, wide room", "Double Verb", "2x12 Blackface", "67 Condenser",
@@ -433,6 +435,22 @@ P("Mogwai Swell", "Clean that blooms into tape echo", "Double Verb", "2x12 Black
 P("EITS Crescendo", "Tremolo-picked clean with delay", "Double Verb", "2x12 Blackface", "67 Condenser",
   22, (45, 50, 60, 50), 68, delay=dly("Digital Delay", 400, 40, 30), reverb=rev("Large Hall", 30, 65))
 
+# ------------------------------------------------------------ extras (no slot yet)
+# More Manics from Bradfield's documented rig: Les Paul Custom / Tele Thinline into
+# Marshall JCM900 (Brit J-800 is the closest XT model), TS-808/TS9DX (Screamer),
+# Boss FZ-2 (Fuzz Pi), RAT (Classic Dist), CS-3 (comp block), CH-1 (Sine Chorus),
+# Fender Twin with a Fryer Treble Boost (Double Verb + FX-Boost + EQ).
+
+P("Manics EMG Title", "Gretsch-ish bright crunch, comp, echo and hall", "Brit J-800", "4x12 Green 25's", "57 Off Axis",
+  40, (45, 55, 65, 60), 60, comp=(-24, 4), delay=dly("Analog Delay", 400, 25, 18), reverb=rev("Large Hall", 18, 45))
+P("Manics TwinBoost", "Fender Twin hit with a Fryer-style treble boost", "Double Verb", "2x12 Blackface", "57 Off Axis",
+  45, (40, 55, 62, 55), 60, stomp=("FX-Boost + EQ", {"stomp_p2": 70, "stomp_p3": 40, "stomp_p4": 75, "stomp_p5": 55, "stomp_p6": 60}),
+  reverb=rev("Small Room", 12, 25))
+P("Manics Crystal", "CS-3 compressed clean, a touch of CH-1", "Double Verb", "2x12 Blackface", "67 Condenser",
+  25, (45, 55, 62, 55), 68, comp=(-28, 5), md=mod("Sine Chorus", 0.8, 30, 25), reverb=rev("Medium Hall", 15, 35))
+P("Manics RAT Riff", "RAT distortion into a cleaner Marshall", "Brit J-800", "4x12 Brit V30's", "57 On Axis",
+  35, (55, 60, 55, 55), 58, stomp=fuzz("Classic Dist", 55, 55, 50), gate=(-55, 20))
+
 # ------------------------------------------------------------ assemble
 
 def slot_label(i):
@@ -446,11 +464,11 @@ def check(patch):
         assert any(label.lower() == model.lower() for label in table), f"{patch['name']}: {kind} '{model}'"
 
 
-assert len(LIB) == 128, len(LIB)
+assert len(LIB) >= 128, len(LIB)
 out = {}
 for i, (key, patch) in enumerate(LIB):
     check(patch)
     assert key not in out, f"duplicate key {key}"
-    out[key] = {**patch, "slot": slot_label(i)}
+    out[key] = {**patch, "slot": slot_label(i)} if i < 128 else patch
 PATCHES.write_text(json.dumps(out, indent=2) + "\n", encoding="utf-8")
 print(f"Wrote {len(out)} patches to patches.json")

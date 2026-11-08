@@ -1603,120 +1603,125 @@
     },
     "slot": "11D"
   },
-  "vill_fingerpick": {
-    "name": "Vill Fingerpick",
-    "description": "Warm jazz-clean for fingerstyle",
+  "manics_youloveus": {
+    "name": "Manics YouLoveUs",
+    "description": "Generation Terrorists glam: FZ-2 fuzz into Marshall",
     "models": {
-      "amp": "Jazz Clean",
-      "cab": "2x12 Jazz",
-      "mic": "67 Condenser",
+      "amp": "Brit J-800",
+      "cab": "4x12 Brit V30's",
+      "mic": "57 Off Axis",
+      "stomp": "Fuzz Pi",
       "reverb": "Small Room"
     },
     "on": {
       "amp": true,
-      "gate": false,
-      "comp": true,
+      "gate": true,
+      "comp": false,
       "wah": false,
-      "stomp": false,
+      "stomp": true,
       "mod": false,
       "delay": false,
       "reverb": true,
       "eq": false
     },
     "params": {
-      "drive": 15,
-      "bass": 50,
-      "mid": 50,
-      "treble": 50,
-      "presence": 40,
-      "chan_vol": 70,
+      "drive": 45,
+      "bass": 55,
+      "mid": 60,
+      "treble": 60,
+      "presence": 55,
+      "chan_vol": 56,
+      "stomp_p2": 60,
+      "stomp_p3": 55,
+      "stomp_p4": 55,
       "reverb_mix": 15,
       "reverb_decay": 30,
-      "comp_thresh_db": -24,
-      "comp_gain_db": 4
+      "gate_db": -55,
+      "gate_decay": 20
     },
     "slot": "12A"
   },
-  "vill_acoustic": {
-    "name": "Vill Acoustic",
-    "description": "Acoustic body for folk parts",
+  "manics_faster": {
+    "name": "Manics Faster",
+    "description": "Holy Bible: dry, mid-heavy Marshall, Screamer tightening",
     "models": {
-      "amp": "Line 6 Acoustic 2",
-      "cab": "No Cab",
-      "mic": "67 Condenser",
-      "reverb": "Rich Chamber"
+      "amp": "Brit J-800",
+      "cab": "4x12 Green 25's",
+      "mic": "57 On Axis",
+      "stomp": "Screamer"
     },
     "on": {
       "amp": true,
-      "gate": false,
-      "comp": true,
+      "gate": true,
+      "comp": false,
       "wah": false,
-      "stomp": false,
+      "stomp": true,
       "mod": false,
       "delay": false,
-      "reverb": true,
+      "reverb": false,
       "eq": false
     },
     "params": {
-      "drive": 15,
+      "drive": 60,
       "bass": 50,
-      "mid": 50,
-      "treble": 55,
-      "presence": 50,
-      "chan_vol": 70,
-      "reverb_mix": 18,
-      "reverb_decay": 40,
-      "comp_thresh_db": -22,
-      "comp_gain_db": 3
+      "mid": 70,
+      "treble": 58,
+      "presence": 55,
+      "chan_vol": 56,
+      "stomp_p2": 15,
+      "stomp_p3": 75,
+      "stomp_p4": 55,
+      "gate_db": -55,
+      "gate_decay": 20
     },
     "slot": "12B"
   },
-  "vill_becoming": {
-    "name": "Vill Becoming",
-    "description": "Clean with gentle trem",
+  "manics_australia": {
+    "name": "Manics Australia",
+    "description": "Everything Must Go anthem crunch",
     "models": {
-      "amp": "Blackface Lux",
-      "cab": "1x12 Blackface",
-      "mic": "67 Condenser",
-      "mod": "Bias Trem",
-      "reverb": "Lux Spring"
+      "amp": "Brit J-800",
+      "cab": "4x12 Green 25's",
+      "mic": "57 Off Axis",
+      "stomp": "Screamer",
+      "reverb": "Medium Hall"
     },
     "on": {
       "amp": true,
       "gate": false,
       "comp": false,
       "wah": false,
-      "stomp": false,
-      "mod": true,
+      "stomp": true,
+      "mod": false,
       "delay": false,
       "reverb": true,
       "eq": false
     },
     "params": {
-      "drive": 20,
-      "bass": 50,
-      "mid": 50,
-      "treble": 55,
-      "presence": 45,
-      "chan_vol": 70,
-      "mod_speed_hz": 4.0,
-      "mod_p2": 40,
-      "mod_mix": 40,
-      "reverb_mix": 20,
+      "drive": 55,
+      "bass": 55,
+      "mid": 60,
+      "treble": 58,
+      "presence": 55,
+      "chan_vol": 58,
+      "stomp_p2": 25,
+      "stomp_p3": 65,
+      "stomp_p4": 50,
+      "reverb_mix": 15,
       "reverb_decay": 40
     },
     "slot": "12C"
   },
-  "vill_ambient": {
-    "name": "Vill Ambient",
-    "description": "Soft swell into long echoes",
+  "manics_autumnsng": {
+    "name": "Manics Autumnsng",
+    "description": "Send Away the Tigers: Les Paul, JCM900, TS9DX",
     "models": {
-      "amp": "Jazz Clean",
-      "cab": "2x12 Jazz",
-      "mic": "67 Condenser",
-      "stomp": "Auto Swell",
-      "delay": "Analog Delay w/ Mod",
-      "reverb": "Large Hall"
+      "amp": "Brit J-800",
+      "cab": "4x12 Green 25's",
+      "mic": "57 On Axis",
+      "stomp": "Screamer",
+      "delay": "Analog Delay",
+      "reverb": "Medium Hall"
     },
     "on": {
       "amp": true,
@@ -1730,21 +1735,20 @@
       "eq": false
     },
     "params": {
-      "drive": 15,
-      "bass": 45,
-      "mid": 50,
-      "treble": 55,
-      "presence": 45,
-      "chan_vol": 68,
-      "stomp_p2": 50,
-      "stomp_p3": 60,
-      "delay_ms": 550,
-      "delay_p2": 40,
-      "delay_mix": 30,
-      "delay_p3": 30,
-      "delay_p4": 40,
-      "reverb_mix": 30,
-      "reverb_decay": 65
+      "drive": 62,
+      "bass": 55,
+      "mid": 62,
+      "treble": 58,
+      "presence": 55,
+      "chan_vol": 56,
+      "stomp_p2": 30,
+      "stomp_p3": 70,
+      "stomp_p4": 55,
+      "delay_ms": 380,
+      "delay_p2": 20,
+      "delay_mix": 12,
+      "reverb_mix": 12,
+      "reverb_decay": 35
     },
     "slot": "12D"
   },
@@ -2494,12 +2498,12 @@
   },
   "manics_motorcyc": {
     "name": "Manics Motorcyc",
-    "description": "Chorused lead with long delay",
+    "description": "Tele riff: Shredmaster-style Marshall grit, CH-1 chorus, delay",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
       "mic": "57 On Axis",
-      "mod": "Analog Chorus",
+      "mod": "Sine Chorus",
       "delay": "Analog Delay",
       "reverb": "Small Room"
     },
@@ -2516,14 +2520,14 @@
     },
     "params": {
       "drive": 55,
-      "bass": 55,
+      "bass": 50,
       "mid": 60,
-      "treble": 55,
-      "presence": 50,
+      "treble": 62,
+      "presence": 55,
       "chan_vol": 58,
-      "mod_speed_hz": 0.8,
-      "mod_p2": 35,
-      "mod_mix": 30,
+      "mod_speed_hz": 0.9,
+      "mod_p2": 40,
+      "mod_mix": 35,
       "delay_ms": 450,
       "delay_p2": 30,
       "delay_mix": 20,
@@ -4638,5 +4642,153 @@
       "reverb_decay": 65
     },
     "slot": "32D"
+  },
+  "manics_emg_title": {
+    "name": "Manics EMG Title",
+    "description": "Gretsch-ish bright crunch, comp, echo and hall",
+    "models": {
+      "amp": "Brit J-800",
+      "cab": "4x12 Green 25's",
+      "mic": "57 Off Axis",
+      "delay": "Analog Delay",
+      "reverb": "Large Hall"
+    },
+    "on": {
+      "amp": true,
+      "gate": false,
+      "comp": true,
+      "wah": false,
+      "stomp": false,
+      "mod": false,
+      "delay": true,
+      "reverb": true,
+      "eq": false
+    },
+    "params": {
+      "drive": 40,
+      "bass": 45,
+      "mid": 55,
+      "treble": 65,
+      "presence": 60,
+      "chan_vol": 60,
+      "delay_ms": 400,
+      "delay_p2": 25,
+      "delay_mix": 18,
+      "reverb_mix": 18,
+      "reverb_decay": 45,
+      "comp_thresh_db": -24,
+      "comp_gain_db": 4
+    }
+  },
+  "manics_twinboost": {
+    "name": "Manics TwinBoost",
+    "description": "Fender Twin hit with a Fryer-style treble boost",
+    "models": {
+      "amp": "Double Verb",
+      "cab": "2x12 Blackface",
+      "mic": "57 Off Axis",
+      "stomp": "FX-Boost + EQ",
+      "reverb": "Small Room"
+    },
+    "on": {
+      "amp": true,
+      "gate": false,
+      "comp": false,
+      "wah": false,
+      "stomp": true,
+      "mod": false,
+      "delay": false,
+      "reverb": true,
+      "eq": false
+    },
+    "params": {
+      "drive": 45,
+      "bass": 40,
+      "mid": 55,
+      "treble": 62,
+      "presence": 55,
+      "chan_vol": 60,
+      "stomp_p2": 70,
+      "stomp_p3": 40,
+      "stomp_p4": 75,
+      "stomp_p5": 55,
+      "stomp_p6": 60,
+      "reverb_mix": 12,
+      "reverb_decay": 25
+    }
+  },
+  "manics_crystal": {
+    "name": "Manics Crystal",
+    "description": "CS-3 compressed clean, a touch of CH-1",
+    "models": {
+      "amp": "Double Verb",
+      "cab": "2x12 Blackface",
+      "mic": "67 Condenser",
+      "mod": "Sine Chorus",
+      "reverb": "Medium Hall"
+    },
+    "on": {
+      "amp": true,
+      "gate": false,
+      "comp": true,
+      "wah": false,
+      "stomp": false,
+      "mod": true,
+      "delay": false,
+      "reverb": true,
+      "eq": false
+    },
+    "params": {
+      "drive": 25,
+      "bass": 45,
+      "mid": 55,
+      "treble": 62,
+      "presence": 55,
+      "chan_vol": 68,
+      "mod_speed_hz": 0.8,
+      "mod_p2": 30,
+      "mod_mix": 25,
+      "reverb_mix": 15,
+      "reverb_decay": 35,
+      "comp_thresh_db": -28,
+      "comp_gain_db": 5
+    }
+  },
+  "manics_rat_riff": {
+    "name": "Manics RAT Riff",
+    "description": "RAT distortion into a cleaner Marshall",
+    "models": {
+      "amp": "Brit J-800",
+      "cab": "4x12 Brit V30's",
+      "mic": "57 On Axis",
+      "stomp": "Classic Dist",
+      "reverb": "Small Room"
+    },
+    "on": {
+      "amp": true,
+      "gate": true,
+      "comp": false,
+      "wah": false,
+      "stomp": true,
+      "mod": false,
+      "delay": false,
+      "reverb": true,
+      "eq": false
+    },
+    "params": {
+      "drive": 35,
+      "bass": 55,
+      "mid": 60,
+      "treble": 55,
+      "presence": 55,
+      "chan_vol": 58,
+      "stomp_p2": 55,
+      "stomp_p3": 55,
+      "stomp_p4": 50,
+      "reverb_mix": 15,
+      "reverb_decay": 30,
+      "gate_db": -55,
+      "gate_decay": 20
+    }
   }
 }
