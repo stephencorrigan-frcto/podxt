@@ -1,0 +1,724 @@
+{
+  "_source": "Generated from arteme/pod-ui mod-xt/src/config.rs (GPLv3). IDs are the CC value for each select. Verify on hardware.",
+  "amp": {
+    "No Amp": 0,
+    "Tube Preamp": 1,
+    "Line 6 Clean": 2,
+    "Line 6 JTS-45": 3,
+    "Line 6 Class A": 4,
+    "Line 6 Mood": 5,
+    "Line 6 Spinal Puppet": 6,
+    "Line 6 Chemical X": 7,
+    "Line 6 Insane": 8,
+    "Line 6 Acoustic 2": 9,
+    "Zen Master": 10,
+    "Small Tweed": 11,
+    "Tweed B-Man": 12,
+    "Tiny Tweed": 13,
+    "Blackface Lux": 14,
+    "Double Verb": 15,
+    "Two-Tone": 16,
+    "Hiway 100": 17,
+    "Plexi 45": 18,
+    "Plexi Lead 100": 19,
+    "Plexi Jump Lead": 20,
+    "Plexi Variac": 21,
+    "Brit J-800": 22,
+    "Brit JM Pre": 23,
+    "Match Chief": 24,
+    "Match D-30": 25,
+    "Treadplate Dual": 26,
+    "Cali Crunch": 27,
+    "Jazz Clean": 28,
+    "Solo 100": 29,
+    "Super O": 30,
+    "Class A-15": 31,
+    "Class A-30 TB": 32,
+    "Line 6 Argo": 33,
+    "Line 6 Lunatic": 34,
+    "Line 6 Treadplate": 35,
+    "Line 6 Variax Acoustic": 36,
+    "MS-Bomber Uber": 37,
+    "MS-Connor 50": 38,
+    "MS-Deity Lead": 39,
+    "MS-Deity's Son": 40,
+    "MS-Angel P-Ball": 41,
+    "MS-Silver J": 42,
+    "MS-Brit J-900 Clean": 43,
+    "MS-Brit J-900 Dist": 44,
+    "MS-Brit J-2000": 45,
+    "MS-Diamondplate": 46,
+    "MS-Criminal": 47,
+    "MS-Line 6 Big Bottom": 48,
+    "MS-Line 6 Chunk-Chunk": 49,
+    "MS-Line 6 Fuzz": 50,
+    "MS-Line 6 Octone": 51,
+    "MS-Line 6 Smash": 52,
+    "MS-Line 6 Sparkle Clean": 53,
+    "MS-Line 6 Throttle": 54,
+    "CC-Bomber XTC": 55,
+    "CC-Deity Crunch": 56,
+    "CC-Blackface Vibro": 57,
+    "CC-Double Show": 58,
+    "CC-Silverface Bass": 59,
+    "CC-Mini Double": 60,
+    "CC-Gibtone Expo": 61,
+    "CC-Brit Bass": 62,
+    "CC-Brit Major": 63,
+    "CC-Silver Twelve": 64,
+    "CC-Super O Thunder": 65,
+    "CC-Line 6 Bayou": 66,
+    "CC-Line 6 Crunch": 67,
+    "CC-Line 6 Purge": 68,
+    "CC-Line 6 Sparkle": 69,
+    "CC-Line 6 Super Clean": 70,
+    "CC-Line 6 Super Sparkle": 71,
+    "CC-Line 6 Twang": 72,
+    "BX-Tube Preamp": 73,
+    "BX-L6 Classic Jazz": 74,
+    "BX-L6 Brit Invader": 75,
+    "BX-L6 Super Thor": 76,
+    "BX-L6 Frankenstein": 77,
+    "BX-L6 Ebony Lux": 78,
+    "BX-L6 Doppelganger": 79,
+    "BX-L6 Sub Dub": 80,
+    "BX-Amp 360": 81,
+    "BX-Jaguar": 82,
+    "BX-Alchemist": 83,
+    "BX-Rock Classic": 84,
+    "BX-Flip Top": 85,
+    "BX-Adam and Eve": 86,
+    "BX-Tweed B-Man": 87,
+    "BX-Silverface Bass": 88,
+    "BX-Double Show": 89,
+    "BX-Eighties": 90,
+    "BX-Hiway 100": 91,
+    "BX-Hiway 200": 92,
+    "BX-British Major": 93,
+    "BX-British Bass": 94,
+    "BX-California": 95,
+    "BX-Jazz Tone": 96,
+    "BX-Stadium": 97,
+    "BX-Studio Tone": 98,
+    "BX-Motor City": 99,
+    "BX-Brit Class A100": 100,
+    "Citrus D-30": 101,
+    "L6 Mod Hi Gain": 102,
+    "L6 Boutique #1": 103,
+    "Class A-30 Fawn": 104,
+    "Brit Gain 18": 105,
+    "Brit J-2000 #2": 106
+  },
+  "cab": {
+    "No Cab": 0,
+    "1x6 Super O": 1,
+    "1x8 Tweed": 2,
+    "1x10 Gibtone": 3,
+    "1x10 G-Band": 4,
+    "1x12 Line 6": 5,
+    "1x12 Tweed": 6,
+    "1x12 Blackface": 7,
+    "1x12 Class A": 8,
+    "2x2 Mini T": 9,
+    "2x12 Line 6": 10,
+    "2x12 Blackface": 11,
+    "2x12 Match": 12,
+    "2x12 Jazz": 13,
+    "2x12 Class A": 14,
+    "4x10 Line 6": 15,
+    "4x10 Tweed": 16,
+    "4x12 Line 6": 17,
+    "4x12 Green 20's": 18,
+    "4x12 Green 25's": 19,
+    "4x12 Brit T75": 20,
+    "4x12 Brit V30's": 21,
+    "4x12 Treadplate": 22,
+    "1x15 Thunder": 23,
+    "2x12 Wishbook": 24,
+    "BX-1x12 Boutique": 25,
+    "BX-1x12 Motor City": 26,
+    "BX-1x15 Flip Top": 27,
+    "BX-1x15 Jazz Tone": 28,
+    "BX-1x18 Session": 29,
+    "BX-1x18 Amp 360": 30,
+    "BX-1x18 California": 31,
+    "BX-1x18+12 Stadium": 32,
+    "BX-2x10 Modern UK": 33,
+    "BX-2x15 Double Show": 34,
+    "BX-2x15 California": 35,
+    "BX-2x15 Class A": 36,
+    "BX-4x10 Line 6": 37,
+    "BX-4x10 Tweed": 38,
+    "BX-4x10 Adam Eve": 39,
+    "BX-4x10 Silvercone": 40,
+    "BX-4x10 Session": 41,
+    "BX-4x12 Hiway": 42,
+    "BX-4x12 Green 20's": 43,
+    "BX-4x12 Green 25's": 44,
+    "BX-4x15 Big Boy": 45,
+    "BX-8x10 Classic": 46
+  },
+  "mic": {
+    "57 On Axis": 0,
+    "57 Off Axis": 1,
+    "421 Dynamic": 2,
+    "67 Condenser": 3
+  },
+  "reverb": {
+    "Lux Spring": 0,
+    "Std Spring": 1,
+    "King Spring": 2,
+    "Small Room": 3,
+    "Tiled Room": 4,
+    "Brite Room": 5,
+    "Dark Hall": 6,
+    "Medium Hall": 7,
+    "Large Hall": 8,
+    "Rich Chamber": 9,
+    "Chamber": 10,
+    "Cavernous": 11,
+    "Slap Plate": 12,
+    "Vintage Plate": 13,
+    "Large Plate": 14
+  },
+  "stomp": {
+    "Facial Fuzz": {
+      "id": 0,
+      "params": {
+        "stomp_p2": "Drive",
+        "stomp_p3": "Gain",
+        "stomp_p4": "Tone"
+      }
+    },
+    "Fuzz Pi": {
+      "id": 1,
+      "params": {
+        "stomp_p2": "Drive",
+        "stomp_p3": "Gain",
+        "stomp_p4": "Tone"
+      }
+    },
+    "Screamer": {
+      "id": 2,
+      "params": {
+        "stomp_p2": "Drive",
+        "stomp_p3": "Gain",
+        "stomp_p4": "Tone"
+      }
+    },
+    "Classic Dist": {
+      "id": 3,
+      "params": {
+        "stomp_p2": "Drive",
+        "stomp_p3": "Gain",
+        "stomp_p4": "Tone"
+      }
+    },
+    "Octave Fuzz": {
+      "id": 4,
+      "params": {
+        "stomp_p2": "Drive",
+        "stomp_p3": "Gain",
+        "stomp_p4": "Tone"
+      }
+    },
+    "Blue Comp": {
+      "id": 5,
+      "params": {
+        "stomp_p2": "Sustain",
+        "stomp_p3": "Level"
+      }
+    },
+    "Red Comp": {
+      "id": 6,
+      "params": {
+        "stomp_p2": "Sustain",
+        "stomp_p3": "Level"
+      }
+    },
+    "Vetta Comp": {
+      "id": 7,
+      "params": {
+        "stomp_p2": "Sens",
+        "stomp_p3": "Level"
+      }
+    },
+    "Auto Swell": {
+      "id": 8,
+      "params": {
+        "stomp_p2": "Ramp",
+        "stomp_p3": "Depth"
+      }
+    },
+    "Auto Wah": {
+      "id": 9,
+      "params": {
+        "stomp_p2": "Sens",
+        "stomp_p3": "Q"
+      }
+    },
+    "FX-Killer Z": {
+      "id": 10,
+      "params": {
+        "stomp_p2": "Drive",
+        "stomp_p3": "Contour",
+        "stomp_p4": "Gain",
+        "stomp_p5": "Mid",
+        "stomp_p6": "Mid Freq"
+      }
+    },
+    "FX-Tube Drive": {
+      "id": 11,
+      "params": {
+        "stomp_p2": "Drive",
+        "stomp_p3": "Treble",
+        "stomp_p4": "Gain",
+        "stomp_p5": "Bass"
+      }
+    },
+    "FX-Vetta Juice": {
+      "id": 12,
+      "params": {
+        "stomp_p2": "Amount",
+        "stomp_p3": "Level"
+      }
+    },
+    "FX-Boost + EQ": {
+      "id": 13,
+      "params": {
+        "stomp_p2": "Gain",
+        "stomp_p3": "Bass",
+        "stomp_p4": "Treble",
+        "stomp_p5": "Mid",
+        "stomp_p6": "Mid Freq"
+      }
+    },
+    "FX-Blue Comp Treb": {
+      "id": 14,
+      "params": {
+        "stomp_p2": "Level",
+        "stomp_p3": "Sustain"
+      }
+    },
+    "FX-Dingo-Tron": {
+      "id": 15,
+      "params": {
+        "stomp_p3": "Sens",
+        "stomp_p4": "Q"
+      }
+    },
+    "FX-Clean Sweep": {
+      "id": 16,
+      "params": {
+        "stomp_p2": "Decay",
+        "stomp_p3": "Sens",
+        "stomp_p4": "Q"
+      }
+    },
+    "FX-Seismik Synth": {
+      "id": 17,
+      "params": {
+        "stomp_p2": "Wave (wave)",
+        "stomp_p5": "Mix"
+      }
+    },
+    "FX-Double Bass": {
+      "id": 18,
+      "params": {
+        "stomp_p2": "-1OCTG",
+        "stomp_p3": "-2OCTG",
+        "stomp_p5": "Mix"
+      }
+    },
+    "FX-Buzz Wave": {
+      "id": 19,
+      "params": {
+        "stomp_p2": "Wave (wave)",
+        "stomp_p3": "Filter",
+        "stomp_p4": "Decay",
+        "stomp_p5": "Mix"
+      }
+    },
+    "FX-Rez Synth": {
+      "id": 20,
+      "params": {
+        "stomp_p2": "Wave (wave)",
+        "stomp_p3": "Filter",
+        "stomp_p4": "Decay",
+        "stomp_p5": "Mix"
+      }
+    },
+    "FX-Saturn 5 Ring M": {
+      "id": 21,
+      "params": {
+        "stomp_p2": "Wave (wave)",
+        "stomp_p5": "Mix"
+      }
+    },
+    "FX-Synth Analog": {
+      "id": 22,
+      "params": {
+        "stomp_p2": "Wave (wave)",
+        "stomp_p3": "Filter",
+        "stomp_p4": "Decay",
+        "stomp_p5": "Mix"
+      }
+    },
+    "FX-Synth FX": {
+      "id": 23,
+      "params": {
+        "stomp_p2": "Wave (wave)",
+        "stomp_p3": "Filter",
+        "stomp_p4": "Decay",
+        "stomp_p5": "Mix"
+      }
+    },
+    "FX-Synth Harmony": {
+      "id": 24,
+      "params": {
+        "stomp_p2": "1M335 (octave)",
+        "stomp_p3": "1457 (octave)",
+        "stomp_p4": "Wave",
+        "stomp_p5": "Mix"
+      }
+    },
+    "FX-Synth Lead": {
+      "id": 25,
+      "params": {
+        "stomp_p2": "Wave (wave)",
+        "stomp_p3": "Filter",
+        "stomp_p4": "Decay",
+        "stomp_p5": "Mix"
+      }
+    },
+    "FX-Synth String": {
+      "id": 26,
+      "params": {
+        "stomp_p2": "Wave (wave)",
+        "stomp_p3": "Filter",
+        "stomp_p4": "Attack",
+        "stomp_p5": "Mix"
+      }
+    },
+    "Bass Overdrive": {
+      "id": 27,
+      "params": {
+        "stomp_p2": "Bass",
+        "stomp_p3": "Treble",
+        "stomp_p4": "Drive",
+        "stomp_p5": "Gain"
+      }
+    },
+    "Bronze Master": {
+      "id": 28,
+      "params": {
+        "stomp_p2": "Drive",
+        "stomp_p3": "Tone (wave)",
+        "stomp_p5": "Blend"
+      }
+    },
+    "Sub Octaves": {
+      "id": 29,
+      "params": {
+        "stomp_p2": "-1OCTG",
+        "stomp_p3": "-2OCTG",
+        "stomp_p5": "Mix"
+      }
+    },
+    "Bender": {
+      "id": 30,
+      "params": {
+        "stomp_p2": "Position",
+        "stomp_p3": "Heel (offset)",
+        "stomp_p4": "Toe (offset)",
+        "stomp_p5": "Mix"
+      }
+    }
+  },
+  "mod": {
+    "Sine Chorus": {
+      "id": 0,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Bass",
+        "mod_p4": "Treble"
+      }
+    },
+    "Analog Chorus": {
+      "id": 1,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Bass",
+        "mod_p4": "Treble"
+      }
+    },
+    "Line 6 Flanger": {
+      "id": 2,
+      "params": {
+        "mod_p2": "Depth"
+      }
+    },
+    "Jet Flanger": {
+      "id": 3,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Feedback",
+        "mod_p4": "Manual"
+      }
+    },
+    "Phaser": {
+      "id": 4,
+      "params": {
+        "mod_p2": "Feedback"
+      }
+    },
+    "U-Vibe": {
+      "id": 5,
+      "params": {
+        "mod_p2": "Depth"
+      }
+    },
+    "Opto Trem": {
+      "id": 6,
+      "params": {
+        "mod_p2": "Wave"
+      }
+    },
+    "Bias Trem": {
+      "id": 7,
+      "params": {
+        "mod_p2": "Wave"
+      }
+    },
+    "Rotary Drum + Horn": {
+      "id": 8,
+      "params": {
+        "mod_p3": "Tone"
+      }
+    },
+    "Rotary Drum": {
+      "id": 9,
+      "params": {
+        "mod_p3": "Tone"
+      }
+    },
+    "Auto Plan": {
+      "id": 10,
+      "params": {
+        "mod_p2": "Wave"
+      }
+    },
+    "FX-Analog Square": {
+      "id": 11,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Bass",
+        "mod_p4": "Treble"
+      }
+    },
+    "FX-Square Chorus": {
+      "id": 12,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Pre-delay",
+        "mod_p4": "Feedback"
+      }
+    },
+    "FX-Expo Chorus": {
+      "id": 13,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Pre-delay",
+        "mod_p4": "Feedback"
+      }
+    },
+    "FX-Random Chorus": {
+      "id": 14,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Bass",
+        "mod_p4": "Treble"
+      }
+    },
+    "FX-Square Flange": {
+      "id": 15,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Pre-delay",
+        "mod_p4": "Feedback"
+      }
+    },
+    "FX-Expo Flange": {
+      "id": 16,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Pre-delay",
+        "mod_p4": "Feedback"
+      }
+    },
+    "FX-Lumpy Phase": {
+      "id": 17,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Bass",
+        "mod_p4": "Treble"
+      }
+    },
+    "FX-Hi-Talk": {
+      "id": 18,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Q"
+      }
+    },
+    "FX-Sweeper": {
+      "id": 19,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Q",
+        "mod_p4": "Frequency"
+      }
+    },
+    "FX-POD Purple X": {
+      "id": 20,
+      "params": {
+        "mod_p2": "Feedback",
+        "mod_p3": "Depth"
+      }
+    },
+    "FX-Random S/H": {
+      "id": 21,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Q"
+      }
+    },
+    "FX-Tape Eater": {
+      "id": 22,
+      "params": {
+        "mod_p2": "Feedback",
+        "mod_p3": "Flutter",
+        "mod_p4": "Distortion"
+      }
+    },
+    "FX-Warble-Matic": {
+      "id": 23,
+      "params": {
+        "mod_p2": "Depth",
+        "mod_p3": "Q"
+      }
+    }
+  },
+  "delay": {
+    "Analog Delay": {
+      "id": 0,
+      "params": {
+        "delay_p2": "Feedback",
+        "delay_p3": "Bass",
+        "delay_p4": "Treble"
+      }
+    },
+    "Analog Delay w/ Mod": {
+      "id": 1,
+      "params": {
+        "delay_p2": "Feedback",
+        "delay_p3": "Mod Speed",
+        "delay_p4": "Depth"
+      }
+    },
+    "Tube Echo": {
+      "id": 2,
+      "params": {
+        "delay_p2": "Feedback",
+        "delay_p3": "Flutter",
+        "delay_p4": "Drive"
+      }
+    },
+    "Multi-Head": {
+      "id": 3,
+      "params": {
+        "delay_p2": "Feedback",
+        "delay_p3": "Heads (heads)",
+        "delay_p4": "Flutter"
+      }
+    },
+    "Sweep Echo": {
+      "id": 4,
+      "params": {
+        "delay_p2": "Feedback",
+        "delay_p3": "Speed",
+        "delay_p4": "Depth"
+      }
+    },
+    "Digital Delay": {
+      "id": 5,
+      "params": {
+        "delay_p2": "Feedback",
+        "delay_p3": "Bass",
+        "delay_p4": "Treble"
+      }
+    },
+    "Stereo Delay": {
+      "id": 6,
+      "params": {
+        "delay_p2": "Offset",
+        "delay_p3": "Feedback L",
+        "delay_p4": "Feedback R"
+      }
+    },
+    "Ping Pong": {
+      "id": 7,
+      "params": {
+        "delay_p2": "Feedback",
+        "delay_p3": "Offset",
+        "delay_p4": "Spread"
+      }
+    },
+    "Reverse": {
+      "id": 8,
+      "params": {
+        "delay_p2": "Feedback"
+      }
+    },
+    "FX-Echo Platter": {
+      "id": 9,
+      "params": {
+        "delay_p2": "Feedback",
+        "delay_p3": "Heads (heads)",
+        "delay_p4": "Flutter"
+      }
+    },
+    "FX-Tape Echo": {
+      "id": 10,
+      "params": {
+        "delay_p2": "Feedback",
+        "delay_p3": "Bass",
+        "delay_p4": "Treble"
+      }
+    },
+    "FX-Low Rez": {
+      "id": 11,
+      "params": {
+        "delay_p2": "Feedback",
+        "delay_p3": "Tone",
+        "delay_p4": "Bits (bits)"
+      }
+    },
+    "FX-Phaze Echo": {
+      "id": 12,
+      "params": {
+        "delay_p2": "Feedback",
+        "delay_p3": "Mod Speed",
+        "delay_p4": "Depth"
+      }
+    },
+    "FX-Bubble Echo": {
+      "id": 13,
+      "params": {
+        "delay_p2": "Feedback",
+        "delay_p3": "Speed",
+        "delay_p4": "Depth"
+      }
+    }
+  }
+}
