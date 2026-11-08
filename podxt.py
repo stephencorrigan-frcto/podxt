@@ -324,14 +324,16 @@ class UsbTransport:
 
     def edit_buffer(self):
         """Request an edit buffer dump. Returns (id, data) where data is the
-        160 patch bytes (name at 0, CC n stored at 32 + n), or None."""
-        self._drain(0.2)
-        self.write(EDIT_BUFFER_DUMP_REQ)
-        raw = self._drain(1.0)
-        for i in range(len(raw) - 2):
-            if raw[i:i + 2] == [0x03, 0x74]:
-                end = raw.index(0xF7, i) if 0xF7 in raw[i:] else len(raw)
-                return raw[i + 2], raw[i + 3:end]
+        160 patch bytes (name at 0, CC n stored at 32 + n), or None.
+        The first request after opening the device often goes unanswered, so retry."""
+        for _ in range(3):
+            self._drain(0.2)
+            self.write(EDIT_BUFFER_DUMP_REQ)
+            raw = self._drain(1.0)
+            for i in range(len(raw) - 2):
+                if raw[i:i + 2] == [0x03, 0x74]:
+                    end = raw.index(0xF7, i) if 0xF7 in raw[i:] else len(raw)
+                    return raw[i + 2], raw[i + 3:end]
         return None
 
     def read_slot(self, slot):

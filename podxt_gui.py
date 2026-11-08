@@ -96,6 +96,7 @@ class App(tk.Tk):
 
     def refresh(self):
         q = self.search.get().lower()
+        keep = self.tree.selection()
         self.tree.delete(*self.tree.get_children())
         for key, p in self.patches.items():
             row = (p.get("slot", ""), p.get("name", key), p.get("models", {}).get("amp", ""),
@@ -103,6 +104,10 @@ class App(tk.Tk):
             if q and q not in " ".join(row).lower():
                 continue
             self.tree.insert("", "end", iid=key, values=row)
+        keep = [k for k in keep if self.tree.exists(k)]
+        if keep:
+            self.tree.selection_set(keep)
+            self.tree.see(keep[0])
 
     def selected(self):
         sel = self.tree.selection()
