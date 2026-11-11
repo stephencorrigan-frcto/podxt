@@ -464,11 +464,45 @@ def check(patch):
         assert any(label.lower() == model.lower() for label in table), f"{patch['name']}: {kind} '{model}'"
 
 
+ARTIST_PREFIX = [  # patch name prefix -> artist, longest match wins
+    ("SP ", "The Smashing Pumpkins"), ("Pure Morning", "Placebo"), ("Every You Every", "Placebo"),
+    ("Placebo", "Placebo"), ("Nancy Boy", "Placebo"), ("AM ", "Arctic Monkeys"),
+    ("Strokes", "The Strokes"), ("Stereo", "Stereophonics"), ("Muse", "Muse"), ("RH ", "Radiohead"),
+    ("RATM", "Rage Against The Machine"), ("FI ", "Future Islands"), ("Fontaines", "Fontaines D.C."),
+    ("FDC", "Fontaines D.C."), ("Oasis", "Oasis"), ("Manics", "Manic Street Preachers"),
+    ("Verve", "The Verve"), ("AF ", "Arcade Fire"), ("Beck", "Beck"), ("Manson", "Marilyn Manson"),
+    ("Killers", "The Killers"), ("Blur", "Blur"), ("SC ", "Still Corners"), ("Mayer", "John Mayer"),
+    ("Deftones", "Deftones"), ("The xx", "The xx"), ("Clean Platform", "Utility"),
+    ("Crunch Platform", "Utility"), ("Lead Platform", "Utility"), ("Marr", "The Smiths"),
+    ("MBV", "My Bloody Valentine"), ("Slowdive", "Slowdive"), ("Ride", "Ride"), ("Edge", "U2"),
+    ("Gilmour", "Pink Floyd"), ("White", "The White Stripes"), ("QOTSA", "Queens of the Stone Age"),
+    ("Verlaine", "Television"), ("Interpol", "Interpol"), ("Cure", "The Cure"),
+    ("Khruangbin", "Khruangbin"), ("Mdou", "Mdou Moctar"), ("Knopfler", "Dire Straits"),
+    ("Nile Rodgers", "Chic"), ("Hendrix", "Jimi Hendrix"), ("Mascis", "Dinosaur Jr."),
+    ("SonicYouth", "Sonic Youth"), ("Mogwai", "Mogwai"), ("EITS", "Explosions in the Sky"),
+]
+
+
+def artist_of(name):
+    hits = [(len(p), a) for p, a in ARTIST_PREFIX if name.startswith(p)]
+    assert hits, f"no artist for {name}"
+    return max(hits)[1]
+
+
 assert len(LIB) >= 128, len(LIB)
-out = {}
+out, layout = {}, {}
 for i, (key, patch) in enumerate(LIB):
     check(patch)
     assert key not in out, f"duplicate key {key}"
-    out[key] = {**patch, "slot": slot_label(i)} if i < 128 else patch
+    artist = artist_of(patch["name"])
+    desc = patch["description"]
+    if not desc.startswith(artist + ":"):
+        desc = f"{artist}: {desc}"
+    out[key] = {"artist": artist, **{k: v for k, v in patch.items() if k != "slot"}, "description": desc}
+    if i < 128:
+        layout[slot_label(i)] = key
 PATCHES.write_text(json.dumps(out, indent=2) + "\n", encoding="utf-8")
-print(f"Wrote {len(out)} patches to patches.json")
+LAYOUT = HERE / "layout.json"
+if not LAYOUT.exists():
+    LAYOUT.write_text(json.dumps(layout, indent=1) + "\n", encoding="utf-8")
+print(f"Wrote {len(out)} hand-tuned patches to patches.json")

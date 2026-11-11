@@ -1,7 +1,8 @@
 {
   "sp_cherub_rock": {
+    "artist": "The Smashing Pumpkins",
     "name": "SP Cherub Rock",
-    "description": "Big Muff wall into a cranked Marshall",
+    "description": "The Smashing Pumpkins: Big Muff wall into a cranked Marshall",
     "models": {
       "amp": "Plexi 45",
       "cab": "4x12 Green 25's",
@@ -34,12 +35,12 @@
       "reverb_decay": 30,
       "gate_db": -55,
       "gate_decay": 30
-    },
-    "slot": "1A"
+    }
   },
   "sp_1979": {
+    "artist": "The Smashing Pumpkins",
     "name": "SP 1979",
-    "description": "Clean jangle, chorus shimmer, short delay",
+    "description": "The Smashing Pumpkins: Clean jangle, chorus shimmer, short delay",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -74,12 +75,12 @@
       "delay_mix": 15,
       "reverb_mix": 18,
       "reverb_decay": 40
-    },
-    "slot": "1B"
+    }
   },
   "sp_zero": {
+    "artist": "The Smashing Pumpkins",
     "name": "SP Zero",
-    "description": "Tight fuzz drive with the gate clamped",
+    "description": "The Smashing Pumpkins: Tight fuzz drive with the gate clamped",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Brit V30's",
@@ -112,12 +113,12 @@
       "reverb_decay": 30,
       "gate_db": -45,
       "gate_decay": 15
-    },
-    "slot": "1C"
+    }
   },
   "sp_mayonaise": {
+    "artist": "The Smashing Pumpkins",
     "name": "SP Mayonaise",
-    "description": "Soft fuzz bloom with chorus",
+    "description": "The Smashing Pumpkins: Soft fuzz bloom with chorus",
     "models": {
       "amp": "Plexi 45",
       "cab": "4x12 Green 25's",
@@ -152,12 +153,12 @@
       "mod_mix": 35,
       "reverb_mix": 20,
       "reverb_decay": 50
-    },
-    "slot": "1D"
+    }
   },
   "pure_morning": {
+    "artist": "Placebo",
     "name": "Pure Morning",
-    "description": "Droning fuzz riff, dry and mid-forward",
+    "description": "Placebo: Droning fuzz riff, dry and mid-forward",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Brit V30's",
@@ -188,12 +189,12 @@
       "stomp_p4": 50,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "2A"
+    }
   },
   "every_you_every": {
+    "artist": "Placebo",
     "name": "Every You Every",
-    "description": "Bright Marshall crunch, punchy",
+    "description": "Placebo: Bright Marshall crunch, punchy",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -222,12 +223,12 @@
       "reverb_decay": 30,
       "gate_db": -60,
       "gate_decay": 25
-    },
-    "slot": "2B"
+    }
   },
   "placebo_special": {
+    "artist": "Placebo",
     "name": "Placebo Special",
-    "description": "Overdriven chorus, glassy top",
+    "description": "Placebo: Overdriven chorus, glassy top",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -258,12 +259,12 @@
       "mod_mix": 40,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "2C"
+    }
   },
   "nancy_boy": {
+    "artist": "Placebo",
     "name": "Nancy Boy",
-    "description": "Screamer-pushed Marshall for leads",
+    "description": "Placebo: Screamer-pushed Marshall for leads",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Brit V30's",
@@ -298,12 +299,12 @@
       "delay_mix": 12,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "2D"
+    }
   },
   "am_do_i_wanna": {
+    "artist": "Arctic Monkeys",
     "name": "AM Do I Wanna",
-    "description": "Fuzzy, woolly riff tone, slow-burn",
+    "description": "Arctic Monkeys: Fuzzy, woolly riff tone, slow-burn",
     "models": {
       "amp": "Hiway 100",
       "cab": "4x12 Green 20's",
@@ -334,12 +335,12 @@
       "stomp_p4": 35,
       "reverb_mix": 10,
       "reverb_decay": 25
-    },
-    "slot": "3A"
+    }
   },
   "am_r_u_mine": {
+    "artist": "Arctic Monkeys",
     "name": "AM R U Mine",
-    "description": "Spitty fuzz into a Plexi",
+    "description": "Arctic Monkeys: Spitty fuzz into a Plexi",
     "models": {
       "amp": "Plexi Lead 100",
       "cab": "4x12 Green 25's",
@@ -372,12 +373,12 @@
       "reverb_decay": 30,
       "gate_db": -60,
       "gate_decay": 25
-    },
-    "slot": "3B"
+    }
   },
   "am_505": {
+    "artist": "Arctic Monkeys",
     "name": "AM 505",
-    "description": "Clean with slow tremolo and spring",
+    "description": "Arctic Monkeys: Clean with slow tremolo and spring",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -408,12 +409,12 @@
       "mod_mix": 60,
       "reverb_mix": 25,
       "reverb_decay": 45
-    },
-    "slot": "3C"
+    }
   },
   "am_brianstorm": {
+    "artist": "Arctic Monkeys",
     "name": "AM Brianstorm",
-    "description": "Fast bright crunch, AC30 bite",
+    "description": "Arctic Monkeys: Fast bright crunch, AC30 bite",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -442,12 +443,12 @@
       "reverb_decay": 30,
       "gate_db": -55,
       "gate_decay": 20
-    },
-    "slot": "3D"
+    }
   },
   "strokes_lastnite": {
+    "artist": "The Strokes",
     "name": "Strokes LastNite",
-    "description": "Hot Rod style edge-of-breakup, bright and thin",
+    "description": "The Strokes: Hot Rod style edge-of-breakup, bright and thin",
     "models": {
       "amp": "Blackface Lux",
       "cab": "2x12 Blackface",
@@ -478,12 +479,12 @@
       "stomp_p4": 60,
       "reverb_mix": 6,
       "reverb_decay": 20
-    },
-    "slot": "4A"
+    }
   },
   "strokes_reptilia": {
+    "artist": "The Strokes",
     "name": "Strokes Reptilia",
-    "description": "Driving crunch rhythm, dry",
+    "description": "The Strokes: Driving crunch rhythm, dry",
     "models": {
       "amp": "Blackface Lux",
       "cab": "2x12 Blackface",
@@ -511,12 +512,12 @@
       "stomp_p2": 30,
       "stomp_p3": 65,
       "stomp_p4": 55
-    },
-    "slot": "4B"
+    }
   },
   "strokes_someday": {
+    "artist": "The Strokes",
     "name": "Strokes Someday",
-    "description": "Cleaner jangle with a touch of hair",
+    "description": "The Strokes: Cleaner jangle with a touch of hair",
     "models": {
       "amp": "Two-Tone",
       "cab": "2x12 Blackface",
@@ -543,12 +544,12 @@
       "chan_vol": 64,
       "reverb_mix": 10,
       "reverb_decay": 25
-    },
-    "slot": "4C"
+    }
   },
   "strokes_lead": {
+    "artist": "The Strokes",
     "name": "Strokes Lead",
-    "description": "Boosted lead for those wiry solos",
+    "description": "The Strokes: Boosted lead for those wiry solos",
     "models": {
       "amp": "Blackface Lux",
       "cab": "2x12 Blackface",
@@ -583,12 +584,12 @@
       "delay_mix": 10,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "4D"
+    }
   },
   "stereo_dakota": {
+    "artist": "Stereophonics",
     "name": "Stereo Dakota",
-    "description": "Chiming crunch with dotted delay",
+    "description": "Stereophonics: Chiming crunch with dotted delay",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -619,12 +620,12 @@
       "delay_mix": 20,
       "reverb_mix": 15,
       "reverb_decay": 40
-    },
-    "slot": "5A"
+    }
   },
   "stereo_nice_day": {
+    "artist": "Stereophonics",
     "name": "Stereo Nice Day",
-    "description": "Acoustic-style strum",
+    "description": "Stereophonics: Acoustic-style strum",
     "models": {
       "amp": "Line 6 Acoustic 2",
       "cab": "No Cab",
@@ -653,12 +654,12 @@
       "reverb_decay": 30,
       "comp_thresh_db": -20,
       "comp_gain_db": 3
-    },
-    "slot": "5B"
+    }
   },
   "stereo_bartender": {
+    "artist": "Stereophonics",
     "name": "Stereo Bartender",
-    "description": "Bluesy Brit crunch",
+    "description": "Stereophonics: Bluesy Brit crunch",
     "models": {
       "amp": "Brit JM Pre",
       "cab": "4x12 Green 25's",
@@ -685,12 +686,12 @@
       "chan_vol": 60,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "5C"
+    }
   },
   "stereo_lead": {
+    "artist": "Stereophonics",
     "name": "Stereo Lead",
-    "description": "Warm sustaining lead",
+    "description": "Stereophonics: Warm sustaining lead",
     "models": {
       "amp": "Brit JM Pre",
       "cab": "4x12 Green 25's",
@@ -725,12 +726,12 @@
       "delay_mix": 15,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "5D"
+    }
   },
   "muse_pluginbaby": {
+    "artist": "Muse",
     "name": "Muse PlugInBaby",
-    "description": "Fuzz Factory style squeal into Marshall",
+    "description": "Muse: Fuzz Factory style squeal into Marshall",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Brit V30's",
@@ -763,12 +764,12 @@
       "reverb_decay": 30,
       "gate_db": -45,
       "gate_decay": 20
-    },
-    "slot": "6A"
+    }
   },
   "muse_hysteria": {
+    "artist": "Muse",
     "name": "Muse Hysteria",
-    "description": "Tight high gain, huge low end",
+    "description": "Muse: Tight high gain, huge low end",
     "models": {
       "amp": "Treadplate Dual",
       "cab": "4x12 Treadplate",
@@ -797,12 +798,12 @@
       "reverb_decay": 30,
       "gate_db": -45,
       "gate_decay": 20
-    },
-    "slot": "6B"
+    }
   },
   "muse_knights": {
+    "artist": "Muse",
     "name": "Muse Knights",
-    "description": "Saturated lead with delay tails",
+    "description": "Muse: Saturated lead with delay tails",
     "models": {
       "amp": "Line 6 Insane",
       "cab": "4x12 Brit V30's",
@@ -835,12 +836,12 @@
       "reverb_decay": 30,
       "gate_db": -50,
       "gate_decay": 20
-    },
-    "slot": "6C"
+    }
   },
   "muse_clean_arp": {
+    "artist": "Muse",
     "name": "Muse Clean Arp",
-    "description": "Glassy clean for arpeggios",
+    "description": "Muse: Glassy clean for arpeggios",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -871,12 +872,12 @@
       "delay_mix": 22,
       "reverb_mix": 22,
       "reverb_decay": 55
-    },
-    "slot": "6D"
+    }
   },
   "rh_paranoid": {
+    "artist": "Radiohead",
     "name": "RH Paranoid",
-    "description": "Fuzz lead and crunchy Brit grind",
+    "description": "Radiohead: Fuzz lead and crunchy Brit grind",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -907,12 +908,12 @@
       "stomp_p4": 55,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "7A"
+    }
   },
   "rh_creep_crunch": {
+    "artist": "Radiohead",
     "name": "RH Creep Crunch",
-    "description": "The dead-note kerrang",
+    "description": "Radiohead: The dead-note kerrang",
     "models": {
       "amp": "Blackface Lux",
       "cab": "4x12 Green 25's",
@@ -945,12 +946,12 @@
       "reverb_decay": 30,
       "gate_db": -50,
       "gate_decay": 15
-    },
-    "slot": "7B"
+    }
   },
   "rh_weird_fishes": {
+    "artist": "Radiohead",
     "name": "RH Weird Fishes",
-    "description": "Clean arps with tight delay",
+    "description": "Radiohead: Clean arps with tight delay",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -981,12 +982,12 @@
       "delay_mix": 25,
       "reverb_mix": 20,
       "reverb_decay": 45
-    },
-    "slot": "7C"
+    }
   },
   "rh_street_spirt": {
+    "artist": "Radiohead",
     "name": "RH Street Spirt",
-    "description": "Warm clean arpeggio, deep room",
+    "description": "Radiohead: Warm clean arpeggio, deep room",
     "models": {
       "amp": "Blackface Lux",
       "cab": "1x12 Blackface",
@@ -1013,12 +1014,12 @@
       "chan_vol": 70,
       "reverb_mix": 25,
       "reverb_decay": 55
-    },
-    "slot": "7D"
+    }
   },
   "ratm_bombtrack": {
+    "artist": "Rage Against The Machine",
     "name": "RATM Bombtrack",
-    "description": "JCM800 with mids forward, tight",
+    "description": "Rage Against The Machine: JCM800 with mids forward, tight",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -1047,12 +1048,12 @@
       "reverb_decay": 30,
       "gate_db": -50,
       "gate_decay": 20
-    },
-    "slot": "8A"
+    }
   },
   "ratm_killing": {
+    "artist": "Rage Against The Machine",
     "name": "RATM Killing",
-    "description": "Drop D crunch, low and tight",
+    "description": "Rage Against The Machine: Drop D crunch, low and tight",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Brit V30's",
@@ -1081,12 +1082,12 @@
       "reverb_decay": 30,
       "gate_db": -45,
       "gate_decay": 15
-    },
-    "slot": "8B"
+    }
   },
   "ratm_bulls_wah": {
+    "artist": "Rage Against The Machine",
     "name": "RATM Bulls Wah",
-    "description": "Wah parked for the scratch solo",
+    "description": "Rage Against The Machine: Wah parked for the scratch solo",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -1115,12 +1116,12 @@
       "reverb_decay": 30,
       "gate_db": -50,
       "gate_decay": 15
-    },
-    "slot": "8C"
+    }
   },
   "ratm_morello_ld": {
+    "artist": "Rage Against The Machine",
     "name": "RATM Morello Ld",
-    "description": "Boosted lead with slap delay",
+    "description": "Rage Against The Machine: Boosted lead with slap delay",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -1155,12 +1156,12 @@
       "delay_mix": 15,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "8D"
+    }
   },
   "fi_tall_grass": {
+    "artist": "Future Islands",
     "name": "FI Tall Grass",
-    "description": "Soft chorused clean",
+    "description": "Future Islands: Soft chorused clean",
     "models": {
       "amp": "Jazz Clean",
       "cab": "2x12 Jazz",
@@ -1191,12 +1192,12 @@
       "mod_mix": 45,
       "reverb_mix": 20,
       "reverb_decay": 45
-    },
-    "slot": "9A"
+    }
   },
   "fi_seasons": {
+    "artist": "Future Islands",
     "name": "FI Seasons",
-    "description": "Bright clean with chorus and echo",
+    "description": "Future Islands: Bright clean with chorus and echo",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -1231,12 +1232,12 @@
       "delay_mix": 18,
       "reverb_mix": 20,
       "reverb_decay": 50
-    },
-    "slot": "9B"
+    }
   },
   "fi_bassline": {
+    "artist": "Future Islands",
     "name": "FI Bassline",
-    "description": "Round, dark clean for low melodies",
+    "description": "Future Islands: Round, dark clean for low melodies",
     "models": {
       "amp": "Jazz Clean",
       "cab": "2x12 Jazz",
@@ -1265,12 +1266,12 @@
       "reverb_decay": 25,
       "comp_thresh_db": -22,
       "comp_gain_db": 4
-    },
-    "slot": "9C"
+    }
   },
   "fi_dreamwash": {
+    "artist": "Future Islands",
     "name": "FI Dreamwash",
-    "description": "Slow chorus, long hall",
+    "description": "Future Islands: Slow chorus, long hall",
     "models": {
       "amp": "Jazz Clean",
       "cab": "2x12 Jazz",
@@ -1305,10 +1306,10 @@
       "delay_mix": 25,
       "reverb_mix": 30,
       "reverb_decay": 70
-    },
-    "slot": "9D"
+    }
   },
   "fontaines_dc": {
+    "artist": "Fontaines D.C.",
     "name": "Fontaines DC",
     "description": "Fontaines D.C.: bright Class A-30 TB, short tape slapback, Fuzz Pi loaded but off",
     "models": {
@@ -1346,12 +1347,12 @@
       "delay_mix": 20,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "10A"
+    }
   },
   "fdc_starburster": {
+    "artist": "Fontaines D.C.",
     "name": "FDC Starburster",
-    "description": "Snarling AC30 fuzz",
+    "description": "Fontaines D.C.: Snarling AC30 fuzz",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -1384,12 +1385,12 @@
       "reverb_decay": 30,
       "gate_db": -55,
       "gate_decay": 20
-    },
-    "slot": "10B"
+    }
   },
   "fdc_better_land": {
+    "artist": "Fontaines D.C.",
     "name": "FDC Better Land",
-    "description": "Punchy post-punk crunch, dry",
+    "description": "Fontaines D.C.: Punchy post-punk crunch, dry",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -1416,12 +1417,12 @@
       "chan_vol": 60,
       "reverb_mix": 8,
       "reverb_decay": 20
-    },
-    "slot": "10C"
+    }
   },
   "fdc_drone": {
+    "artist": "Fontaines D.C.",
     "name": "FDC Drone",
-    "description": "Flanged drone into a big hall",
+    "description": "Fontaines D.C.: Flanged drone into a big hall",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -1454,12 +1455,12 @@
       "mod_p4": 50,
       "reverb_mix": 25,
       "reverb_decay": 60
-    },
-    "slot": "10D"
+    }
   },
   "oasis_supersonc": {
+    "artist": "Oasis",
     "name": "Oasis Supersonc",
-    "description": "Wall of Marshall crunch",
+    "description": "Oasis: Wall of Marshall crunch",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -1490,12 +1491,12 @@
       "stomp_p4": 50,
       "reverb_mix": 12,
       "reverb_decay": 35
-    },
-    "slot": "11A"
+    }
   },
   "oasis_wonderwal": {
+    "artist": "Oasis",
     "name": "Oasis Wonderwal",
-    "description": "Strummed acoustic",
+    "description": "Oasis: Strummed acoustic",
     "models": {
       "amp": "Line 6 Acoustic 2",
       "cab": "No Cab",
@@ -1524,12 +1525,12 @@
       "reverb_decay": 30,
       "comp_thresh_db": -20,
       "comp_gain_db": 3
-    },
-    "slot": "11B"
+    }
   },
   "oasis_liveforev": {
+    "artist": "Oasis",
     "name": "Oasis LiveForev",
-    "description": "Singing lead with delay",
+    "description": "Oasis: Singing lead with delay",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -1564,12 +1565,12 @@
       "delay_mix": 18,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "11C"
+    }
   },
   "oasis_champagne": {
+    "artist": "Oasis",
     "name": "Oasis Champagne",
-    "description": "Phased crunch, wide hall",
+    "description": "Oasis: Phased crunch, wide hall",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -1600,12 +1601,12 @@
       "mod_mix": 50,
       "reverb_mix": 18,
       "reverb_decay": 50
-    },
-    "slot": "11D"
+    }
   },
   "manics_youloveus": {
+    "artist": "Manic Street Preachers",
     "name": "Manics YouLoveUs",
-    "description": "Generation Terrorists glam: FZ-2 fuzz into Marshall",
+    "description": "Manic Street Preachers: Generation Terrorists glam: FZ-2 fuzz into Marshall",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Brit V30's",
@@ -1638,12 +1639,12 @@
       "reverb_decay": 30,
       "gate_db": -55,
       "gate_decay": 20
-    },
-    "slot": "12A"
+    }
   },
   "manics_faster": {
+    "artist": "Manic Street Preachers",
     "name": "Manics Faster",
-    "description": "Holy Bible: dry, mid-heavy Marshall, Screamer tightening",
+    "description": "Manic Street Preachers: Holy Bible: dry, mid-heavy Marshall, Screamer tightening",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -1673,12 +1674,12 @@
       "stomp_p4": 55,
       "gate_db": -55,
       "gate_decay": 20
-    },
-    "slot": "12B"
+    }
   },
   "manics_australia": {
+    "artist": "Manic Street Preachers",
     "name": "Manics Australia",
-    "description": "Everything Must Go anthem crunch",
+    "description": "Manic Street Preachers: Everything Must Go anthem crunch",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -1709,12 +1710,12 @@
       "stomp_p4": 50,
       "reverb_mix": 15,
       "reverb_decay": 40
-    },
-    "slot": "12C"
+    }
   },
   "manics_autumnsng": {
+    "artist": "Manic Street Preachers",
     "name": "Manics Autumnsng",
-    "description": "Send Away the Tigers: Les Paul, JCM900, TS9DX",
+    "description": "Manic Street Preachers: Send Away the Tigers: Les Paul, JCM900, TS9DX",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -1749,12 +1750,12 @@
       "delay_mix": 12,
       "reverb_mix": 12,
       "reverb_decay": 35
-    },
-    "slot": "12D"
+    }
   },
   "verve_bitterswt": {
+    "artist": "The Verve",
     "name": "Verve BitterSwt",
-    "description": "Bright clean strum",
+    "description": "The Verve: Bright clean strum",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -1781,12 +1782,12 @@
       "chan_vol": 70,
       "reverb_mix": 18,
       "reverb_decay": 40
-    },
-    "slot": "13A"
+    }
   },
   "verve_lucky_man": {
+    "artist": "The Verve",
     "name": "Verve Lucky Man",
-    "description": "Light crunch with delay",
+    "description": "The Verve: Light crunch with delay",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -1819,12 +1820,12 @@
       "delay_p4": 30,
       "reverb_mix": 15,
       "reverb_decay": 40
-    },
-    "slot": "13B"
+    }
   },
   "verve_mccabe": {
+    "artist": "The Verve",
     "name": "Verve McCabe",
-    "description": "Nick McCabe wash: flange, echo, hall",
+    "description": "The Verve: Nick McCabe wash: flange, echo, hall",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -1861,12 +1862,12 @@
       "delay_p4": 35,
       "reverb_mix": 30,
       "reverb_decay": 70
-    },
-    "slot": "13C"
+    }
   },
   "verve_sonnet": {
+    "artist": "The Verve",
     "name": "Verve Sonnet",
-    "description": "Acoustic-ish strum with chamber",
+    "description": "The Verve: Acoustic-ish strum with chamber",
     "models": {
       "amp": "Line 6 Acoustic 2",
       "cab": "No Cab",
@@ -1893,12 +1894,12 @@
       "chan_vol": 70,
       "reverb_mix": 18,
       "reverb_decay": 40
-    },
-    "slot": "13D"
+    }
   },
   "af_wake_up": {
+    "artist": "Arcade Fire",
     "name": "AF Wake Up",
-    "description": "Big chorus-of-guitars crunch",
+    "description": "Arcade Fire: Big chorus-of-guitars crunch",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -1925,12 +1926,12 @@
       "chan_vol": 60,
       "reverb_mix": 22,
       "reverb_decay": 55
-    },
-    "slot": "14A"
+    }
   },
   "af_rebellion": {
+    "artist": "Arcade Fire",
     "name": "AF Rebellion",
-    "description": "Bright rhythmic crunch",
+    "description": "Arcade Fire: Bright rhythmic crunch",
     "models": {
       "amp": "Blackface Lux",
       "cab": "2x12 Blackface",
@@ -1957,12 +1958,12 @@
       "chan_vol": 62,
       "reverb_mix": 15,
       "reverb_decay": 40
-    },
-    "slot": "14B"
+    }
   },
   "af_ready_start": {
+    "artist": "Arcade Fire",
     "name": "AF Ready Start",
-    "description": "Fuzzy driving rhythm",
+    "description": "Arcade Fire: Fuzzy driving rhythm",
     "models": {
       "amp": "Plexi 45",
       "cab": "4x12 Green 25's",
@@ -1993,12 +1994,12 @@
       "stomp_p4": 50,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "14C"
+    }
   },
   "af_jangle": {
+    "artist": "Arcade Fire",
     "name": "AF Jangle",
-    "description": "Clean jangle, short room",
+    "description": "Arcade Fire: Clean jangle, short room",
     "models": {
       "amp": "Two-Tone",
       "cab": "2x12 Blackface",
@@ -2025,12 +2026,12 @@
       "chan_vol": 68,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "14D"
+    }
   },
   "beck_loser": {
+    "artist": "Beck",
     "name": "Beck Loser",
-    "description": "Lo-fi tiny-amp grit",
+    "description": "Beck: Lo-fi tiny-amp grit",
     "models": {
       "amp": "Tiny Tweed",
       "cab": "1x8 Tweed",
@@ -2061,12 +2062,12 @@
       "delay_mix": 15,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "15A"
+    }
   },
   "beck_devils_hr": {
+    "artist": "Beck",
     "name": "Beck Devils Hr",
-    "description": "Fuzzy, swaggering riff",
+    "description": "Beck: Fuzzy, swaggering riff",
     "models": {
       "amp": "Small Tweed",
       "cab": "1x12 Tweed",
@@ -2097,12 +2098,12 @@
       "stomp_p4": 50,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "15B"
+    }
   },
   "beck_sea_change": {
+    "artist": "Beck",
     "name": "Beck Sea Change",
-    "description": "Warm clean, slow trem, plate",
+    "description": "Beck: Warm clean, slow trem, plate",
     "models": {
       "amp": "Blackface Lux",
       "cab": "1x12 Blackface",
@@ -2133,12 +2134,12 @@
       "mod_mix": 35,
       "reverb_mix": 25,
       "reverb_decay": 50
-    },
-    "slot": "15C"
+    }
   },
   "beck_odelay": {
+    "artist": "Beck",
     "name": "Beck Odelay",
-    "description": "Crunchy tweed with slapback",
+    "description": "Beck: Crunchy tweed with slapback",
     "models": {
       "amp": "Tweed B-Man",
       "cab": "4x10 Tweed",
@@ -2171,12 +2172,12 @@
       "delay_p4": 40,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "15D"
+    }
   },
   "manson_beautful": {
+    "artist": "Marilyn Manson",
     "name": "Manson Beautful",
-    "description": "Industrial high gain, gated",
+    "description": "Marilyn Manson: Industrial high gain, gated",
     "models": {
       "amp": "Treadplate Dual",
       "cab": "4x12 Treadplate",
@@ -2205,12 +2206,12 @@
       "reverb_decay": 30,
       "gate_db": -40,
       "gate_decay": 15
-    },
-    "slot": "16A"
+    }
   },
   "manson_dopeshow": {
+    "artist": "Marilyn Manson",
     "name": "Manson DopeShow",
-    "description": "Glam fuzz grind",
+    "description": "Marilyn Manson: Glam fuzz grind",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Brit V30's",
@@ -2243,12 +2244,12 @@
       "reverb_decay": 30,
       "gate_db": -50,
       "gate_decay": 20
-    },
-    "slot": "16B"
+    }
   },
   "manson_sweetdrm": {
+    "artist": "Marilyn Manson",
     "name": "Manson SweetDrm",
-    "description": "Creepy clean with phaser",
+    "description": "Marilyn Manson: Creepy clean with phaser",
     "models": {
       "amp": "Line 6 Clean",
       "cab": "4x12 Line 6",
@@ -2279,12 +2280,12 @@
       "mod_mix": 45,
       "reverb_mix": 20,
       "reverb_decay": 50
-    },
-    "slot": "16C"
+    }
   },
   "manson_heavy": {
+    "artist": "Marilyn Manson",
     "name": "Manson Heavy",
-    "description": "Modern high gain wall (Metal Shop)",
+    "description": "Marilyn Manson: Modern high gain wall (Metal Shop)",
     "models": {
       "amp": "MS-Bomber Uber",
       "cab": "4x12 Treadplate",
@@ -2313,12 +2314,12 @@
       "reverb_decay": 30,
       "gate_db": -40,
       "gate_decay": 15
-    },
-    "slot": "16D"
+    }
   },
   "killers_brghtsd": {
+    "artist": "The Killers",
     "name": "Killers Brghtsd",
-    "description": "Bright drive, dotted-eighth delay",
+    "description": "The Killers: Bright drive, dotted-eighth delay",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -2349,12 +2350,12 @@
       "delay_mix": 22,
       "reverb_mix": 15,
       "reverb_decay": 40
-    },
-    "slot": "17A"
+    }
   },
   "killers_whenyou": {
+    "artist": "The Killers",
     "name": "Killers WhenYou",
-    "description": "Chorused clean pop",
+    "description": "The Killers: Chorused clean pop",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -2385,12 +2386,12 @@
       "mod_mix": 40,
       "reverb_mix": 18,
       "reverb_decay": 40
-    },
-    "slot": "17B"
+    }
   },
   "killers_human": {
+    "artist": "The Killers",
     "name": "Killers Human",
-    "description": "Clean arpeggio with ping pong",
+    "description": "The Killers: Clean arpeggio with ping pong",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -2421,12 +2422,12 @@
       "delay_mix": 22,
       "reverb_mix": 20,
       "reverb_decay": 50
-    },
-    "slot": "17C"
+    }
   },
   "killers_lead": {
+    "artist": "The Killers",
     "name": "Killers Lead",
-    "description": "Driven lead with delay",
+    "description": "The Killers: Driven lead with delay",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -2461,12 +2462,12 @@
       "delay_mix": 18,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "17D"
+    }
   },
   "manics_design": {
+    "artist": "Manic Street Preachers",
     "name": "Manics Design",
-    "description": "Les Paul into Plexi, anthemic",
+    "description": "Manic Street Preachers: Les Paul into Plexi, anthemic",
     "models": {
       "amp": "Plexi 45",
       "cab": "4x12 Green 25's",
@@ -2493,12 +2494,12 @@
       "chan_vol": 58,
       "reverb_mix": 15,
       "reverb_decay": 40
-    },
-    "slot": "18A"
+    }
   },
   "manics_motorcyc": {
+    "artist": "Manic Street Preachers",
     "name": "Manics Motorcyc",
-    "description": "Tele riff: Shredmaster-style Marshall grit, CH-1 chorus, delay",
+    "description": "Manic Street Preachers: Tele riff: Shredmaster-style Marshall grit, CH-1 chorus, delay",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -2533,12 +2534,12 @@
       "delay_mix": 20,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "18B"
+    }
   },
   "manics_bradfld": {
+    "artist": "Manic Street Preachers",
     "name": "Manics Bradfld",
-    "description": "Boosted Bradfield lead",
+    "description": "Manic Street Preachers: Boosted Bradfield lead",
     "models": {
       "amp": "Plexi Lead 100",
       "cab": "4x12 Green 25's",
@@ -2573,12 +2574,12 @@
       "delay_mix": 15,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "18C"
+    }
   },
   "manics_tolerate": {
+    "artist": "Manic Street Preachers",
     "name": "Manics Tolerate",
-    "description": "Clean with echo, wide room",
+    "description": "Manic Street Preachers: Clean with echo, wide room",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -2609,12 +2610,12 @@
       "delay_mix": 20,
       "reverb_mix": 18,
       "reverb_decay": 45
-    },
-    "slot": "18D"
+    }
   },
   "blur_song_2": {
+    "artist": "Blur",
     "name": "Blur Song 2",
-    "description": "Fuzz explosion",
+    "description": "Blur: Fuzz explosion",
     "models": {
       "amp": "Hiway 100",
       "cab": "4x12 Green 20's",
@@ -2647,12 +2648,12 @@
       "reverb_decay": 30,
       "gate_db": -50,
       "gate_decay": 20
-    },
-    "slot": "19A"
+    }
   },
   "blur_coffee_tv": {
+    "artist": "Blur",
     "name": "Blur Coffee TV",
-    "description": "Coxon wiry crunch",
+    "description": "Blur: Coxon wiry crunch",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -2679,12 +2680,12 @@
       "chan_vol": 60,
       "reverb_mix": 10,
       "reverb_decay": 25
-    },
-    "slot": "19B"
+    }
   },
   "blur_beetlebum": {
+    "artist": "Blur",
     "name": "Blur Beetlebum",
-    "description": "Woozy octave fuzz",
+    "description": "Blur: Woozy octave fuzz",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -2715,12 +2716,12 @@
       "stomp_p4": 45,
       "reverb_mix": 15,
       "reverb_decay": 40
-    },
-    "slot": "19C"
+    }
   },
   "blur_tender": {
+    "artist": "Blur",
     "name": "Blur Tender",
-    "description": "Clean, warm, gospel-ish",
+    "description": "Blur: Clean, warm, gospel-ish",
     "models": {
       "amp": "Blackface Lux",
       "cab": "1x12 Blackface",
@@ -2747,12 +2748,12 @@
       "chan_vol": 70,
       "reverb_mix": 20,
       "reverb_decay": 45
-    },
-    "slot": "19D"
+    }
   },
   "sc_the_trip": {
+    "artist": "Still Corners",
     "name": "SC The Trip",
-    "description": "Dreamy clean, chorus and long delay",
+    "description": "Still Corners: Dreamy clean, chorus and long delay",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -2787,12 +2788,12 @@
       "delay_mix": 28,
       "reverb_mix": 30,
       "reverb_decay": 65
-    },
-    "slot": "20A"
+    }
   },
   "sc_strange_plsr": {
+    "artist": "Still Corners",
     "name": "SC Strange Plsr",
-    "description": "Twangy trem with spring",
+    "description": "Still Corners: Twangy trem with spring",
     "models": {
       "amp": "Blackface Lux",
       "cab": "1x12 Blackface",
@@ -2823,12 +2824,12 @@
       "mod_mix": 50,
       "reverb_mix": 30,
       "reverb_decay": 55
-    },
-    "slot": "20B"
+    }
   },
   "sc_slow_tape": {
+    "artist": "Still Corners",
     "name": "SC Slow Tape",
-    "description": "Warbly tape echo",
+    "description": "Still Corners: Warbly tape echo",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -2859,12 +2860,12 @@
       "delay_mix": 30,
       "reverb_mix": 25,
       "reverb_decay": 60
-    },
-    "slot": "20C"
+    }
   },
   "sc_shimmer": {
+    "artist": "Still Corners",
     "name": "SC Shimmer",
-    "description": "Vibrato clean in a cavern",
+    "description": "Still Corners: Vibrato clean in a cavern",
     "models": {
       "amp": "Jazz Clean",
       "cab": "2x12 Jazz",
@@ -2895,11 +2896,11 @@
       "mod_mix": 45,
       "reverb_mix": 35,
       "reverb_decay": 75
-    },
-    "slot": "20D"
+    }
   },
   "mayer_clean": {
-    "description": "John Mayer clean: Twin-style Double Verb, 67 Condenser, light comp, spring",
+    "artist": "John Mayer",
+    "description": "John Mayer: John Mayer clean: Twin-style Double Verb, 67 Condenser, light comp, spring",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -2930,11 +2931,11 @@
       "reverb_decay": 40,
       "reverb_tone": 50
     },
-    "name": "Mayer Clean",
-    "slot": "21A"
+    "name": "Mayer Clean"
   },
   "mayer_gravity": {
-    "description": "Mayer Gravity lead: Screamer into an edge-of-breakup Blackface Lux",
+    "artist": "John Mayer",
+    "description": "John Mayer: Mayer Gravity lead: Screamer into an edge-of-breakup Blackface Lux",
     "models": {
       "amp": "Blackface Lux",
       "cab": "1x12 Blackface",
@@ -2970,11 +2971,11 @@
       "reverb_mix": 22,
       "reverb_decay": 45
     },
-    "name": "Mayer Gravity",
-    "slot": "21B"
+    "name": "Mayer Gravity"
   },
   "deftones_heavy": {
-    "description": "Deftones heavy: Treadplate Dual, Screamer at drive 0 / level high as a tightening boost, gate on",
+    "artist": "Deftones",
+    "description": "Deftones: Deftones heavy: Treadplate Dual, Screamer at drive 0 / level high as a tightening boost, gate on",
     "models": {
       "amp": "Treadplate Dual",
       "cab": "4x12 Treadplate",
@@ -3008,11 +3009,11 @@
       "reverb_mix": 10,
       "reverb_decay": 25
     },
-    "name": "Deftones Heavy",
-    "slot": "21C"
+    "name": "Deftones Heavy"
   },
   "deftones_clean": {
-    "description": "Deftones clean: Jazz Clean, slow analog chorus, digital delay, Cavernous reverb",
+    "artist": "Deftones",
+    "description": "Deftones: Deftones clean: Jazz Clean, slow analog chorus, digital delay, Cavernous reverb",
     "models": {
       "amp": "Jazz Clean",
       "cab": "2x12 Jazz",
@@ -3048,10 +3049,10 @@
       "reverb_mix": 35,
       "reverb_decay": 70
     },
-    "name": "Deftones Clean",
-    "slot": "21D"
+    "name": "Deftones Clean"
   },
   "the_xx": {
+    "artist": "The xx",
     "name": "The xx",
     "description": "The xx: very clean Double Verb, short low-mix delay, Large Plate",
     "models": {
@@ -3084,12 +3085,12 @@
       "delay_mix": 15,
       "reverb_mix": 35,
       "reverb_decay": 60
-    },
-    "slot": "22A"
+    }
   },
   "clean_platform": {
+    "artist": "Utility",
     "name": "Clean Platform",
-    "description": "Neutral clean for pedals and tweaking",
+    "description": "Utility: Neutral clean for pedals and tweaking",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -3116,12 +3117,12 @@
       "chan_vol": 70,
       "reverb_mix": 12,
       "reverb_decay": 30
-    },
-    "slot": "22B"
+    }
   },
   "crunch_platform": {
+    "artist": "Utility",
     "name": "Crunch Platform",
-    "description": "Neutral Marshall crunch",
+    "description": "Utility: Neutral Marshall crunch",
     "models": {
       "amp": "Plexi 45",
       "cab": "4x12 Green 25's",
@@ -3148,12 +3149,12 @@
       "chan_vol": 60,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "22C"
+    }
   },
   "lead_platform": {
+    "artist": "Utility",
     "name": "Lead Platform",
-    "description": "Smooth lead, delay and hall",
+    "description": "Utility: Smooth lead, delay and hall",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -3188,12 +3189,12 @@
       "delay_mix": 18,
       "reverb_mix": 15,
       "reverb_decay": 40
-    },
-    "slot": "22D"
+    }
   },
   "marr_how_soon": {
+    "artist": "The Smiths",
     "name": "Marr How Soon",
-    "description": "The tremolo: deep bias trem on a clean",
+    "description": "The Smiths: The tremolo: deep bias trem on a clean",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -3224,12 +3225,12 @@
       "mod_mix": 70,
       "reverb_mix": 18,
       "reverb_decay": 45
-    },
-    "slot": "23A"
+    }
   },
   "marr_charming": {
+    "artist": "The Smiths",
     "name": "Marr Charming",
-    "description": "Chorused jangle, layered",
+    "description": "The Smiths: Chorused jangle, layered",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -3260,12 +3261,12 @@
       "mod_mix": 35,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "23B"
+    }
   },
   "marr_bigmouth": {
+    "artist": "The Smiths",
     "name": "Marr Bigmouth",
-    "description": "Bright compressed crunch",
+    "description": "The Smiths: Bright compressed crunch",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -3294,12 +3295,12 @@
       "reverb_decay": 30,
       "comp_thresh_db": -20,
       "comp_gain_db": 4
-    },
-    "slot": "23C"
+    }
   },
   "marr_panic": {
+    "artist": "The Smiths",
     "name": "Marr Panic",
-    "description": "Jangly clean with compression",
+    "description": "The Smiths: Jangly clean with compression",
     "models": {
       "amp": "Two-Tone",
       "cab": "2x12 Blackface",
@@ -3328,12 +3329,12 @@
       "reverb_decay": 25,
       "comp_thresh_db": -22,
       "comp_gain_db": 4
-    },
-    "slot": "23D"
+    }
   },
   "mbv_only_shallw": {
+    "artist": "My Bloody Valentine",
     "name": "MBV Only Shallw",
-    "description": "Fuzz wall with reverse smear",
+    "description": "My Bloody Valentine: Fuzz wall with reverse smear",
     "models": {
       "amp": "Plexi 45",
       "cab": "4x12 Green 25's",
@@ -3368,12 +3369,12 @@
       "delay_mix": 30,
       "reverb_mix": 30,
       "reverb_decay": 70
-    },
-    "slot": "24A"
+    }
   },
   "slowdive_alison": {
+    "artist": "Slowdive",
     "name": "Slowdive Alison",
-    "description": "Chorus wash, huge reverb",
+    "description": "Slowdive: Chorus wash, huge reverb",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -3410,12 +3411,12 @@
       "delay_p4": 40,
       "reverb_mix": 40,
       "reverb_decay": 80
-    },
-    "slot": "24B"
+    }
   },
   "ride_vapour": {
+    "artist": "Ride",
     "name": "Ride Vapour",
-    "description": "Jangle with echo trails",
+    "description": "Ride: Jangle with echo trails",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -3450,12 +3451,12 @@
       "delay_mix": 28,
       "reverb_mix": 25,
       "reverb_decay": 60
-    },
-    "slot": "24C"
+    }
   },
   "mbv_soon": {
+    "artist": "My Bloody Valentine",
     "name": "MBV Soon",
-    "description": "Glide fuzz with flange",
+    "description": "My Bloody Valentine: Glide fuzz with flange",
     "models": {
       "amp": "Plexi 45",
       "cab": "4x12 Green 25's",
@@ -3490,12 +3491,12 @@
       "mod_mix": 40,
       "reverb_mix": 25,
       "reverb_decay": 60
-    },
-    "slot": "24D"
+    }
   },
   "edge_streets": {
+    "artist": "U2",
     "name": "Edge Streets",
-    "description": "Dotted-eighth delay over AC30 chime",
+    "description": "U2: Dotted-eighth delay over AC30 chime",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -3526,12 +3527,12 @@
       "delay_mix": 35,
       "reverb_mix": 15,
       "reverb_decay": 45
-    },
-    "slot": "25A"
+    }
   },
   "edge_withorwith": {
+    "artist": "U2",
     "name": "Edge WithOrWith",
-    "description": "Infinite-sustain style ambient pad",
+    "description": "U2: Infinite-sustain style ambient pad",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -3567,12 +3568,12 @@
       "delay_p4": 35,
       "reverb_mix": 35,
       "reverb_decay": 75
-    },
-    "slot": "25B"
+    }
   },
   "edge_sunday": {
+    "artist": "U2",
     "name": "Edge Sunday",
-    "description": "Edgy crunch with delay",
+    "description": "U2: Edgy crunch with delay",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -3603,12 +3604,12 @@
       "delay_mix": 20,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "25C"
+    }
   },
   "edge_pride": {
+    "artist": "U2",
     "name": "Edge Pride",
-    "description": "Chimey drive with 8th delay",
+    "description": "U2: Chimey drive with 8th delay",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -3639,12 +3640,12 @@
       "delay_mix": 30,
       "reverb_mix": 15,
       "reverb_decay": 45
-    },
-    "slot": "25D"
+    }
   },
   "gilmour_numb": {
+    "artist": "Pink Floyd",
     "name": "Gilmour Numb",
-    "description": "Muff into Hiwatt, delay and hall",
+    "description": "Pink Floyd: Muff into Hiwatt, delay and hall",
     "models": {
       "amp": "Hiway 100",
       "cab": "4x12 Line 6",
@@ -3679,12 +3680,12 @@
       "delay_mix": 22,
       "reverb_mix": 22,
       "reverb_decay": 55
-    },
-    "slot": "26A"
+    }
   },
   "gilmour_shine": {
+    "artist": "Pink Floyd",
     "name": "Gilmour Shine",
-    "description": "Clean with chorus and delay",
+    "description": "Pink Floyd: Clean with chorus and delay",
     "models": {
       "amp": "Hiway 100",
       "cab": "4x12 Line 6",
@@ -3719,12 +3720,12 @@
       "delay_mix": 22,
       "reverb_mix": 20,
       "reverb_decay": 50
-    },
-    "slot": "26B"
+    }
   },
   "gilmour_time": {
+    "artist": "Pink Floyd",
     "name": "Gilmour Time",
-    "description": "Singing lead, compressed",
+    "description": "Pink Floyd: Singing lead, compressed",
     "models": {
       "amp": "Hiway 100",
       "cab": "4x12 Line 6",
@@ -3761,12 +3762,12 @@
       "reverb_decay": 50,
       "comp_thresh_db": -25,
       "comp_gain_db": 4
-    },
-    "slot": "26C"
+    }
   },
   "gilmour_leslie": {
+    "artist": "Pink Floyd",
     "name": "Gilmour Leslie",
-    "description": "Rotary clean",
+    "description": "Pink Floyd: Rotary clean",
     "models": {
       "amp": "Hiway 100",
       "cab": "4x12 Line 6",
@@ -3797,12 +3798,12 @@
       "mod_mix": 55,
       "reverb_mix": 15,
       "reverb_decay": 40
-    },
-    "slot": "26D"
+    }
   },
   "white_sevennat": {
+    "artist": "The White Stripes",
     "name": "White SevenNat",
-    "description": "Octave-up fuzz riff",
+    "description": "The White Stripes: Octave-up fuzz riff",
     "models": {
       "amp": "Small Tweed",
       "cab": "1x12 Tweed",
@@ -3833,12 +3834,12 @@
       "stomp_p4": 55,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "27A"
+    }
   },
   "white_ball_bisc": {
+    "artist": "The White Stripes",
     "name": "White Ball Bisc",
-    "description": "Raw fuzz, ragged",
+    "description": "The White Stripes: Raw fuzz, ragged",
     "models": {
       "amp": "Tweed B-Man",
       "cab": "4x10 Tweed",
@@ -3869,12 +3870,12 @@
       "stomp_p4": 55,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "27B"
+    }
   },
   "white_clean": {
+    "artist": "The White Stripes",
     "name": "White Clean",
-    "description": "Dry, honky clean",
+    "description": "The White Stripes: Dry, honky clean",
     "models": {
       "amp": "Small Tweed",
       "cab": "1x12 Tweed",
@@ -3898,12 +3899,12 @@
       "treble": 55,
       "presence": 50,
       "chan_vol": 64
-    },
-    "slot": "27C"
+    }
   },
   "white_icky": {
+    "artist": "The White Stripes",
     "name": "White Icky",
-    "description": "Fuzz lead with slap",
+    "description": "The White Stripes: Fuzz lead with slap",
     "models": {
       "amp": "Small Tweed",
       "cab": "1x12 Tweed",
@@ -3940,12 +3941,12 @@
       "delay_p4": 40,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "27D"
+    }
   },
   "qotsa_no_one": {
+    "artist": "Queens of the Stone Age",
     "name": "QOTSA No One",
-    "description": "Mid-heavy, tight, dry",
+    "description": "Queens of the Stone Age: Mid-heavy, tight, dry",
     "models": {
       "amp": "Brit JM Pre",
       "cab": "4x12 Green 25's",
@@ -3971,12 +3972,12 @@
       "chan_vol": 56,
       "gate_db": -50,
       "gate_decay": 15
-    },
-    "slot": "28A"
+    }
   },
   "qotsa_gowithflw": {
+    "artist": "Queens of the Stone Age",
     "name": "QOTSA GoWithFlw",
-    "description": "Driving fuzzy rhythm",
+    "description": "Queens of the Stone Age: Driving fuzzy rhythm",
     "models": {
       "amp": "Plexi 45",
       "cab": "4x12 Green 25's",
@@ -4009,12 +4010,12 @@
       "reverb_decay": 30,
       "gate_db": -50,
       "gate_decay": 15
-    },
-    "slot": "28B"
+    }
   },
   "qotsa_little_ss": {
+    "artist": "Queens of the Stone Age",
     "name": "QOTSA Little Ss",
-    "description": "Bouncy crunch with mids",
+    "description": "Queens of the Stone Age: Bouncy crunch with mids",
     "models": {
       "amp": "Brit JM Pre",
       "cab": "4x12 Green 25's",
@@ -4041,12 +4042,12 @@
       "chan_vol": 58,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "28C"
+    }
   },
   "qotsa_makeitwit": {
+    "artist": "Queens of the Stone Age",
     "name": "QOTSA MakeItWit",
-    "description": "Warm clean groove",
+    "description": "Queens of the Stone Age: Warm clean groove",
     "models": {
       "amp": "Blackface Lux",
       "cab": "1x12 Blackface",
@@ -4073,10 +4074,10 @@
       "chan_vol": 68,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "28D"
+    }
   },
   "verlaine_marque": {
+    "artist": "Television",
     "name": "Verlaine Marque",
     "description": "Television: thin, bright, edge of breakup",
     "models": {
@@ -4105,12 +4106,12 @@
       "chan_vol": 62,
       "reverb_mix": 12,
       "reverb_decay": 25
-    },
-    "slot": "29A"
+    }
   },
   "interpol_untitl": {
+    "artist": "Interpol",
     "name": "Interpol Untitl",
-    "description": "Clean with a long echo",
+    "description": "Interpol: Clean with a long echo",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -4141,12 +4142,12 @@
       "delay_mix": 25,
       "reverb_mix": 20,
       "reverb_decay": 50
-    },
-    "slot": "29B"
+    }
   },
   "interpol_evil": {
+    "artist": "Interpol",
     "name": "Interpol Evil",
-    "description": "Mid-dirty driving rhythm",
+    "description": "Interpol: Mid-dirty driving rhythm",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -4173,12 +4174,12 @@
       "chan_vol": 60,
       "reverb_mix": 10,
       "reverb_decay": 25
-    },
-    "slot": "29C"
+    }
   },
   "cure_pictures": {
+    "artist": "The Cure",
     "name": "Cure Pictures",
-    "description": "Robert Smith chorus and flange",
+    "description": "The Cure: Robert Smith chorus and flange",
     "models": {
       "amp": "Jazz Clean",
       "cab": "2x12 Jazz",
@@ -4215,12 +4216,12 @@
       "delay_mix": 20,
       "reverb_mix": 22,
       "reverb_decay": 55
-    },
-    "slot": "29D"
+    }
   },
   "khruangbin": {
+    "artist": "Khruangbin",
     "name": "Khruangbin",
-    "description": "Mid-scooped clean, drenched spring",
+    "description": "Khruangbin: Mid-scooped clean, drenched spring",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -4247,12 +4248,12 @@
       "chan_vol": 68,
       "reverb_mix": 35,
       "reverb_decay": 55
-    },
-    "slot": "30A"
+    }
   },
   "mdou_moctar": {
+    "artist": "Mdou Moctar",
     "name": "Mdou Moctar",
-    "description": "Fuzzy desert lead",
+    "description": "Mdou Moctar: Fuzzy desert lead",
     "models": {
       "amp": "Class A-30 TB",
       "cab": "2x12 Class A",
@@ -4287,12 +4288,12 @@
       "delay_mix": 15,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "30B"
+    }
   },
   "knopfler_sultan": {
+    "artist": "Dire Straits",
     "name": "Knopfler Sultan",
-    "description": "Clean Strat bite, compressed",
+    "description": "Dire Straits: Clean Strat bite, compressed",
     "models": {
       "amp": "Blackface Lux",
       "cab": "1x12 Blackface",
@@ -4321,12 +4322,12 @@
       "reverb_decay": 35,
       "comp_thresh_db": -22,
       "comp_gain_db": 4
-    },
-    "slot": "30C"
+    }
   },
   "nile_rodgers": {
+    "artist": "Chic",
     "name": "Nile Rodgers",
-    "description": "Bright compressed funk chop",
+    "description": "Chic: Bright compressed funk chop",
     "models": {
       "amp": "Jazz Clean",
       "cab": "2x12 Jazz",
@@ -4356,12 +4357,12 @@
       "stomp_p3": 60,
       "reverb_mix": 8,
       "reverb_decay": 20
-    },
-    "slot": "30D"
+    }
   },
   "hendrix_littlew": {
+    "artist": "Jimi Hendrix",
     "name": "Hendrix LittleW",
-    "description": "Uni-Vibe over a low-gain Plexi",
+    "description": "Jimi Hendrix: Uni-Vibe over a low-gain Plexi",
     "models": {
       "amp": "Plexi 45",
       "cab": "4x12 Green 25's",
@@ -4392,12 +4393,12 @@
       "mod_mix": 55,
       "reverb_mix": 15,
       "reverb_decay": 40
-    },
-    "slot": "31A"
+    }
   },
   "hendrix_voodoo": {
+    "artist": "Jimi Hendrix",
     "name": "Hendrix Voodoo",
-    "description": "Octavia fuzz with wah",
+    "description": "Jimi Hendrix: Octavia fuzz with wah",
     "models": {
       "amp": "Plexi Lead 100",
       "cab": "4x12 Green 25's",
@@ -4428,12 +4429,12 @@
       "stomp_p4": 55,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "31B"
+    }
   },
   "hendrix_purple": {
+    "artist": "Jimi Hendrix",
     "name": "Hendrix Purple",
-    "description": "Fuzz Face into Marshall",
+    "description": "Jimi Hendrix: Fuzz Face into Marshall",
     "models": {
       "amp": "Plexi Lead 100",
       "cab": "4x12 Green 25's",
@@ -4464,12 +4465,12 @@
       "stomp_p4": 55,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "31C"
+    }
   },
   "hendrix_hey_joe": {
+    "artist": "Jimi Hendrix",
     "name": "Hendrix Hey Joe",
-    "description": "Warm crunch, room",
+    "description": "Jimi Hendrix: Warm crunch, room",
     "models": {
       "amp": "Plexi 45",
       "cab": "4x12 Green 25's",
@@ -4496,12 +4497,12 @@
       "chan_vol": 60,
       "reverb_mix": 15,
       "reverb_decay": 30
-    },
-    "slot": "31D"
+    }
   },
   "mascis_feel": {
+    "artist": "Dinosaur Jr.",
     "name": "Mascis Feel",
-    "description": "Dinosaur Jr: Muff maxed into a Plexi",
+    "description": "Dinosaur Jr.: Dinosaur Jr: Muff maxed into a Plexi",
     "models": {
       "amp": "Plexi Lead 100",
       "cab": "4x12 Green 25's",
@@ -4534,12 +4535,12 @@
       "reverb_decay": 30,
       "gate_db": -55,
       "gate_decay": 20
-    },
-    "slot": "32A"
+    }
   },
   "sonicyouth_riot": {
+    "artist": "Sonic Youth",
     "name": "SonicYouth Riot",
-    "description": "Teen Age Riot crunch",
+    "description": "Sonic Youth: Teen Age Riot crunch",
     "models": {
       "amp": "Blackface Lux",
       "cab": "2x12 Blackface",
@@ -4566,12 +4567,12 @@
       "chan_vol": 60,
       "reverb_mix": 12,
       "reverb_decay": 25
-    },
-    "slot": "32B"
+    }
   },
   "mogwai_swell": {
+    "artist": "Mogwai",
     "name": "Mogwai Swell",
-    "description": "Clean that blooms into tape echo",
+    "description": "Mogwai: Clean that blooms into tape echo",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -4604,12 +4605,12 @@
       "delay_p4": 35,
       "reverb_mix": 30,
       "reverb_decay": 70
-    },
-    "slot": "32C"
+    }
   },
   "eits_crescendo": {
+    "artist": "Explosions in the Sky",
     "name": "EITS Crescendo",
-    "description": "Tremolo-picked clean with delay",
+    "description": "Explosions in the Sky: Tremolo-picked clean with delay",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -4640,12 +4641,12 @@
       "delay_mix": 30,
       "reverb_mix": 30,
       "reverb_decay": 65
-    },
-    "slot": "32D"
+    }
   },
   "manics_emg_title": {
+    "artist": "Manic Street Preachers",
     "name": "Manics EMG Title",
-    "description": "Gretsch-ish bright crunch, comp, echo and hall",
+    "description": "Manic Street Preachers: Gretsch-ish bright crunch, comp, echo and hall",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Green 25's",
@@ -4681,8 +4682,9 @@
     }
   },
   "manics_twinboost": {
+    "artist": "Manic Street Preachers",
     "name": "Manics TwinBoost",
-    "description": "Fender Twin hit with a Fryer-style treble boost",
+    "description": "Manic Street Preachers: Fender Twin hit with a Fryer-style treble boost",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -4718,8 +4720,9 @@
     }
   },
   "manics_crystal": {
+    "artist": "Manic Street Preachers",
     "name": "Manics Crystal",
-    "description": "CS-3 compressed clean, a touch of CH-1",
+    "description": "Manic Street Preachers: CS-3 compressed clean, a touch of CH-1",
     "models": {
       "amp": "Double Verb",
       "cab": "2x12 Blackface",
@@ -4755,8 +4758,9 @@
     }
   },
   "manics_rat_riff": {
+    "artist": "Manic Street Preachers",
     "name": "Manics RAT Riff",
-    "description": "RAT distortion into a cleaner Marshall",
+    "description": "Manic Street Preachers: RAT distortion into a cleaner Marshall",
     "models": {
       "amp": "Brit J-800",
       "cab": "4x12 Brit V30's",

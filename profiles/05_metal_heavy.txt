@@ -1,0 +1,121 @@
+﻿# Metal, hard rock, alt metal, nu metal
+Metallica | thrash metal | recto | 9 | scoop tight | curated
+Megadeth | thrash metal | jcm800 | 9 | tight | curated
+Slayer | thrash metal | jcm800 | 9 | tight dry | curated
+Anthrax | thrash metal | jcm800 | 9 | tight | curated
+Exodus | thrash metal | jcm800 | 9 | tight | curated
+Testament | thrash metal | recto | 9 | tight | curated
+Pantera | groove metal | insane | 9 | scoop tight | curated
+Sepultura | thrash metal | recto | 9 | tight | curated
+Machine Head | groove metal | recto | 9 | tight | curated
+Iron Maiden | heavy metal | jcm800 | 7 | chorus delay | curated
+Judas Priest | heavy metal | jcm800 | 8 | delay | curated
+Motorhead | heavy metal | plexilead | 8 | mids dry | curated
+Dio | heavy metal | jcm800 | 8 | delay | curated
+Saxon | heavy metal | jcm800 | 8 | room | curated
+Diamond Head | heavy metal | jcm800 | 8 | room | curated
+Mercyful Fate | heavy metal | jcm800 | 8 | delay | curated
+King Diamond | heavy metal | jcm800 | 8 | delay | curated
+Accept | heavy metal | jcm800 | 8 | tight | curated
+Dokken | heavy metal | jcm800 | 8 | chorus delay | curated
+Tool | prog metal | diamond | 8 | delay tight | curated
+A Perfect Circle | alt metal | diamond | 7 | delay chorus | curated
+Deftones | alt metal | recto | 8 | chorus delay tight | curated
+Korn | nu metal | recto | 9 | tight dark | curated
+Limp Bizkit | nu metal | recto | 9 | tight | curated
+Linkin Park | nu metal | recto | 9 | tight | curated
+System of a Down | alt metal | recto | 9 | tight | curated
+Slipknot | nu metal | recto | 10 | tight | curated
+Stone Sour | alt metal | recto | 8 | tight | curated
+Disturbed | alt metal | recto | 9 | tight | curated
+Godsmack | alt metal | recto | 8 | tight | curated
+Staind | alt metal | recto | 7 | chorus delay | curated
+Papa Roach | nu metal | recto | 8 | tight | curated
+Chevelle | alt metal | recto | 8 | tight delay | curated
+Breaking Benjamin | alt metal | recto | 8 | tight | curated
+Three Days Grace | alt metal | recto | 8 | tight | curated
+Alter Bridge | hard rock | diamond | 8 | delay | curated
+Creed | hard rock | recto | 7 | delay | curated
+Shinedown | hard rock | recto | 8 | delay | curated
+Avenged Sevenfold | metalcore | criminal | 9 | delay tight | curated
+Trivium | metalcore | criminal | 9 | tight | curated
+Killswitch Engage | metalcore | recto | 9 | tight delay | curated
+As I Lay Dying | metalcore | recto | 9 | tight | curated
+Parkway Drive | metalcore | criminal | 9 | tight | curated
+Architects | metalcore | criminal | 9 | tight delay | curated
+Bring Me the Horizon | metalcore | recto | 9 | tight delay | curated
+While She Sleeps | metalcore | recto | 9 | tight | curated
+Bullet for My Valentine | metalcore | criminal | 9 | tight | curated
+Lamb of God | groove metal | criminal | 9 | tight | curated
+Gojira | death metal | criminal | 9 | tight | curated
+Mastodon | sludge | criminal | 8 | fuzz delay | curated
+Baroness | sludge | jcm800 | 8 | fuzz delay | curated
+High on Fire | sludge | criminal | 9 | fuzz dark | curated
+Sleep | doom | variac | 9 | fuzz dark | curated
+Electric Wizard | doom | variac | 9 | fuzz dark cavern | curated
+Sunn O))) | drone | variac | 10 | fuzz dark cavern | curated
+Neurosis | sludge | criminal | 9 | delay hall | curated
+Isis | post-metal | recto | 8 | delay hall | curated
+Pelican | post-metal | recto | 8 | delay | curated
+Russian Circles | post-metal | recto | 8 | delay hall | curated
+Deafheaven | blackgaze | recto | 9 | delay cavern | curated
+Alcest | blackgaze | recto | 8 | chorus delay cavern | curated
+Opeth | prog metal | recto | 9 | chorus delay hall | curated
+Dream Theater | prog metal | mesa | 9 | delay hall | curated
+Periphery | djent | deity | 10 | tight delay | curated
+Animals as Leaders | djent | deity | 8 | chorus delay | curated
+Meshuggah | djent | deity | 10 | tight | curated
+Tesseract | djent | deity | 9 | chorus delay hall | curated
+Converge | metalcore | criminal | 9 | dry | curated
+Botch | metalcore | criminal | 9 | dry | curated
+The Dillinger Escape Plan | mathcore | criminal | 9 | tight | curated
+Every Time I Die | metalcore | criminal | 9 | tight | curated
+Glassjaw | post-hardcore | recto | 8 | delay | curated
+At the Drive-In | post-hardcore | jcm800 | 7 | delay | curated
+The Mars Volta | prog rock | jcm800 | 7 | wah delay | curated
+Coheed and Cambria | prog rock | recto | 8 | delay | curated
+Faith No More | alt metal | jcm800 | 7 | tight | curated
+Living Colour | funk metal | mesa | 7 | wah delay | curated
+Red Hot Chili Peppers | funk rock | twin | 5 | fuzz wah chorus | curated
+Jane's Addiction | alt rock | jcm800 | 6 | wah flanger delay | curated
+Primus | funk metal | jcm800 | 6 | dry | curated
+White Zombie | industrial metal | recto | 9 | tight | curated
+Rob Zombie | industrial metal | recto | 9 | tight | curated
+Nine Inch Nails | industrial | recto | 8 | fuzz delay | curated
+Ministry | industrial metal | recto | 9 | tight | curated
+Rammstein | industrial metal | recto | 9 | tight | curated
+Fear Factory | industrial metal | recto | 10 | tight | curated
+Static-X | industrial metal | recto | 9 | tight | curated
+Prong | groove metal | recto | 9 | tight | curated
+Biohazard | crossover | recto | 9 | tight | curated
+Ghost | heavy metal | jcm800 | 7 | delay hall | curated
+Volbeat | hard rock | jcm800 | 8 | tight | curated
+Halestorm | hard rock | recto | 8 | delay | curated
+In Flames | melodic death metal | recto | 9 | tight | curated
+Arch Enemy | melodic death metal | recto | 9 | delay | curated
+Children of Bodom | melodic death metal | recto | 10 | delay | curated
+Amon Amarth | melodic death metal | recto | 9 | tight | curated
+Nightwish | symphonic metal | recto | 9 | delay hall | curated
+Within Temptation | symphonic metal | recto | 9 | delay hall | curated
+Evanescence | alt metal | recto | 9 | tight delay | curated
+Sleep Token | alt metal | deity | 8 | delay cavern | curated
+Spiritbox | metalcore | deity | 9 | delay hall | curated
+Loathe | metalcore | recto | 9 | chorus cavern | curated
+Knocked Loose | hardcore | criminal | 10 | tight dry | curated
+Turnstile | hardcore | jcm800 | 7 | chorus room | curated
+Code Orange | metalcore | criminal | 9 | tight | curated
+Ghost Bath | blackgaze | recto | 9 | cavern | curated
+Type O Negative | gothic metal | recto | 8 | chorus flanger hall | curated
+Paradise Lost | gothic metal | recto | 8 | chorus delay | curated
+Katatonia | prog metal | recto | 8 | delay hall | curated
+Porcupine Tree | prog rock | recto | 7 | delay hall | curated
+Riverside | prog rock | recto | 7 | delay hall | curated
+Leprous | prog metal | deity | 8 | delay hall | curated
+Black Label Society | heavy metal | jcm800 | 9 | wah chorus | curated
+Iced Earth | heavy metal | recto | 9 | tight | curated
+Queensryche | heavy metal | jcm800 | 8 | chorus delay | curated
+Savatage | heavy metal | jcm800 | 8 | delay | curated
+Helloween | power metal | jcm800 | 8 | delay | curated
+Blind Guardian | power metal | jcm800 | 8 | delay | curated
+Sabaton | power metal | recto | 9 | tight | curated
+DragonForce | power metal | recto | 9 | delay | curated

@@ -1,0 +1,122 @@
+﻿# Classic rock, blues and guitar heroes
+Led Zeppelin | hard rock | plexilead | 6 | tape room | curated
+Jimmy Page | hard rock | plexilead | 6 | tape wah | curated
+Deep Purple | hard rock | plexilead | 6 | room | curated
+Black Sabbath | heavy metal | variac | 7 | fuzz dark | curated
+Cream | blues rock | plexi | 6 | wah fuzz | curated
+Eric Clapton | blues rock | tweed | 4 | room | curated
+Derek and the Dominos | blues rock | tweed | 5 | room | curated
+The Allman Brothers Band | southern rock | plexi | 5 | room | curated
+Lynyrd Skynyrd | southern rock | plexi | 5 | room | curated
+ZZ Top | blues rock | tweed | 6 | od room | curated
+Stevie Ray Vaughan | texas blues | twin | 5 | od vibe spring | curated
+Albert King | blues | twin | 4 | spring | curated
+B.B. King | blues | twin | 3 | spring | curated
+Freddie King | blues | tweed | 4 | room | curated
+Buddy Guy | blues | tweed | 5 | spring | curated
+Muddy Waters | blues | tweed | 4 | room | curated
+Howlin' Wolf | blues | tweed | 5 | room | curated
+John Lee Hooker | blues | tweed | 4 | trem room | curated
+Albert Collins | texas blues | twin | 4 | bright spring | curated
+Johnny Winter | blues rock | plexi | 6 | room | curated
+Rory Gallagher | blues rock | ac30 | 6 | od room | curated
+Peter Green's Fleetwood Mac | blues rock | tweed | 4 | spring | curated
+Fleetwood Mac | soft rock | deluxe | 3 | chorus delay | curated
+Free | blues rock | plexi | 6 | room | curated
+Bad Company | hard rock | plexi | 6 | room | curated
+Humble Pie | blues rock | plexi | 6 | room | curated
+Faces | rock | ac30 | 5 | room | curated
+Mott the Hoople | glam rock | plexi | 6 | room | curated
+T. Rex | glam rock | jcm800 | 6 | fuzz room | curated
+David Bowie | glam rock | plexi | 6 | room | curated
+Mick Ronson | glam rock | plexi | 7 | wah room | curated
+Roxy Music | art rock | ac30 | 5 | phaser delay | curated
+Queen | hard rock | ac30 | 7 | tape hall | curated
+Brian May | hard rock | ac30 | 7 | tape hall | curated
+AC/DC | hard rock | plexilead | 6 | mids dry | curated
+Thin Lizzy | hard rock | jcm800 | 6 | wah delay | curated
+UFO | hard rock | plexilead | 7 | wah | curated
+Scorpions | hard rock | jcm800 | 7 | delay | curated
+Aerosmith | hard rock | plexi | 6 | room | curated
+Kiss | hard rock | plexilead | 7 | room | curated
+Ted Nugent | hard rock | plexi | 7 | room | curated
+Montrose | hard rock | plexilead | 7 | room | curated
+Van Halen | hard rock | variac | 8 | phaser flanger delay | curated
+Boston | arena rock | plexi | 7 | chorus delay | curated
+Foreigner | arena rock | jcm800 | 6 | chorus | curated
+Journey | arena rock | mesa | 7 | chorus delay | curated
+Toto | arena rock | mesa | 6 | chorus delay hall | curated
+Heart | hard rock | plexi | 6 | room | curated
+Cheap Trick | power pop | plexi | 6 | room | curated
+Tom Petty and the Heartbreakers | heartland rock | twin | 4 | chorus room | curated
+Bruce Springsteen | heartland rock | twin | 5 | delay hall | curated
+Bob Seger | heartland rock | twin | 5 | room | curated
+John Mellencamp | heartland rock | twin | 5 | room | curated
+Creedence Clearwater Revival | swamp rock | twin | 4 | trem room | curated
+The Doors | psych rock | twin | 4 | fuzz room | curated
+Jefferson Airplane | psych rock | twin | 5 | fuzz room | curated
+Grateful Dead | jam band | twin | 3 | chorus room | curated
+The Byrds | folk rock | twin | 2 | comp bright room | curated
+Buffalo Springfield | folk rock | twin | 4 | room | curated
+Neil Young | folk rock | tweed | 8 | fuzz room | curated
+Crazy Horse | rock | tweed | 8 | fuzz room | curated
+Bob Dylan | folk rock | twin | 3 | room | curated
+The Band | roots rock | twin | 4 | room | curated
+Little Feat | southern rock | twin | 4 | comp room | curated
+Steely Dan | jazz rock | twin | 3 | comp chorus | curated
+Santana | latin rock | mesa | 6 | od delay hall | curated
+Jeff Beck | blues rock | plexilead | 6 | delay | curated
+Pink Floyd | prog rock | hiwatt | 5 | fuzz delay hall | curated
+Genesis | prog rock | hiwatt | 5 | chorus delay hall | curated
+Yes | prog rock | twin | 4 | chorus delay | curated
+King Crimson | prog rock | plexi | 6 | fuzz room | curated
+Rush | prog rock | plexi | 6 | chorus delay hall | curated
+Jethro Tull | prog rock | hiwatt | 6 | room | curated
+Camel | prog rock | hiwatt | 5 | delay hall | curated
+Mark Knopfler | roots rock | twin | 3 | comp room | curated
+Dire Straits | roots rock | twin | 3 | comp chorus room | curated
+Joe Walsh | rock | tweed | 6 | wah room | curated
+Eagles | soft rock | twin | 4 | chorus delay | curated
+Peter Frampton | rock | plexi | 6 | phaser delay | curated
+Robin Trower | blues rock | plexilead | 7 | vibe delay | curated
+Jimi Hendrix | blues rock | plexilead | 6 | facefuzz vibe wah | curated
+Gary Moore | blues rock | jcm800 | 7 | od delay hall | curated
+Joe Bonamassa | blues rock | tweed | 6 | od delay | curated
+Kenny Wayne Shepherd | blues rock | twin | 6 | od vibe | curated
+John Mayer | blues rock | twin | 3 | comp od spring | curated
+Gary Clark Jr. | blues rock | tweed | 7 | fuzz room | curated
+Derek Trucks | blues rock | deluxe | 5 | room | curated
+Warren Haynes | blues rock | soldano | 6 | delay | curated
+Eric Johnson | instrumental | twin | 6 | delay hall | curated
+Joe Satriani | instrumental | jcm800 | 8 | wah delay hall | curated
+Steve Vai | instrumental | recto | 8 | wah delay hall | curated
+Yngwie Malmsteen | neoclassical | plexilead | 8 | delay hall | curated
+Paul Gilbert | shred | jcm800 | 8 | delay | curated
+Slash | hard rock | jcm800 | 7 | wah delay | curated
+Guns N' Roses | hard rock | jcm800 | 7 | wah delay | curated
+Bon Jovi | arena rock | mesa | 6 | chorus delay | curated
+Def Leppard | hard rock | jcm800 | 7 | chorus delay | curated
+Whitesnake | hard rock | jcm800 | 7 | chorus delay | curated
+Ozzy Osbourne | heavy metal | jcm800 | 8 | wah chorus delay | curated
+Randy Rhoads | heavy metal | plexilead | 8 | chorus delay | curated
+Zakk Wylde | heavy metal | jcm800 | 9 | wah chorus | curated
+Motley Crue | glam metal | jcm800 | 7 | chorus delay | curated
+Poison | glam metal | jcm800 | 7 | chorus delay | curated
+Skid Row | hard rock | jcm800 | 8 | delay | curated
+Extreme | hard rock | soldano | 7 | delay | curated
+Mr. Big | hard rock | jcm800 | 7 | chorus delay | curated
+The Black Crowes | southern rock | plexi | 5 | room | curated
+Gov't Mule | southern rock | soldano | 6 | room | curated
+Chuck Berry | rock and roll | tweed | 4 | room | curated
+Buddy Holly | rock and roll | tweed | 3 | room | curated
+Scotty Moore | rockabilly | tweed | 3 | slap | curated
+Brian Setzer | rockabilly | twin | 4 | slap spring | curated
+The Stray Cats | rockabilly | twin | 4 | slap spring | curated
+Link Wray | rock and roll | tweed | 6 | fuzz trem | curated
+Dick Dale | surf rock | twin | 3 | spring bright | curated
+The Ventures | surf rock | twin | 2 | spring trem | curated
+The Shadows | instrumental | ac30 | 2 | tape spring | curated
+Duane Eddy | rock and roll | twin | 2 | trem spring | curated
+Bo Diddley | rock and roll | twin | 4 | trem | curated
+Status Quo | boogie rock | ac30 | 6 | room | curated
+Dr. Feelgood | pub rock | ac30 | 5 | dry | curated

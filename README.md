@@ -1,6 +1,6 @@
-# POD XT patch loader
+# POD XT library
 
-Describe a tone, edit `patches.json`, push it into the XT's edit buffer, press SAVE on the unit to keep it.
+A library of about 1000 artists with four sounds each (clean, rhythm, lead, signature), plus 132 hand-tuned patches. Drag sounds onto the XT's 128 slots and commit them over USB.
 
 ## Desktop app
 
@@ -10,15 +10,35 @@ Download `PODXT.exe` from the Releases page (Windows), or build it yourself:
 powershell -ExecutionPolicy Bypass -File build.ps1
 ```
 
-On first run the app writes `patches.json` and `models.json` next to itself. Pick a patch, then:
+On first run the app writes its data files next to itself.
 
-- **Audition** (or double-click): loads it into the XT's edit buffer.
-- **Store to slot**: backs up the slot, then writes the patch there.
-- **Back up all slots**: saves all 128 stored patches to `backups/`.
-- **Capture XT sound**: saves whatever is on the XT as a new patch.
-- **Store whole library**: writes every patch that has a slot.
+- **Library (left):** every artist with their four sounds. Search by artist, genre or patch name, or filter to your artists, Spotify picks, curated or hand-tuned.
+- **XT slots (right):** 32 banks of A-D, each showing the artist and the sound.
+- **Drag** a sound onto a slot, an artist onto a bank to fill A-D, or one slot onto another to swap them.
+- Changed slots turn plum until you **Commit**, which backs up each slot and writes only the changed ones. **Revert all** discards them.
+- **Double-click** a sound or slot to audition it in the edit buffer.
+- **Read XT** reads every slot's name and flags slots that differ from `layout.json`.
+- **More:** check connection, back up all 128 slots, capture the XT's current sound as a patch.
 
 The app talks to the XT over USB, so it needs WinUSB on the PODxt (see Setup).
+
+## Data files
+
+| File | What it holds |
+|---|---|
+| `profiles/*.txt` | One line per artist: genre, amp family, gain, effect tags, source |
+| `tones.py` | Expands profiles into `library.json` (four sounds per artist) |
+| `library.py` | The 132 hand-tuned patches, written to `patches.json` |
+| `layout.json` | Which patch each of the 128 slots should hold |
+
+Add an artist by adding a profile line and running `python tones.py`. Profile format:
+
+```
+Artist | genre | amp | gain 0-10 | tags | source
+Interpol | post-punk | ac30 | 4 | delay bright room | spotify
+```
+
+Amp keys and tags are listed at the top of `tones.py`. Generated sounds are built from each artist's profile, not researched song by song, so treat them as starting points.
 
 ## Setup
 
@@ -53,7 +73,7 @@ Drop `--usb` when using a MIDI port. `--port NAME` picks a specific one.
 
 ## The 128-slot library
 
-`library.py` generates all 128 patches into `patches.json`, each with a `"slot"`. `python podxt.py --usb store-library` writes them to the XT (run `backup` first). Edit a patch in `library.py`, rerun it, then `store <key> <slot>` for just that one.
+The default `layout.json` puts the hand-tuned patches in all 128 slots. `python podxt.py --usb store-library` writes the whole layout to the XT, backing up each slot first.
 
 | Banks | Contents |
 |---|---|

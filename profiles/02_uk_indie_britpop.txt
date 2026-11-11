@@ -1,0 +1,120 @@
+# UK and Irish guitar bands, 80s to now
+The Stone Roses | madchester | twin | 4 | wah chorus delay | curated
+Happy Mondays | madchester | ac30 | 4 | wah room | curated
+The La's | jangle pop | ac30 | 3 | bright room | curated
+Supergrass | britpop | ac30 | 6 | fuzz bright | curated
+Elastica | britpop | jcm800 | 6 | fuzz dry | curated
+Embrace | britpop | ac30 | 4 | delay hall | curated
+The Auteurs | britpop | ac30 | 4 | room | curated
+Gene | britpop | twin | 3 | chorus room | curated
+Menswear | britpop | ac30 | 5 | room | curated
+Space | britpop | twin | 3 | trem delay | curated
+Super Furry Animals | psych pop | ac30 | 5 | fuzz phaser tape | curated
+Gorky's Zygotic Mynci | psych folk | smalltweed | 3 | trem room | curated
+Feeder | alt rock | recto | 7 | od chorus | curated
+Idlewild | indie rock | jcm800 | 6 | od delay | curated
+Biffy Clyro | alt rock | recto | 7 | od delay tight | curated
+Mogwai | post rock | twin | 3 | tape cavern | curated
+Snow Patrol | indie rock | ac30 | 4 | dotted hall | curated
+Doves | indie rock | ac30 | 4 | ambient hall | curated
+Elbow | indie rock | twin | 3 | trem delay hall | curated
+Coldplay | indie rock | ac30 | 3 | dotted chorus hall | curated
+Keane | indie pop | twin | 2 | delay hall | curated
+Kasabian | indie rock | jcm800 | 6 | fuzz phaser | curated
+Razorlight | indie rock | deluxe | 4 | bright room | curated
+The Libertines | garage rock | ac30 | 5 | dry bright | curated
+Babyshambles | garage rock | ac30 | 5 | room | curated
+The Futureheads | post-punk | ac30 | 5 | bright dry | curated
+Maximo Park | post-punk | jcm800 | 5 | bright room | curated
+Kaiser Chiefs | indie rock | jcm800 | 5 | od room | curated
+The Cribs | indie rock | jcm800 | 6 | fuzz dry | curated
+Hard-Fi | indie rock | ac30 | 4 | dotted room | curated
+The Kooks | indie pop | ac30 | 3 | chorus room | curated
+Foals | math rock | jazz | 4 | delay chorus bright | curated
+Two Door Cinema Club | indie pop | jazz | 3 | delay bright | curated
+The Maccabees | indie rock | ac30 | 4 | dotted hall | curated
+Wild Beasts | art rock | twin | 2 | chorus delay hall | curated
+Editors | post-punk | ac30 | 4 | dotted chorus hall | curated
+The Horrors | post-punk | ac30 | 5 | fuzz chorus cavern | curated
+Klaxons | indie rock | jcm800 | 6 | flanger delay | curated
+Arctic Monkeys | indie rock | hiwatt | 6 | fuzz trem spring | curated
+Royal Blood | garage rock | jcm800 | 8 | octfuzz fuzz dry | curated
+Slaves | punk | jcm800 | 7 | fuzz dry | curated
+Idles | post-punk | jcm800 | 7 | fuzz dist delay | curated
+Shame | post-punk | ac30 | 6 | fuzz room | curated
+Black Midi | art rock | twin | 6 | fuzz dry | curated
+Squid | post-punk | jazz | 4 | delay chorus | curated
+Dry Cleaning | post-punk | jazz | 3 | chorus delay | curated
+The Murder Capital | post-punk | ac30 | 5 | delay hall | curated
+Wet Leg | indie rock | ac30 | 5 | fuzz room | curated
+Sports Team | indie rock | ac30 | 5 | room | curated
+Yard Act | post-punk | ac30 | 4 | slap room | curated
+Black Country, New Road | art rock | twin | 3 | delay hall | curated
+The Last Dinner Party | art rock | ac30 | 4 | chorus hall | curated
+English Teacher | post-punk | jazz | 4 | delay chorus | curated
+The Snuts | indie rock | ac30 | 5 | delay room | curated
+Courteeners | indie rock | jcm800 | 5 | delay room | curated
+Catfish and the Bottlemen | indie rock | jcm800 | 5 | od room | curated
+Blossoms | indie pop | ac30 | 3 | chorus room | curated
+The 1975 | indie pop | jazz | 2 | chorus ambient hall | curated
+Inhaler | indie rock | ac30 | 5 | dotted hall | curated
+The Coral | psych pop | ac30 | 4 | trem spring | curated
+The Zutons | indie rock | ac30 | 4 | room | curated
+The Bravery | indie rock | jcm800 | 5 | chorus delay | curated
+Echo and the Bunnymen | post-punk | ac30 | 3 | chorus hall | curated
+The Teardrop Explodes | post-punk | ac30 | 3 | chorus room | curated
+The Chameleons | post-punk | jazz | 3 | chorus delay hall | curated
+The Sound | post-punk | jazz | 4 | chorus delay | curated
+The Psychedelic Furs | post-punk | ac30 | 4 | chorus delay hall | curated
+Siouxsie and the Banshees | post-punk | jazz | 4 | flanger chorus hall | curated
+The Jesus and Mary Chain | noise pop | twin | 7 | fuzz cavern | curated
+My Bloody Valentine | shoegaze | twin | 7 | fuzz reverse cavern | curated
+Ride | shoegaze | ac30 | 5 | chorus delay hall | curated
+Slowdive | shoegaze | twin | 3 | chorus ambient cavern | curated
+Lush | shoegaze | jazz | 4 | chorus delay hall | curated
+Chapterhouse | shoegaze | jazz | 5 | flanger cavern | curated
+Swervedriver | shoegaze | jcm800 | 7 | fuzz phaser delay | curated
+Spacemen 3 | psych rock | ac30 | 6 | fuzz trem cavern | curated
+Spiritualized | space rock | ac30 | 5 | fuzz trem ambient | curated
+Primal Scream | rock | ac30 | 5 | wah room | curated
+Teenage Fanclub | power pop | ac30 | 5 | od room | curated
+The Jam | mod | ac30 | 5 | bright room | curated
+Paul Weller | mod rock | ac30 | 5 | vibe room | curated
+The Who | classic rock | hiwatt | 6 | room | curated
+The Kinks | british invasion | ac15 | 7 | fuzz dry | curated
+The Beatles | british invasion | ac30 | 3 | room spring | curated
+The Rolling Stones | rock | tweed | 5 | room | curated
+The Clash | punk | jcm800 | 6 | room | curated
+Sex Pistols | punk | jcm800 | 7 | dry | curated
+The Damned | punk | jcm800 | 6 | room | curated
+Buzzcocks | punk | ac30 | 6 | dry | curated
+Wire | post-punk | ac30 | 4 | dry | curated
+Gang of Four | post-punk | ac30 | 4 | bright dry | curated
+The Fall | post-punk | ac30 | 5 | lofi room | curated
+New Order | post-punk | jazz | 3 | chorus delay | curated
+The Housemartins | jangle pop | twin | 2 | chorus room | curated
+Aztec Camera | jangle pop | twin | 2 | chorus room | curated
+Orange Juice | jangle pop | twin | 2 | chorus room | curated
+The Cure | post-punk | jazz | 3 | chorus flanger hall | curated
+Talk Talk | art rock | twin | 1 | trem hall | curated
+Cocteau Twins | dream pop | jazz | 2 | chorus ambient cavern | curated
+The Verve | britpop | ac30 | 4 | flanger tape cavern | curated
+Richard Ashcroft | britpop | ac30 | 3 | delay hall | curated
+Noel Gallagher's High Flying Birds | britpop | jcm800 | 5 | od delay | curated
+Liam Gallagher | britpop | jcm800 | 6 | od room | curated
+Beady Eye | britpop | ac30 | 5 | room | curated
+Gerry Cinnamon | folk rock | acoustic | 0 | room | curated
+Sam Fender | heartland rock | twin | 4 | od delay hall | curated
+The Charlatans | madchester | ac30 | 4 | wah vibe room | curated
+Placebo | alt rock | jcm800 | 6 | facefuzz chorus mids | curated
+Muse | alt rock | jcm800 | 8 | facefuzz dotted hall | curated
+Bombay Bicycle Club | indie rock | jazz | 3 | delay hall | curated
+alt-J | indie rock | twin | 2 | delay room | curated
+Glasvegas | shoegaze | twin | 5 | chorus delay cavern | curated
+Frightened Rabbit | indie rock | ac30 | 4 | delay hall | curated
+The Twilight Sad | post-punk | twin | 6 | fuzz delay cavern | curated
+Fontaines D.C. | post-punk | ac30 | 5 | fuzz slap bright | curated
+The Undertones | punk | jcm800 | 6 | dry | curated
+Thin Lizzy | hard rock | jcm800 | 6 | wah delay | curated
+Therapy? | alt metal | jcm800 | 7 | tight dry | curated
+Ash | power pop | jcm800 | 6 | fuzz chorus | curated

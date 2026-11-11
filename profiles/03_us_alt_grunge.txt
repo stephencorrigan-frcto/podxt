@@ -1,0 +1,116 @@
+# US alternative, grunge, college rock, emo
+R.E.M. | jangle pop | twin | 3 | chorus bright room | curated
+Sonic Youth | noise rock | twin | 6 | fuzz room | curated
+Dinosaur Jr. | noise rock | plexilead | 8 | fuzz room | curated
+Hüsker Dü | punk | jcm800 | 7 | fuzz chorus | curated
+The Replacements | punk | jcm800 | 6 | room | curated
+Pavement | indie rock | twin | 5 | fuzz lofi | curated
+Built to Spill | indie rock | deluxe | 5 | fuzz delay | curated
+Modest Mouse | indie rock | twin | 5 | delay bright | curated
+Mudhoney | grunge | jcm800 | 8 | fuzz dark | curated
+Screaming Trees | grunge | plexi | 6 | fuzz wah | curated
+Mother Love Bone | grunge | jcm800 | 6 | chorus delay | curated
+Melvins | sludge | criminal | 9 | fuzz dark | curated
+L7 | grunge | jcm800 | 7 | fuzz dry | curated
+Babes in Toyland | grunge | jcm800 | 7 | fuzz dry | curated
+Silverchair | grunge | recto | 7 | fuzz wah | curated
+Temple Of The Dog | grunge | twin | 5 | od wah delay | curated
+Mad Season | grunge | soldano | 6 | wah chorus delay | curated
+Candlebox | grunge | jcm800 | 6 | chorus delay | curated
+Collective Soul | alt rock | jcm800 | 6 | chorus delay | curated
+Live | alt rock | jcm800 | 6 | chorus delay | curated
+Toadies | alt rock | jcm800 | 7 | fuzz room | curated
+Veruca Salt | alt rock | jcm800 | 7 | fuzz room | curated
+The Breeders | alt rock | twin | 5 | fuzz room | curated
+Belly | alt rock | twin | 4 | chorus room | curated
+Throwing Muses | alt rock | twin | 4 | room | curated
+Jawbreaker | punk | jcm800 | 7 | room | curated
+Jawbox | post-hardcore | jcm800 | 6 | chorus delay | curated
+Fugazi | post-hardcore | jcm800 | 5 | bright dry | curated
+Quicksand | post-hardcore | recto | 7 | tight dry | curated
+Helmet | alt metal | recto | 8 | tight dry | curated
+Failure | space rock | jcm800 | 6 | fuzz delay hall | curated
+Hum | space rock | recto | 8 | fuzz delay | curated
+Shudder to Think | art rock | jcm800 | 5 | chorus delay | curated
+The Afghan Whigs | alt rock | jcm800 | 6 | fuzz room | curated
+Soul Asylum | alt rock | jcm800 | 6 | room | curated
+Gin Blossoms | jangle pop | twin | 3 | chorus room | curated
+Counting Crows | heartland rock | deluxe | 3 | room | curated
+The Wallflowers | heartland rock | deluxe | 4 | trem room | curated
+Matchbox Twenty | alt rock | jcm800 | 5 | delay | curated
+Goo Goo Dolls | alt rock | jcm800 | 5 | chorus delay | curated
+Everclear | alt rock | jcm800 | 6 | od dry | curated
+Semisonic | power pop | ac30 | 4 | chorus room | curated
+Fountains of Wayne | power pop | ac30 | 5 | room | curated
+The Presidents of the USA | alt rock | jcm800 | 6 | fuzz dry | curated
+Marcy Playground | alt rock | twin | 3 | room | curated
+Local H | alt rock | jcm800 | 7 | fuzz dry | curated
+Lit | pop punk | recto | 6 | od room | curated
+Third Eye Blind | alt rock | ac30 | 5 | chorus delay | curated
+Weezer | power pop | mesa | 7 | fuzz tight | curated
+Nada Surf | power pop | deluxe | 5 | od chorus room | curated
+Superdrag | power pop | jcm800 | 6 | od room | curated
+Jimmy Eat World | emo | jcm800 | 6 | od delay | curated
+The Get Up Kids | emo | jcm800 | 5 | od room | curated
+Sunny Day Real Estate | emo | twin | 5 | fuzz delay hall | curated
+Mineral | emo | twin | 4 | delay hall | curated
+American Football | emo | jazz | 1 | chorus delay | curated
+Cap'n Jazz | emo | twin | 5 | dry | curated
+Brand New | emo | jcm800 | 6 | delay hall | curated
+Taking Back Sunday | emo | recto | 6 | delay | curated
+Thursday | post-hardcore | recto | 7 | delay | curated
+Thrice | post-hardcore | recto | 7 | delay hall | curated
+Death Cab for Cutie | indie rock | twin | 3 | chorus delay | curated
+The Shins | indie pop | twin | 3 | spring room | curated
+Spoon | indie rock | deluxe | 4 | slap dry | curated
+Interpol | post-punk | ac30 | 4 | delay bright room | curated
+Yeah Yeah Yeahs | garage rock | ac30 | 6 | fuzz delay | curated
+TV on the Radio | art rock | twin | 4 | fuzz delay | curated
+LCD Soundsystem | dance punk | jazz | 3 | chorus delay | curated
+The National | indie rock | deluxe | 3 | trem delay hall | curated
+Wilco | alt country | deluxe | 4 | fuzz trem tape | curated
+Grandaddy | indie rock | twin | 3 | phaser lofi | curated
+Neutral Milk Hotel | indie folk | acoustic | 0 | lofi room | curated
+The Flaming Lips | psych rock | twin | 6 | fuzz phaser delay | curated
+Mercury Rev | dream pop | twin | 3 | trem ambient | curated
+Sparklehorse | indie rock | supro | 4 | lofi trem | curated
+Elliott Smith | indie folk | acoustic | 0 | room | curated
+Bright Eyes | indie folk | acoustic | 0 | room | curated
+My Morning Jacket | indie rock | deluxe | 5 | slap hall | curated
+Band of Horses | indie rock | twin | 4 | delay cavern | curated
+Fleet Foxes | indie folk | acoustic | 0 | hall | curated
+Grizzly Bear | indie rock | twin | 2 | trem delay hall | curated
+Dirty Projectors | art rock | twin | 3 | dry bright | curated
+Vampire Weekend | indie pop | jazz | 2 | bright room | curated
+The Walkmen | indie rock | ac30 | 4 | trem hall | curated
+Kings of Leon | indie rock | ac30 | 5 | dotted hall | curated
+The White Stripes | garage rock | supro | 7 | octfuzz fuzz dry | curated
+The Black Keys | garage rock | supro | 7 | fuzz dry | curated
+The Raconteurs | garage rock | smalltweed | 6 | fuzz room | curated
+Jack White | garage rock | supro | 7 | octfuzz fuzz | curated
+The Hives | garage rock | ac30 | 6 | dry bright | curated
+The Vines | garage rock | jcm800 | 7 | fuzz dry | curated
+Jet | garage rock | jcm800 | 6 | room | curated
+Wolfmother | stoner rock | plexi | 7 | fuzz wah | curated
+Queens of the Stone Age | stoner rock | jmp | 6 | mids dry | curated
+Kyuss | stoner rock | criminal | 8 | fuzz dark | curated
+Fu Manchu | stoner rock | plexi | 8 | fuzz phaser | curated
+Monster Magnet | stoner rock | plexi | 7 | fuzz wah | curated
+Eagles of Death Metal | garage rock | smalltweed | 6 | fuzz room | curated
+Them Crooked Vultures | stoner rock | plexi | 7 | fuzz | curated
+Foo Fighters | alt rock | recto | 6 | od bright room | curated
+Pearl Jam | grunge | twin | 5 | od wah delay | curated
+Soundgarden | grunge | mesa | 7 | octfuzz wah mids | curated
+Alice In Chains | grunge | soldano | 7 | wah chorus dark | curated
+Nirvana | grunge | mesa | 7 | dist chorus dark | curated
+Stone Temple Pilots | grunge | jcm800 | 6 | flanger delay | curated
+Audioslave | alt rock | jcm800 | 7 | fuzz wah delay | curated
+Incubus | alt rock | recto | 5 | wah delay chorus | curated
+311 | alt rock | recto | 6 | chorus delay | curated
+Sublime | ska punk | twin | 3 | chorus spring | curated
+No Doubt | ska punk | jcm800 | 5 | chorus delay | curated
+Pixies | alt rock | twin | 5 | fuzz flanger room | curated
+Hole | grunge | jcm800 | 7 | fuzz room | curated
+Bush | grunge | jcm800 | 7 | od delay | curated
+Garbage | alt rock | jcm800 | 7 | fuzz trem | curated
+The Strokes | indie rock | deluxe | 5 | od bright dry | curated

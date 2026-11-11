@@ -1,0 +1,90 @@
+﻿# More artists worth having for tone
+Television Personalities | post-punk | twin | 4 | room | curated
+The Velvet Underground | proto-punk | twin | 5 | fuzz room | curated
+Lou Reed | rock | twin | 5 | room | curated
+Iggy Pop | punk | twin | 6 | room | curated
+The Modern Lovers | proto-punk | twin | 4 | room | curated
+Big Star | power pop | ac30 | 5 | room | curated
+Badfinger | power pop | ac30 | 4 | room | curated
+The Raspberries | power pop | plexi | 5 | room | curated
+Todd Rundgren | power pop | plexi | 5 | chorus | curated
+Electric Light Orchestra | art rock | ac30 | 4 | phaser hall | curated
+Wings | rock | ac30 | 4 | room | curated
+George Harrison | rock | ac30 | 3 | comp chorus room | curated
+Tom Verlaine | post-punk | twin | 4 | bright room | curated
+Robert Fripp | prog rock | plexi | 7 | fuzz delay | curated
+Adrian Belew | art rock | jcm800 | 6 | flanger delay | curated
+Johnny Greenwood | art rock | deluxe | 5 | dist trem | curated
+Thom Yorke | art rock | twin | 2 | ambient | curated
+Graham Coxon | britpop | ac30 | 6 | fuzz bright | curated
+Bernard Butler | britpop | jcm800 | 6 | flanger delay | curated
+John Squire | madchester | twin | 5 | wah delay | curated
+Johnny Marr | jangle pop | twin | 3 | chorus trem bright | curated
+Peter Buck | jangle pop | twin | 3 | bright room | curated
+J Mascis | noise rock | plexilead | 8 | fuzz | curated
+Lee Ranaldo | noise rock | twin | 6 | fuzz delay | curated
+Thurston Moore | noise rock | twin | 7 | fuzz room | curated
+Kim Deal | alt rock | twin | 5 | fuzz room | curated
+Frank Black | alt rock | twin | 5 | fuzz room | curated
+Joey Santiago | alt rock | twin | 6 | fuzz flanger | curated
+Stephen Malkmus | indie rock | twin | 5 | fuzz room | curated
+Doug Martsch | indie rock | deluxe | 5 | fuzz delay | curated
+Isaac Brock | indie rock | twin | 5 | delay | curated
+Ezra Koenig | indie pop | jazz | 2 | bright | curated
+Albert Hammond Jr. | indie rock | deluxe | 5 | od bright | curated
+Nick Valensi | indie rock | deluxe | 5 | od | curated
+Alex Turner | indie rock | hiwatt | 5 | fuzz trem | curated
+Miles Kane | indie rock | ac30 | 5 | fuzz room | curated
+The Last Shadow Puppets | indie rock | ac30 | 4 | trem spring | curated
+Nels Cline | alt country | twin | 6 | fuzz delay | curated
+Jeff Tweedy | alt country | deluxe | 4 | room | curated
+Jack Antonoff | indie pop | twin | 3 | chorus delay | curated
+Josh Klinghoffer | alt rock | twin | 4 | chorus delay | curated
+John Frusciante | funk rock | twin | 5 | fuzz chorus | curated
+Tom Morello | rap metal | jcm800 | 7 | wah delay | curated
+Kim Thayil | grunge | mesa | 7 | octfuzz | curated
+Jerry Cantrell | grunge | soldano | 7 | wah chorus | curated
+Mike McCready | grunge | twin | 5 | od wah | curated
+Stone Gossard | grunge | twin | 5 | od | curated
+Billy Corgan | alt rock | plexi | 8 | fuzz | curated
+James Iha | alt rock | twin | 3 | chorus | curated
+Stephen Carpenter | alt metal | recto | 9 | tight | curated
+Adam Jones | prog metal | diamond | 8 | delay | curated
+Dimebag Darrell | groove metal | insane | 9 | scoop tight | curated
+Kirk Hammett | thrash metal | recto | 9 | wah | curated
+James Hetfield | thrash metal | recto | 9 | scoop tight | curated
+Tony Iommi | heavy metal | variac | 7 | fuzz dark | curated
+Ritchie Blackmore | hard rock | plexilead | 7 | delay | curated
+Angus Young | hard rock | plexilead | 6 | mids dry | curated
+Malcolm Young | hard rock | plexilead | 5 | mids dry | curated
+Eddie Van Halen | hard rock | variac | 8 | phaser flanger | curated
+Nuno Bettencourt | hard rock | soldano | 7 | delay | curated
+Dave Gilmour | prog rock | hiwatt | 5 | fuzz delay hall | curated
+Andy Bell | shoegaze | ac30 | 5 | chorus delay | curated
+Neil Halstead | shoegaze | twin | 3 | chorus ambient | curated
+Rachel Goswell | shoegaze | twin | 3 | ambient cavern | curated
+Ed O'Brien | art rock | twin | 3 | ambient cavern | curated
+Kevin Drew | indie rock | twin | 5 | fuzz delay | curated
+Win Butler | indie rock | ac30 | 5 | hall | curated
+Dave Keuning | indie rock | ac30 | 5 | dotted | curated
+Matt Bellamy | alt rock | jcm800 | 8 | facefuzz | curated
+Brian Molko | alt rock | jcm800 | 6 | facefuzz chorus | curated
+Grian Chatten | post-punk | ac30 | 5 | slap | curated
+Carlos O'Connell | post-punk | ac30 | 5 | fuzz | curated
+Conor Curley | post-punk | ac30 | 5 | delay | curated
+Laura Marling | folk | acoustic | 0 | room | curated
+Marika Hackman | indie rock | twin | 5 | fuzz room | curated
+Nilüfer Yanya | indie rock | twin | 4 | chorus room | curated
+King Krule | indie rock | jazz | 3 | chorus delay hall | curated
+Black Pumas | soul | twin | 3 | fuzz spring | curated
+Leon Bridges | soul | twin | 2 | spring | curated
+Durand Jones and the Indications | soul | twin | 2 | spring | curated
+Lianne La Havas | neo soul | twin | 2 | chorus | curated
+Yussef Dayes | jazz | jazz | 2 | chorus delay | curated
+Ichika Nito | math rock | jazz | 1 | chorus ambient | curated
+Plini | prog metal | deity | 6 | chorus delay hall | curated
+Mateus Asato | neo soul | twin | 3 | comp chorus delay | curated
+Tim Henson | math rock | deity | 5 | chorus delay | curated
+Guthrie Govan | instrumental | jcm800 | 7 | delay hall | curated
+Andy Timmons | instrumental | jcm800 | 6 | delay hall | curated
+Tosin Abasi | djent | deity | 8 | chorus delay | curated

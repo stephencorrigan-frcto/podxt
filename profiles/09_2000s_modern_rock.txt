@@ -1,0 +1,80 @@
+﻿# 2000s to now rock and indie, plus Canada, Australia, Ireland, Scotland
+U2 | rock | ac30 | 4 | dotted bright hall | curated
+Simple Minds | new wave | ac30 | 4 | chorus delay hall | curated
+Big Country | new wave | ac30 | 5 | delay hall | curated
+The Waterboys | folk rock | ac30 | 4 | room | curated
+The Police | new wave | twin | 3 | chorus delay | curated
+Andy Summers | new wave | twin | 3 | chorus delay | curated
+The Pretenders | new wave | twin | 5 | chorus room | curated
+Elvis Costello and the Attractions | new wave | ac30 | 4 | room | curated
+XTC | new wave | ac30 | 4 | room | curated
+Squeeze | new wave | ac30 | 4 | room | curated
+Duran Duran | new wave | jcm800 | 5 | chorus delay | curated
+Tears for Fears | new wave | jazz | 3 | chorus delay hall | curated
+INXS | new wave | jcm800 | 5 | chorus delay | curated
+Midnight Oil | rock | jcm800 | 6 | room | curated
+Crowded House | pop rock | ac30 | 3 | chorus room | curated
+The Living End | rockabilly punk | jcm800 | 6 | slap | curated
+Powderfinger | alt rock | jcm800 | 6 | delay | curated
+Gang of Youths | heartland rock | ac30 | 5 | delay hall | curated
+The Jezabels | indie rock | twin | 4 | chorus delay hall | curated
+Hockey Dad | surf punk | twin | 6 | spring | curated
+DMA's | britpop | jcm800 | 5 | chorus delay | curated
+Ocean Alley | psych rock | twin | 3 | phaser spring | curated
+The Tragically Hip | rock | deluxe | 5 | room | curated
+Our Lady Peace | alt rock | recto | 7 | delay | curated
+Sloan | power pop | ac30 | 5 | room | curated
+Alexisonfire | post-hardcore | recto | 8 | delay | curated
+Death From Above 1979 | dance punk | criminal | 9 | fuzz | curated
+Arkells | indie rock | ac30 | 5 | room | curated
+Mother Mother | indie rock | ac30 | 5 | room | curated
+July Talk | indie rock | jcm800 | 6 | room | curated
+Greta Van Fleet | hard rock | plexi | 6 | room | curated
+Rival Sons | hard rock | plexi | 6 | room | curated
+The Struts | glam rock | plexi | 6 | room | curated
+Måneskin | hard rock | jcm800 | 7 | fuzz room | curated
+Nothing But Thieves | alt rock | recto | 7 | fuzz delay | curated
+Highly Suspect | alt rock | recto | 8 | fuzz delay | curated
+Cage the Elephant | garage rock | ac30 | 6 | fuzz room | curated
+Band of Skulls | garage rock | plexi | 7 | fuzz room | curated
+Blood Red Shoes | garage rock | jcm800 | 7 | fuzz room | curated
+The Kills | garage rock | twin | 6 | fuzz trem | curated
+Dead Weather | garage rock | supro | 8 | fuzz | curated
+Phoenix | indie pop | jazz | 3 | chorus bright | curated
+The Vaccines | indie rock | ac30 | 5 | spring room | curated
+The Wombats | indie pop | ac30 | 4 | chorus room | curated
+Circa Waves | indie rock | ac30 | 5 | room | curated
+Spector | indie rock | ac30 | 4 | room | curated
+Peace | indie rock | ac30 | 4 | chorus room | curated
+Swim Deep | indie pop | twin | 3 | chorus delay | curated
+Palma Violets | indie rock | ac30 | 5 | room | curated
+Fat White Family | garage rock | twin | 6 | fuzz spring | curated
+Goat Girl | post-punk | twin | 5 | spring | curated
+Porridge Radio | indie rock | twin | 6 | fuzz room | curated
+Bdrmm | shoegaze | jazz | 5 | chorus cavern | curated
+Just Mustard | noise rock | twin | 7 | fuzz cavern | curated
+Sprints | post-punk | jcm800 | 7 | fuzz room | curated
+The Mary Wallopers | folk punk | acoustic | 0 | room | curated
+Lankum | folk | acoustic | 0 | cavern | curated
+Kneecap | hip hop | jazz | 2 | delay | curated
+Bicep | electronic | jazz | 2 | chorus delay | curated
+Twin Atlantic | alt rock | recto | 7 | delay | curated
+Fatherson | indie rock | ac30 | 5 | delay hall | curated
+The Fratellis | indie rock | ac30 | 5 | room | curated
+Belle and Sebastian | indie pop | twin | 2 | room | curated
+Camera Obscura | indie pop | twin | 2 | trem spring | curated
+The Delgados | indie rock | twin | 4 | room | curated
+Arab Strap | indie rock | twin | 3 | room | curated
+Kelly Jones | britpop | ac30 | 4 | room | curated
+Gruff Rhys | psych pop | twin | 3 | trem | curated
+Los Campesinos! | indie pop | ac30 | 5 | room | curated
+Funeral for a Friend | post-hardcore | recto | 7 | delay | curated
+Skindred | rap metal | recto | 9 | tight | curated
+Boston Manor | pop punk | recto | 7 | chorus | curated
+Holding Absence | post-hardcore | recto | 7 | delay hall | curated
+Creeper | punk | jcm800 | 7 | room | curated
+Enter Shikari | post-hardcore | recto | 8 | delay | curated
+You Me at Six | pop punk | recto | 7 | delay | curated
+Don Broco | alt rock | recto | 8 | tight | curated
+Pendulum | drum and bass | recto | 8 | tight | curated
+The Prodigy | big beat | recto | 8 | fuzz | curated

@@ -26,12 +26,14 @@ from pathlib import Path
 if getattr(sys, "frozen", False):
     # Packaged app: keep editable data next to the .exe, seeded from the bundle.
     HERE = Path(sys.executable).resolve().parent
-    for _name in ("patches.json", "models.json"):
+    for _name in ("patches.json", "models.json", "library.json", "layout.json"):
         if not (HERE / _name).exists():
             (HERE / _name).write_bytes((Path(sys._MEIPASS) / _name).read_bytes())
 else:
     HERE = Path(__file__).resolve().parent
-PATCHES = HERE / "patches.json"
+PATCHES = HERE / "patches.json"   # hand-tuned patches
+LIBRARY = HERE / "library.json"   # generated artist library (tones.py)
+LAYOUT = HERE / "layout.json"     # slot label -> patch key, what the XT should hold
 MODELS = HERE / "models.json"
 
 CHANNEL = 0  # XT default MIDI channel 1
@@ -178,6 +180,23 @@ def save_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
         f.write("\n")
+
+
+def all_patches():
+    """Hand-tuned patches plus the generated library; hand-tuned wins on a clash."""
+    patches = {}
+    if LIBRARY.exists():
+        patches.update(load_json(LIBRARY).get("patches", {}))
+    patches.update(load_json(PATCHES))
+    return patches
+
+
+def load_layout():
+    return load_json(LAYOUT) if LAYOUT.exists() else {}
+
+
+def save_layout(layout):
+    save_json(LAYOUT, {k: layout[k] for k in sorted(layout, key=parse_slot)})
 
 
 def load_models():
@@ -507,7 +526,7 @@ def cmd_ports(args):
 
 def cmd_list(args):
     models = load_models()
-    for name, p in load_json(PATCHES).items():
+    for name, p in all_patches().items():
         m = p.get("models", {})
         on = [b for b, v in p.get("on", {}).items() if v]
         print(f"{name}: {p.get('description', '')}")
@@ -536,8 +555,8 @@ def cmd_models(args):
 
 def cmd_send(args):
     models = load_models()
-    patches = load_json(PATCHES)
-    names = list(patches) if args.patch == "all" else [args.patch]
+    patches = all_patches()
+    names = list(load_layout().values()) if args.patch == "all" else [args.patch]
     for n in names:
         if n not in patches:
             sys.exit(f"No patch '{n}'. Have: {', '.join(patches)}")
@@ -636,64 +655,94 @@ def cmd_backup(args):
     print(f"Backed up {len(slots)} slots to {path.name}")
 
 
+def store_slots(t, models, patches, pairs):
+    """Write [(slot label, patch key), ...] to the XT. Each slot is read and kept in
+    one backup file first, and nothing is written to a slot that couldn't be backed up.
+    Returns the labels that failed."""
+    backup, failed = {}, []
+    BACKUPS.mkdir(exist_ok=True)
+    bak = BACKUPS / f"commit-{time.strftime('%Y%m%d-%H%M%S')}.json"
+    for i, (label, key) in enumerate(pairs, 1):
+        slot = parse_slot(label)
+        patch = patches[key]
+        print(f"[{i}/{len(pairs)}] {label} <- {patch.get('artist', '')}: {patch.get('name', key)}")
+        old = t.read_slot(slot) or t.read_slot(slot) or t.read_slot(slot)
+        if old is None:
+            print(f"   couldn't read {label} to back it up, skipped")
+            failed.append(label)
+            continue
+        backup[label] = old
+        save_json(bak, backup)
+        print(f"   was '{slot_name(old)}'")
+        send_patch(t, models, key, patch, verify=True)
+        dump = t.edit_buffer()
+        if not dump or len(dump[1]) != PATCH_SIZE or not t.write_slot(slot, dump[1]):
+            print("   FAILED to store")
+            failed.append(label)
+            continue
+        check = t.read_slot(slot) or t.read_slot(slot)
+        if check == dump[1]:
+            print(f"   stored '{slot_name(dump[1])}', read back matches")
+        else:
+            print("   READ BACK DIFFERS")
+            failed.append(label)
+    if backup:
+        print(f"Previous contents backed up to {bak.name}")
+    return failed
+
+
 def cmd_store(args):
     """Send a patch, then write the edit buffer into a slot (after backing it up)."""
     if not args.usb:
         sys.exit("store needs --usb")
-    models = load_models()
-    patches = load_json(PATCHES)
+    patches = all_patches()
     if args.patch not in patches:
         sys.exit(f"No patch '{args.patch}'.")
-    slot = parse_slot(args.slot)
-    label = channel_label(slot)
+    label = channel_label(parse_slot(args.slot))
     t = UsbTransport()
     try:
-        old = t.read_slot(slot) or t.read_slot(slot) or t.read_slot(slot)
-        if old is None:
-            sys.exit(f"Couldn't read {label} to back it up. Nothing written.")
-        BACKUPS.mkdir(exist_ok=True)
-        bak = BACKUPS / f"{label}-{time.strftime('%Y%m%d-%H%M%S')}.json"
-        save_json(bak, {label: old})
-        print(f"   {label} was '{slot_name(old)}', backed up to {bak.name}")
-        send_patch(t, models, args.patch, patches[args.patch], verify=True)
-        dump = t.edit_buffer()
-        if not dump or len(dump[1]) != PATCH_SIZE:
-            sys.exit("Couldn't read the edit buffer. Nothing written.")
-        if not t.write_slot(slot, dump[1]):
-            sys.exit(f"XT did not confirm the store to {label}.")
-        check = t.read_slot(slot)
-        ok = check == dump[1]
-        print(f"   stored to {label} as '{slot_name(dump[1])}'"
-              + (", read back matches" if ok else ", READ BACK DIFFERS"))
+        failed = store_slots(t, load_models(), patches, [(label, args.patch)])
     finally:
         t.close()
+    if failed:
+        sys.exit(f"Store to {label} failed.")
 
 
 def cmd_store_library(args):
-    """Store every patch that has a "slot". Run `backup` first: no per-slot backups here."""
+    """Write every slot in layout.json to the XT."""
     if not args.usb:
         sys.exit("store-library needs --usb")
-    models = load_models()
-    todo = [(k, p) for k, p in load_json(PATCHES).items() if p.get("slot")]
-    failed = []
+    commit_layout(load_layout())
+
+
+def commit_layout(pairs):
+    """Store {label: key} or [(label, key)] pairs; used by the CLI and the app."""
+    pairs = sorted(pairs.items() if isinstance(pairs, dict) else pairs,
+                   key=lambda kv: parse_slot(kv[0]))
+    patches = all_patches()
+    missing = [k for _, k in pairs if k not in patches]
+    if missing:
+        sys.exit(f"Unknown patches in layout: {', '.join(missing)}")
     t = UsbTransport()
     try:
-        for i, (key, patch) in enumerate(todo, 1):
-            slot = parse_slot(patch["slot"])
-            label = channel_label(slot)
-            print(f"[{i}/{len(todo)}] {label}", end=" ")
-            send_patch(t, models, key, patch)
-            dump = t.edit_buffer() or t.edit_buffer()
-            ok = bool(dump) and len(dump[1]) == PATCH_SIZE and t.write_slot(slot, dump[1])
-            check = t.read_slot(slot) or t.read_slot(slot) if ok else None
-            if ok and check == dump[1]:
-                print(f"   stored '{slot_name(dump[1])}', read back matches")
-            else:
-                print("   FAILED")
-                failed.append(label)
+        failed = store_slots(t, load_models(), patches, pairs)
     finally:
         t.close()
-    print(f"Done: {len(todo) - len(failed)} stored" + (f", failed: {', '.join(failed)}" if failed else ""))
+    print(f"Done: {len(pairs) - len(failed)} stored" + (f", failed: {', '.join(failed)}" if failed else ""))
+    return failed
+
+
+def read_slot_names():
+    """Read the name stored in every slot: {label: name}."""
+    t = UsbTransport()
+    names = {}
+    try:
+        for n in range(128):
+            data = t.read_slot(n) or t.read_slot(n)
+            names[channel_label(n)] = slot_name(data) if data else None
+    finally:
+        t.close()
+    return names
 
 
 def cmd_restore(args):

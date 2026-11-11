@@ -1,0 +1,113 @@
+﻿# Psych, shoegaze, dream pop, post-rock, ambient guitar
+Explosions in the Sky | post rock | twin | 2 | delay cavern | curated
+Godspeed You! Black Emperor | post rock | twin | 4 | trem ambient cavern | curated
+This Will Destroy You | post rock | twin | 3 | ambient cavern | curated
+Sigur Ros | post rock | twin | 4 | ambient cavern | curated
+Mono | post rock | twin | 4 | ambient cavern | curated
+65daysofstatic | post rock | twin | 5 | delay hall | curated
+God Is an Astronaut | post rock | twin | 4 | delay cavern | curated
+Caspian | post rock | twin | 5 | delay cavern | curated
+And So I Watch You from Afar | math rock | jcm800 | 6 | delay | curated
+Maybeshewill | post rock | twin | 5 | delay hall | curated
+Tortoise | post rock | jazz | 2 | delay | curated
+Don Caballero | math rock | jcm800 | 6 | dry | curated
+Battles | math rock | jazz | 4 | delay | curated
+Tera Melos | math rock | jazz | 5 | delay | curated
+Toe | math rock | jazz | 3 | delay hall | curated
+Chon | math rock | jazz | 2 | delay hall | curated
+Covet | math rock | jazz | 3 | delay hall | curated
+Polyphia | math rock | deity | 6 | chorus delay hall | curated
+Pinegrove | indie rock | deluxe | 4 | room | curated
+Beach House | dream pop | twin | 2 | chorus ambient cavern | curated
+Wild Nothing | dream pop | jazz | 2 | chorus delay | curated
+DIIV | dream pop | jazz | 3 | chorus delay hall | curated
+Real Estate | jangle pop | twin | 2 | chorus delay | curated
+Mac DeMarco | indie pop | twin | 2 | chorus vibe | curated
+Alvvays | dream pop | twin | 4 | chorus delay hall | curated
+Japanese Breakfast | indie pop | twin | 3 | chorus delay | curated
+Mazzy Star | dream pop | twin | 3 | trem cavern | curated
+Galaxie 500 | dream pop | twin | 3 | room | curated
+Low | slowcore | twin | 4 | ambient cavern | curated
+Red House Painters | slowcore | twin | 2 | hall | curated
+Codeine | slowcore | twin | 6 | fuzz hall | curated
+Duster | slowcore | twin | 5 | fuzz lofi | curated
+Catherine Wheel | shoegaze | jcm800 | 6 | chorus delay hall | curated
+Pale Saints | shoegaze | jazz | 4 | chorus cavern | curated
+Medicine | shoegaze | twin | 8 | fuzz reverse cavern | curated
+Curve | shoegaze | jcm800 | 6 | fuzz chorus | curated
+Drop Nineteens | shoegaze | twin | 6 | fuzz cavern | curated
+Nothing | shoegaze | recto | 7 | chorus cavern | curated
+Whirr | shoegaze | recto | 7 | chorus cavern | curated
+Narrow Head | shoegaze | recto | 7 | fuzz chorus | curated
+Hum | space rock | recto | 8 | fuzz delay | curated
+Have a Nice Life | shoegaze | twin | 7 | fuzz cavern | curated
+A Place to Bury Strangers | noise rock | twin | 8 | fuzz flanger | curated
+The Brian Jonestown Massacre | psych rock | ac30 | 5 | fuzz trem spring | curated
+The Black Angels | psych rock | ac30 | 6 | fuzz trem cavern | curated
+Temples | psych rock | ac30 | 4 | phaser delay | curated
+Pond | psych rock | twin | 5 | fuzz phaser | curated
+Unknown Mortal Orchestra | psych rock | twin | 4 | fuzz phaser lofi | curated
+Khruangbin | psych funk | twin | 2 | spring scoop | curated
+Allah-Las | surf rock | twin | 3 | spring trem | curated
+The Growlers | surf rock | twin | 3 | spring trem | curated
+Night Beats | psych rock | twin | 5 | fuzz spring | curated
+Kurt Vile | indie rock | twin | 4 | chorus delay | curated
+The War on Drugs | heartland rock | twin | 4 | chorus ambient cavern | curated
+Ryley Walker | psych folk | acoustic | 0 | hall | curated
+Steve Gunn | psych folk | deluxe | 3 | delay | curated
+William Tyler | ambient guitar | twin | 2 | ambient cavern | curated
+Daniel Lanois | ambient guitar | twin | 3 | ambient cavern | curated
+Robin Guthrie | dream pop | jazz | 2 | chorus ambient cavern | curated
+Kevin Shields | shoegaze | twin | 8 | fuzz reverse cavern | curated
+Durutti Column | post-punk | jazz | 1 | chorus delay hall | curated
+The Feelies | jangle pop | twin | 4 | bright room | curated
+The Bats | jangle pop | twin | 3 | room | curated
+The Clean | jangle pop | twin | 4 | lofi room | curated
+The Chills | jangle pop | twin | 3 | room | curated
+The Go-Betweens | jangle pop | twin | 3 | room | curated
+The Church | psych rock | jazz | 4 | chorus delay hall | curated
+Hoodoo Gurus | garage rock | jcm800 | 6 | room | curated
+The Triffids | indie rock | twin | 3 | trem hall | curated
+Nick Cave and the Bad Seeds | post-punk | twin | 5 | trem hall | curated
+Grinderman | garage rock | twin | 8 | fuzz | curated
+The Birthday Party | post-punk | twin | 7 | room | curated
+Boris | drone | variac | 9 | fuzz cavern | curated
+Earth | drone | twin | 6 | trem cavern | curated
+Om | doom | variac | 7 | fuzz cavern | curated
+Windhand | doom | variac | 9 | fuzz cavern | curated
+Uncle Acid and the Deadbeats | doom | variac | 8 | fuzz room | curated
+Graveyard | stoner rock | plexi | 6 | room | curated
+Kadavar | stoner rock | plexi | 7 | fuzz room | curated
+Elder | stoner rock | plexi | 7 | fuzz delay | curated
+Truckfighters | stoner rock | criminal | 8 | fuzz | curated
+Clutch | stoner rock | plexi | 7 | room | curated
+Red Fang | stoner rock | jcm800 | 8 | fuzz | curated
+All Them Witches | psych rock | ac30 | 5 | fuzz delay | curated
+Portishead | trip hop | twin | 3 | trem spring | curated
+Massive Attack | trip hop | twin | 5 | fuzz delay | curated
+Air | dream pop | jazz | 2 | chorus delay | curated
+Broken Social Scene | indie rock | twin | 5 | fuzz delay hall | curated
+Stars | indie pop | twin | 2 | chorus delay | curated
+Metric | indie rock | jcm800 | 6 | fuzz delay | curated
+Wolf Parade | indie rock | ac30 | 5 | room | curated
+Destroyer | indie rock | twin | 3 | delay | curated
+The New Pornographers | power pop | ac30 | 5 | room | curated
+Big Thief | indie folk | deluxe | 4 | fuzz room | curated
+Adrianne Lenker | indie folk | acoustic | 0 | room | curated
+Phoebe Bridgers | indie folk | twin | 2 | delay hall | curated
+Boygenius | indie rock | twin | 4 | delay hall | curated
+Julien Baker | indie rock | twin | 2 | ambient cavern | curated
+Snail Mail | indie rock | twin | 5 | chorus room | curated
+Soccer Mommy | indie rock | twin | 4 | chorus room | curated
+Mitski | indie rock | twin | 5 | fuzz room | curated
+Waxahatchee | indie rock | deluxe | 4 | room | curated
+Angel Olsen | indie rock | twin | 4 | trem spring | curated
+Sharon Van Etten | indie rock | twin | 4 | delay hall | curated
+Courtney Barnett | indie rock | deluxe | 6 | fuzz room | curated
+Car Seat Headrest | indie rock | jcm800 | 6 | fuzz room | curated
+Alex G | indie rock | twin | 3 | lofi room | curated
+Wednesday | indie rock | twin | 7 | fuzz room | curated
+Horsegirl | indie rock | twin | 6 | fuzz room | curated
+MJ Lenderman | indie rock | deluxe | 5 | fuzz room | curated
+Momma | indie rock | jcm800 | 6 | fuzz chorus | curated
+Wishy | indie rock | twin | 5 | chorus delay | curated

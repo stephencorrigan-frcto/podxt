@@ -1,0 +1,120 @@
+﻿# Funk, soul, pop, country, jazz, folk and world guitar
+Chic | disco | jazz | 1 | comp bright | curated
+Nile Rodgers | funk | jazz | 1 | comp bright dry | curated
+Prince | funk rock | jcm800 | 5 | chorus delay | curated
+Parliament-Funkadelic | funk | twin | 4 | fuzz wah | curated
+Funkadelic | funk rock | twin | 6 | fuzz wah | curated
+Sly and the Family Stone | funk | twin | 3 | wah | curated
+James Brown | funk | twin | 1 | comp bright dry | curated
+The Meters | funk | twin | 2 | comp dry | curated
+Earth, Wind and Fire | funk | jazz | 1 | comp chorus | curated
+Kool and the Gang | funk | jazz | 1 | comp wah | curated
+Curtis Mayfield | soul | twin | 2 | trem spring | curated
+Marvin Gaye | soul | twin | 1 | chorus spring | curated
+Stevie Wonder | soul | twin | 2 | wah | curated
+Al Green | soul | twin | 1 | trem spring | curated
+Otis Redding | soul | twin | 2 | spring | curated
+Booker T. and the M.G.'s | soul | twin | 2 | spring | curated
+Steve Cropper | soul | twin | 2 | spring bright | curated
+Bill Withers | soul | acoustic | 0 | room | curated
+Vulfpeck | funk | twin | 1 | comp dry | curated
+Cory Wong | funk | twin | 1 | comp chorus dry | curated
+Tom Misch | neo soul | twin | 2 | chorus delay | curated
+Snarky Puppy | jazz fusion | twin | 3 | chorus delay | curated
+Jamiroquai | acid jazz | twin | 2 | wah chorus | curated
+Michael Jackson | pop | twin | 1 | comp chorus | curated
+Madonna | pop | jazz | 2 | chorus delay | curated
+Dua Lipa | pop | jazz | 2 | chorus delay | curated
+Harry Styles | pop rock | ac30 | 4 | chorus delay | curated
+Taylor Swift | pop | twin | 3 | delay hall | curated
+Olivia Rodrigo | pop punk | recto | 7 | room | curated
+Haim | pop rock | deluxe | 4 | chorus room | curated
+Sheryl Crow | pop rock | deluxe | 4 | room | curated
+Alanis Morissette | alt rock | jcm800 | 6 | room | curated
+The Cranberries | alt rock | jcm800 | 5 | chorus delay | curated
+The Corrs | pop rock | twin | 2 | chorus | curated
+Kings of Convenience | indie folk | acoustic | 0 | room | curated
+Johnny Cash | country | twin | 2 | slap room | curated
+Willie Nelson | country | acoustic | 0 | room | curated
+Merle Haggard | country | twin | 3 | slap spring | curated
+Buck Owens | country | twin | 3 | bright slap | curated
+Waylon Jennings | outlaw country | twin | 4 | phaser slap | curated
+Brad Paisley | country | twin | 5 | delay spring | curated
+Keith Urban | country | ac30 | 5 | delay | curated
+Chris Stapleton | country | tweed | 6 | room | curated
+Sturgill Simpson | country | deluxe | 5 | fuzz spring | curated
+Jason Isbell | americana | deluxe | 5 | room | curated
+Drive-By Truckers | southern rock | plexi | 6 | room | curated
+Lucinda Williams | americana | deluxe | 4 | trem room | curated
+Emmylou Harris | country | twin | 2 | spring | curated
+Gram Parsons | country rock | twin | 3 | spring | curated
+Ryan Adams | alt country | deluxe | 4 | trem room | curated
+Whiskeytown | alt country | deluxe | 5 | room | curated
+Uncle Tupelo | alt country | deluxe | 6 | room | curated
+Son Volt | alt country | deluxe | 4 | room | curated
+Old 97's | alt country | deluxe | 5 | slap room | curated
+Calexico | americana | twin | 3 | trem spring | curated
+Chris Isaak | rockabilly | twin | 2 | trem spring | curated
+Roy Orbison | rock and roll | twin | 1 | spring | curated
+The Everly Brothers | rock and roll | twin | 2 | spring | curated
+Wes Montgomery | jazz | jazz | 0 | dark room | curated
+Joe Pass | jazz | jazz | 0 | dark room | curated
+Pat Metheny | jazz | jazz | 1 | chorus delay hall | curated
+John Scofield | jazz | twin | 4 | chorus delay | curated
+Bill Frisell | jazz | twin | 3 | trem ambient hall | curated
+Allan Holdsworth | jazz fusion | mesa | 6 | delay hall | curated
+John McLaughlin | jazz fusion | twin | 6 | delay | curated
+Mahavishnu Orchestra | jazz fusion | twin | 6 | delay | curated
+Larry Carlton | jazz rock | twin | 4 | comp delay | curated
+Grant Green | jazz | jazz | 0 | dark room | curated
+Kenny Burrell | jazz | jazz | 0 | dark room | curated
+Django Reinhardt | gypsy jazz | acoustic | 0 | room | curated
+Ali Farka Toure | desert blues | twin | 2 | room | curated
+Tinariwen | desert blues | twin | 4 | room | curated
+Mdou Moctar | desert blues | ac30 | 6 | od delay | curated
+Bombino | desert blues | twin | 4 | room | curated
+Fela Kuti | afrobeat | twin | 1 | comp dry | curated
+King Sunny Ade | juju | jazz | 1 | chorus delay | curated
+Bob Marley and the Wailers | reggae | twin | 2 | room | curated
+Toots and the Maytals | reggae | twin | 2 | room | curated
+Ernest Ranglin | reggae | jazz | 1 | room | curated
+Buena Vista Social Club | cuban | acoustic | 0 | room | curated
+Paco de Lucia | flamenco | acoustic | 0 | hall | curated
+Rodrigo y Gabriela | flamenco | acoustic | 0 | room | curated
+Ennio Morricone | soundtrack | twin | 3 | trem spring | curated
+Hank Marvin | instrumental | ac30 | 2 | tape spring | curated
+Chet Atkins | country | twin | 1 | comp spring | curated
+Jerry Reed | country | twin | 2 | comp | curated
+Albert Lee | country | twin | 3 | comp slap | curated
+Danny Gatton | rockabilly | twin | 4 | slap | curated
+Tommy Emmanuel | acoustic | acoustic | 0 | room | curated
+John Martyn | folk | acoustic | 0 | tape | curated
+Nick Drake | folk | acoustic | 0 | room | curated
+Bert Jansch | folk | acoustic | 0 | room | curated
+Richard Thompson | folk rock | twin | 4 | room | curated
+Fairport Convention | folk rock | twin | 3 | room | curated
+Simon and Garfunkel | folk | acoustic | 0 | room | curated
+Joni Mitchell | folk | acoustic | 0 | room | curated
+Leonard Cohen | folk | acoustic | 0 | room | curated
+Damien Rice | folk | acoustic | 0 | room | curated
+Glen Hansard | folk | acoustic | 0 | room | curated
+Ben Howard | folk | acoustic | 0 | delay hall | curated
+Bon Iver | indie folk | twin | 2 | ambient hall | curated
+Iron and Wine | indie folk | acoustic | 0 | room | curated
+José González | indie folk | acoustic | 0 | room | curated
+Mumford and Sons | folk rock | acoustic | 0 | room | curated
+The Lumineers | folk rock | acoustic | 0 | room | curated
+Hozier | soul rock | deluxe | 4 | room | curated
+Ed Sheeran | pop | acoustic | 0 | room | curated
+Jack Johnson | soft rock | acoustic | 0 | room | curated
+Jeff Buckley | alt rock | twin | 4 | chorus delay hall | curated
+Tim Buckley | folk | twin | 2 | hall | curated
+Lana Del Rey | dream pop | twin | 2 | trem cavern | curated
+Billie Eilish | pop | twin | 1 | ambient hall | curated
+Lorde | pop | twin | 2 | ambient hall | curated
+St. Vincent | art rock | jcm800 | 7 | fuzz dry | curated
+PJ Harvey | alt rock | twin | 6 | fuzz room | curated
+Tori Amos | alt rock | twin | 3 | room | curated
+Bjork | art pop | twin | 3 | ambient | curated
+Kate Bush | art pop | twin | 3 | chorus hall | curated
+Peter Gabriel | art rock | twin | 4 | chorus delay hall | curated

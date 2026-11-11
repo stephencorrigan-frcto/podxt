@@ -1,0 +1,120 @@
+﻿# Punk, hardcore, pop punk, ska
+Ramones | punk | jcm800 | 7 | dry | curated
+The Stooges | proto-punk | twin | 7 | fuzz room | curated
+MC5 | proto-punk | plexi | 7 | fuzz room | curated
+New York Dolls | proto-punk | plexi | 6 | room | curated
+Television | post-punk | twin | 4 | bright room | curated
+Talking Heads | new wave | jazz | 3 | chorus bright | curated
+Blondie | new wave | ac30 | 5 | room | curated
+Patti Smith Group | punk | twin | 5 | room | curated
+Richard Hell and the Voidoids | punk | twin | 6 | room | curated
+Dead Kennedys | punk | jcm800 | 7 | chorus room | curated
+Black Flag | hardcore | jcm800 | 8 | dry | curated
+Minor Threat | hardcore | jcm800 | 8 | dry | curated
+Bad Brains | hardcore | jcm800 | 8 | dry | curated
+Descendents | pop punk | jcm800 | 7 | dry | curated
+Misfits | punk | jcm800 | 8 | room | curated
+Social Distortion | punk | jcm800 | 7 | room | curated
+X | punk | jcm800 | 6 | slap | curated
+The Gun Club | punk blues | twin | 5 | trem room | curated
+Wipers | punk | jcm800 | 7 | chorus | curated
+Minutemen | punk | twin | 4 | bright dry | curated
+Mission of Burma | post-punk | jcm800 | 6 | tape | curated
+Bad Religion | punk | jcm800 | 8 | dry | curated
+NOFX | punk | recto | 8 | dry | curated
+Pennywise | punk | recto | 8 | dry | curated
+The Offspring | punk | recto | 8 | dry | curated
+Green Day | pop punk | jcm800 | 7 | dry | curated
+Rancid | ska punk | jcm800 | 7 | room | curated
+Operation Ivy | ska punk | jcm800 | 6 | room | curated
+The Mighty Mighty Bosstones | ska punk | jcm800 | 7 | room | curated
+Less Than Jake | ska punk | jcm800 | 7 | dry | curated
+Reel Big Fish | ska punk | jcm800 | 6 | dry | curated
+The Specials | ska | twin | 3 | spring | curated
+Madness | ska | twin | 3 | room | curated
+The Selecter | ska | twin | 3 | spring | curated
+Blink-182 | pop punk | mesa | 7 | dry | curated
+Sum 41 | pop punk | recto | 8 | dry | curated
+Good Charlotte | pop punk | recto | 7 | dry | curated
+Simple Plan | pop punk | recto | 7 | dry | curated
+New Found Glory | pop punk | recto | 7 | dry | curated
+Fall Out Boy | pop punk | recto | 7 | delay | curated
+Paramore | pop punk | recto | 7 | delay | curated
+My Chemical Romance | emo | jcm800 | 8 | delay | curated
+Panic! at the Disco | pop punk | jcm800 | 6 | delay | curated
+All Time Low | pop punk | recto | 7 | dry | curated
+The Wonder Years | pop punk | recto | 7 | delay | curated
+Four Year Strong | pop punk | recto | 8 | dry | curated
+A Day to Remember | pop punk | criminal | 9 | dry | curated
+Neck Deep | pop punk | recto | 7 | dry | curated
+State Champs | pop punk | recto | 7 | dry | curated
+Alkaline Trio | punk | jcm800 | 7 | room | curated
+Against Me! | punk | jcm800 | 7 | room | curated
+Hot Water Music | punk | jcm800 | 7 | room | curated
+The Menzingers | punk | jcm800 | 6 | room | curated
+The Gaslight Anthem | punk | jcm800 | 6 | room | curated
+Title Fight | punk | jcm800 | 7 | chorus room | curated
+Basement | emo | jcm800 | 7 | chorus room | curated
+Citizen | emo | jcm800 | 7 | chorus delay | curated
+Touche Amore | post-hardcore | jcm800 | 8 | delay hall | curated
+La Dispute | post-hardcore | twin | 6 | delay hall | curated
+Pianos Become the Teeth | post-hardcore | twin | 6 | delay cavern | curated
+Defeater | hardcore | jcm800 | 8 | delay | curated
+Modern Baseball | emo | jcm800 | 5 | room | curated
+Joyce Manor | pop punk | jcm800 | 6 | room | curated
+Cloud Nothings | indie punk | jcm800 | 7 | fuzz room | curated
+Japandroids | indie punk | jcm800 | 7 | fuzz room | curated
+Titus Andronicus | indie punk | jcm800 | 7 | fuzz room | curated
+Pup | punk | jcm800 | 7 | room | curated
+Fidlar | surf punk | twin | 7 | fuzz spring | curated
+Wavves | surf punk | twin | 6 | fuzz spring | curated
+Ty Segall | garage rock | twin | 8 | fuzz room | curated
+Thee Oh Sees | garage rock | twin | 7 | fuzz tape | curated
+King Gizzard and the Lizard Wizard | psych rock | twin | 7 | fuzz phaser tape | curated
+The Cramps | psychobilly | twin | 6 | trem slap spring | curated
+Bauhaus | goth rock | ac30 | 5 | flanger delay | curated
+The Sisters of Mercy | goth rock | jcm800 | 5 | chorus delay hall | curated
+The Mission | goth rock | jcm800 | 5 | chorus delay hall | curated
+The Cult | hard rock | jcm800 | 6 | chorus delay hall | curated
+Killing Joke | post-punk | jcm800 | 7 | chorus delay | curated
+Public Image Ltd | post-punk | twin | 5 | chorus delay | curated
+Magazine | post-punk | ac30 | 5 | room | curated
+Stiff Little Fingers | punk | jcm800 | 7 | room | curated
+The Ruts | punk | jcm800 | 7 | room | curated
+Cock Sparrer | punk | jcm800 | 7 | room | curated
+The Adicts | punk | jcm800 | 6 | room | curated
+Dropkick Murphys | celtic punk | jcm800 | 7 | room | curated
+Flogging Molly | celtic punk | jcm800 | 6 | room | curated
+The Pogues | celtic punk | ac30 | 4 | room | curated
+Frank Turner | folk punk | acoustic | 0 | room | curated
+Billy Bragg | folk punk | ac30 | 4 | room | curated
+Refused | hardcore | recto | 8 | dry | curated
+The Bronx | hardcore | jcm800 | 8 | room | curated
+Gallows | hardcore | jcm800 | 8 | room | curated
+Frank Carter and the Rattlesnakes | punk | jcm800 | 7 | room | curated
+Amyl and the Sniffers | punk | jcm800 | 7 | room | curated
+The Chats | punk | jcm800 | 6 | room | curated
+Viagra Boys | post-punk | ac30 | 6 | fuzz room | curated
+Iceage | post-punk | ac30 | 6 | room | curated
+Protomartyr | post-punk | ac30 | 5 | delay | curated
+Parquet Courts | post-punk | jazz | 5 | dry bright | curated
+Preoccupations | post-punk | jazz | 5 | chorus delay | curated
+Savages | post-punk | ac30 | 5 | delay | curated
+Algiers | post-punk | ac30 | 5 | delay | curated
+Pissed Jeans | noise rock | jcm800 | 8 | fuzz | curated
+Metz | noise rock | jcm800 | 8 | fuzz | curated
+The Jesus Lizard | noise rock | jcm800 | 7 | room | curated
+Big Black | noise rock | jcm800 | 8 | bright dry | curated
+Shellac | noise rock | twin | 6 | bright dry | curated
+Unwound | post-hardcore | twin | 6 | room | curated
+Slint | post-rock | twin | 5 | room | curated
+Drive Like Jehu | post-hardcore | jcm800 | 7 | room | curated
+Rites of Spring | post-hardcore | jcm800 | 7 | room | curated
+Jets to Brazil | indie rock | jcm800 | 6 | delay | curated
+Texas Is the Reason | emo | jcm800 | 6 | room | curated
+Saves the Day | pop punk | jcm800 | 6 | room | curated
+Dashboard Confessional | emo | acoustic | 0 | room | curated
+Say Anything | pop punk | jcm800 | 6 | room | curated
+Motion City Soundtrack | pop punk | jcm800 | 6 | room | curated
+Anti-Flag | punk | jcm800 | 7 | room | curated
+Rise Against | punk | recto | 8 | delay | curated

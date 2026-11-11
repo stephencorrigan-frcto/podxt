@@ -1,0 +1,88 @@
+# Artist | genre | amp | gain | tags | source
+# Your top Spotify artists (hand-tuned patches exist for these; profiles keep genre data)
+The Smashing Pumpkins | alt rock | plexi | 7 | fuzz chorus hall | you
+Placebo | alt rock | jcm800 | 6 | facefuzz chorus mids | you
+Arctic Monkeys | indie rock | hiwatt | 6 | fuzz trem spring | you
+The Strokes | indie rock | deluxe | 5 | od bright dry | you
+Stereophonics | britpop | ac30 | 5 | delay hall | you
+Muse | alt rock | jcm800 | 8 | facefuzz dotted hall | you
+Radiohead | alt rock | deluxe | 5 | dist delay hall | you
+Rage Against The Machine | rap metal | jcm800 | 7 | mids wah delay tight | you
+Future Islands | synth pop | jazz | 1 | chorus delay hall | you
+Fontaines D.C. | post-punk | ac30 | 5 | fuzz slap bright | you
+Oasis | britpop | jcm800 | 7 | od phaser hall | you
+Manic Street Preachers | alt rock | jcm800 | 7 | od chorus delay | you
+The Verve | britpop | ac30 | 4 | flanger tape cavern | you
+Arcade Fire | indie rock | ac30 | 5 | hall bright | you
+Beck | alt rock | smalltweed | 5 | fuzz trem slap lofi | you
+Marilyn Manson | industrial metal | recto | 9 | fuzz tight | you
+The Killers | indie rock | ac30 | 5 | dotted chorus bright | you
+Blur | britpop | ac30 | 6 | fuzz octfuzz bright | you
+Still Corners | dream pop | twin | 1 | chorus trem ambient hall | you
+Villagers | folk | acoustic | 0 | comp room | you
+# Spotify: artists like Placebo
+Interpol | post-punk | ac30 | 4 | delay bright room | spotify
+Bloc Party | indie rock | jazz | 4 | delay chorus bright | spotify
+Garbage | alt rock | jcm800 | 7 | fuzz trem | spotify
+Editors | post-punk | ac30 | 4 | dotted chorus hall | spotify
+Travis | britpop | ac30 | 3 | chorus room | spotify
+White Lies | post-punk | jcm800 | 4 | chorus delay hall | spotify
+Skunk Anansie | alt metal | recto | 8 | tight mids | spotify
+JJ72 | alt rock | jcm800 | 6 | chorus delay hall | spotify
+The Dandy Warhols | psych rock | ac30 | 5 | fuzz trem spring | spotify
+Nada Surf | power pop | deluxe | 5 | od chorus room | spotify
+The Subways | garage rock | jcm800 | 6 | fuzz dry | spotify
+Depeche Mode | synth pop | twin | 1 | chorus delay hall | spotify
+Joy Division | post-punk | hiwatt | 4 | chorus room dark | spotify
+Starsailor | britpop | twin | 2 | delay hall | spotify
+The Music | indie rock | jcm800 | 6 | phaser delay hall | spotify
+Eels | alt rock | supro | 4 | trem lofi spring | spotify
+# Spotify: artists like Manic Street Preachers
+Suede | britpop | jcm800 | 6 | flanger chorus delay | spotify
+Mansun | britpop | plexi | 6 | phaser delay hall | spotify
+Catatonia | britpop | ac30 | 4 | chorus room | spotify
+Ocean Colour Scene | britpop | plexi | 5 | vibe room | spotify
+Ash | power pop | jcm800 | 6 | fuzz chorus | spotify
+The Bluetones | britpop | ac30 | 3 | chorus room | spotify
+Pulp | britpop | ac30 | 4 | trem delay room | spotify
+Sleeper | britpop | ac30 | 5 | chorus room | spotify
+Inspiral Carpets | madchester | ac30 | 4 | fuzz wah room | spotify
+The Charlatans | madchester | ac30 | 4 | wah vibe room | spotify
+James Dean Bradfield | alt rock | jcm800 | 6 | od chorus delay | spotify
+Cast | britpop | ac30 | 5 | delay room | spotify
+Dodgy | britpop | ac30 | 4 | chorus room | spotify
+Shed Seven | britpop | jcm800 | 5 | od delay | spotify
+The Seahorses | britpop | plexi | 5 | wah delay | spotify
+Longpigs | britpop | jcm800 | 6 | od delay | spotify
+Kula Shaker | psych rock | ac30 | 5 | fuzz wah vibe | spotify
+Echobelly | britpop | ac30 | 5 | chorus room | spotify
+James | indie rock | ac30 | 3 | chorus delay hall | spotify
+# Spotify: artists like Arctic Monkeys
+The Neighbourhood | indie pop | twin | 2 | chorus ambient hall | spotify
+Beach Weather | indie pop | twin | 3 | chorus delay | spotify
+Tame Impala | psych rock | twin | 4 | fuzz phaser tape | spotify
+Surf Curse | surf punk | twin | 4 | spring trem bright | spotify
+The Rare Occasions | indie rock | ac30 | 5 | delay room | spotify
+Gorillaz | alt pop | twin | 3 | chorus delay lofi | spotify
+The Smiths | jangle pop | twin | 2 | chorus trem bright | spotify
+Dr. Dog | indie rock | tweed | 4 | slap room | spotify
+Cults | indie pop | twin | 2 | spring trem | spotify
+Franz Ferdinand | indie rock | ac30 | 5 | bright dry | spotify
+Cigarettes After Sex | dream pop | twin | 1 | chorus ambient cavern | spotify
+MGMT | psych pop | twin | 3 | phaser delay | spotify
+TV Girl | indie pop | twin | 2 | chorus lofi room | spotify
+# Spotify: artists like The Smashing Pumpkins
+Soundgarden | grunge | mesa | 7 | octfuzz wah mids | spotify
+Stone Temple Pilots | grunge | jcm800 | 6 | flanger delay | spotify
+Pearl Jam | grunge | twin | 5 | od wah delay | spotify
+Alice In Chains | grunge | soldano | 7 | wah chorus dark | spotify
+Foo Fighters | alt rock | recto | 6 | od bright room | spotify
+Third Eye Blind | alt rock | ac30 | 5 | chorus delay | spotify
+Pixies | alt rock | twin | 5 | fuzz flanger room | spotify
+Hole | grunge | jcm800 | 7 | fuzz room | spotify
+Weezer | power pop | mesa | 7 | fuzz tight | spotify
+The Cure | post-punk | jazz | 3 | chorus flanger hall | spotify
+Incubus | alt rock | recto | 5 | wah delay chorus | spotify
+Bush | grunge | jcm800 | 7 | od delay | spotify
+Nirvana | grunge | mesa | 7 | dist chorus dark | spotify
+Spacehog | glam rock | plexi | 6 | phaser delay | spotify
