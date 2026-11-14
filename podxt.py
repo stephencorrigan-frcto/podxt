@@ -19,6 +19,7 @@ CC numbers: Linux kernel Line 6 driver (control.h) and arteme/pod-ui.
 """
 import argparse
 import json
+import re
 import sys
 import time
 from pathlib import Path
@@ -306,8 +307,10 @@ class UsbTransport:
         self.usb = usb
         devs = [d for d in find_usb_devices() if d.idProduct in USB_IDS]
         if not devs:
-            sys.exit("No POD XT on USB. Check the cable and that Zadig installed WinUSB "
-                     "on the PODxt device.")
+            msg = "No POD XT on USB."
+            if sys.platform == "win32":
+                msg += " " + windows_usb_status()[1]
+            sys.exit(msg + " Run `python podxt.py setup` for the WinUSB steps.")
         self.dev = devs[0]
         alt_setting = 1 if self.dev.idProduct == 0x4650 else 5
         try:
@@ -439,6 +442,133 @@ class UsbTransport:
     def close(self):
         self.usb.util.release_interface(self.dev, self.iface)
         self.usb.util.dispose_resources(self.dev)
+
+
+ZADIG_URL = "https://zadig.akeo.ie/"
+USB_SETUP_STEPS = (
+    "1. Plug the POD XT into USB and switch it on.\n"
+    "2. Click Install USB driver in the app (it downloads Zadig, checks its signature and\n"
+    "   opens it), or download Zadig yourself from zadig.akeo.ie. Accept the admin prompt.\n"
+    "3. In Zadig choose Options > List All Devices.\n"
+    "4. Pick 'PODxt' from the list. The USB ID must read 0E41 5044.\n"
+    "5. Set the target driver (right of the green arrow) to WinUSB.\n"
+    "6. Click Install Driver (or Replace Driver) and wait for 'successful'.\n"
+    "7. Unplug and replug the XT, then check again.\n"
+    "Leave Windows Memory Integrity on. WinUSB replaces Line 6 USB audio; "
+    "use the XT's headphone or line outputs to listen."
+)
+
+
+def windows_usb_status():
+    """On Windows, say whether the XT is ready for --usb.
+
+    Returns (state, message) with state one of: ok, unplugged, never_seen,
+    no_driver, line6_driver, other_driver, unknown.
+    """
+    import subprocess
+    found = []
+    for pid in USB_IDS:
+        dev = f"USB\\VID_{LINE6_VID:04X}&PID_{pid:04X}"
+        try:
+            out = subprocess.run(["pnputil", "/enum-devices", "/deviceid", dev, "/drivers"],
+                                 capture_output=True, text=True, timeout=20,
+                                 creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0)).stdout
+        except (OSError, subprocess.SubprocessError):
+            return "unknown", "Couldn't run pnputil to check the USB driver."
+        if "Instance ID" not in out:
+            continue
+        status = re.search(r"^Status:\s*(.+)$", out, re.M)
+        provider = None
+        for block in out.split("Driver Name:")[1:]:
+            if "Installed" in block:
+                m = re.search(r"Provider Name:\s*(.+)", block)
+                provider = m.group(1).strip() if m else None
+        found.append((USB_IDS[pid], status.group(1).strip() if status else "", provider))
+    if not found:
+        return "never_seen", "Windows has never seen a POD XT. Plug it in over USB and switch it on."
+    name, status, provider = next((f for f in found if f[1] != "Disconnected"), found[0])
+    winusb = provider and ("libwdi" in provider.lower() or "winusb" in provider.lower())
+    if status == "Disconnected":
+        hint = "" if winusb else " When it's connected, install WinUSB with Zadig."
+        return "unplugged", f"The {name} isn't connected. Plug it in and switch it on.{hint}"
+    if not provider:
+        return "no_driver", f"The {name} is connected but has no driver. Install WinUSB with Zadig."
+    if "line" in provider.lower() and "6" in provider:
+        return "line6_driver", (f"The {name} is using the Line 6 driver. Replace it with WinUSB "
+                                "in Zadig (Replace Driver).")
+    if winusb and status.lower().startswith("started"):
+        return "ok", f"The {name} is connected with WinUSB."
+    if winusb:
+        return "unknown", f"The {name} has WinUSB but Windows reports '{status}'. Try replugging it."
+    return "other_driver", f"The {name} uses the '{provider}' driver. Replace it with WinUSB in Zadig."
+
+
+ZADIG_EXE_URL = "https://github.com/pbatard/libwdi/releases/download/v1.5.1/zadig-2.9.exe"
+ZADIG_SIZE = 5334088
+ZADIG_SIGNER = "Akeo Consulting"
+ZADIG_INI = """[general]
+exit_on_success = true
+[device]
+list_all = true
+[driver]
+default_driver = 0
+"""
+
+
+def verify_signature(path):
+    """Return the Authenticode signer subject if the file is validly signed, else None."""
+    import subprocess
+    ps = (f"$s = Get-AuthenticodeSignature -LiteralPath '{path}'; "
+          "if ($s.Status -eq 'Valid') { $s.SignerCertificate.Subject }")
+    out = subprocess.run(["powershell", "-NoProfile", "-NonInteractive", "-Command", ps],
+                         capture_output=True, text=True, timeout=60,
+                         creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0)).stdout.strip()
+    return out or None
+
+
+def install_usb_driver():
+    """Fetch Zadig from the official libwdi release, check its signature, preconfigure it
+    for WinUSB and open it (Windows asks for admin approval). The user then picks PODxt
+    and clicks Install Driver."""
+    import os
+    import urllib.request
+    if sys.platform != "win32":
+        sys.exit("The USB driver install is for Windows only.")
+    folder = Path(os.environ.get("LOCALAPPDATA", str(HERE))) / "PODXT" / "zadig"
+    folder.mkdir(parents=True, exist_ok=True)
+    exe = folder / "zadig-2.9.exe"
+    if not exe.exists() or exe.stat().st_size != ZADIG_SIZE:
+        print(f"Downloading Zadig 2.9 from {ZADIG_EXE_URL}")
+        tmp = exe.with_suffix(".part")
+        with urllib.request.urlopen(ZADIG_EXE_URL, timeout=60) as r, open(tmp, "wb") as f:
+            f.write(r.read())
+        if tmp.stat().st_size != ZADIG_SIZE:
+            tmp.unlink()
+            sys.exit("The download was not the expected size. Nothing was run.")
+        tmp.replace(exe)
+    signer = verify_signature(exe)
+    if not signer or ZADIG_SIGNER not in signer:
+        exe.unlink()
+        sys.exit(f"Zadig's digital signature didn't check out ({signer or 'unsigned'}). Nothing was run.")
+    print(f"Signature OK: {signer}")
+    (folder / "zadig.ini").write_text(ZADIG_INI, encoding="ascii")
+    print("Opening Zadig. Approve the Windows prompt, pick 'PODxt' (0E41 5044), "
+          "check the target says WinUSB, then click Install Driver.")
+    os.startfile(str(exe))
+
+
+def cmd_install_driver(args):
+    install_usb_driver()
+
+
+def cmd_setup(args):
+    """Explain the Windows USB driver setup and check the current state."""
+    if sys.platform == "win32":
+        state, msg = windows_usb_status()
+        print(msg)
+        if state == "ok":
+            return
+    print("\nWindows 11 USB setup (one time):\n" + USB_SETUP_STEPS)
 
 
 def open_transport(args):
@@ -844,6 +974,9 @@ def main():
     ap.add_argument("--port", help="MIDI port name substring (default: anything with POD)")
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("ports").set_defaults(fn=cmd_ports)
+    sub.add_parser("setup", help="Windows USB driver check and setup steps").set_defaults(fn=cmd_setup)
+    sub.add_parser("install-driver", help="Windows: fetch, verify and open Zadig for WinUSB").set_defaults(
+        fn=cmd_install_driver)
     sub.add_parser("list").set_defaults(fn=cmd_list)
     m = sub.add_parser("models")
     m.add_argument("kind", nargs="?", choices=list(MODEL_CC))

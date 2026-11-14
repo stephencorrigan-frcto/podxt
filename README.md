@@ -20,7 +20,7 @@ On first run the app writes its data files next to itself.
 - **Read XT** reads every slot's name and flags slots that differ from `layout.json`.
 - **More:** check connection, back up all 128 slots, capture the XT's current sound as a patch.
 
-The app talks to the XT over USB, so it needs WinUSB on the PODxt (see Setup).
+The app talks to the XT over USB, so on Windows it needs the WinUSB driver on the PODxt. The app detects this and offers an **Install USB driver** button: see [WINDOWS-USB-SETUP.md](WINDOWS-USB-SETUP.md).
 
 ## Data files
 

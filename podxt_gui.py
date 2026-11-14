@@ -106,12 +106,15 @@ class App(tk.Tk):
         self.build_top()
         body = tk.Frame(self, bg=GROUND)
         body.pack(fill="both", expand=True, padx=16, pady=(0, 8))
+        self.body = body
+        self.build_banner()
         self.build_library(body)
         self.build_grid(body)
         self.build_log()
         self.refresh_tree()
         self.refresh_grid()
         self.after(100, self.pump)
+        self.after(500, self.check_usb)
 
     # ------------------------------------------------------------ look
 
@@ -185,6 +188,7 @@ class App(tk.Tk):
         more = ttk.Menubutton(top, text="More")
         menu = tk.Menu(more, tearoff=False, bg=SHEET, fg=INK, activebackground=PLUM_SOFT,
                        activeforeground=INK)
+        menu.add_command(label="USB setup (Windows)...", command=self.show_setup)
         menu.add_command(label="Check connection", command=self.check)
         menu.add_command(label="Back up all 128 slots", command=self.backup)
         menu.add_command(label="Capture XT sound as a patch...", command=self.capture)
@@ -192,6 +196,102 @@ class App(tk.Tk):
         more.pack(side="right", padx=(0, 8))
         self.status = tk.Label(top, text="Ready", font=UI_SMALL, bg=GROUND, fg=INK3)
         self.status.pack(side="right", padx=(0, 16), pady=(5, 0))
+
+    # ------------------------------------------------------------ USB setup
+
+    def build_banner(self):
+        self.banner = tk.Frame(self, bg=PLUM_SOFT)
+        self.banner_text = tk.Label(self.banner, text="", font=UI, bg=PLUM_SOFT, fg=INK,
+                                    anchor="w", justify="left")
+        self.banner_text.pack(side="left", fill="x", expand=True, padx=12, pady=8)
+        ttk.Button(self.banner, text="Check again", command=self.check_usb).pack(
+            side="right", padx=(0, 12), pady=6)
+        ttk.Button(self.banner, text="Steps", command=self.show_setup).pack(
+            side="right", padx=(0, 8), pady=6)
+        self.install_btn = ttk.Button(self.banner, text="Install USB driver", style="Primary.TButton",
+                                      command=self.install_driver)
+        self.install_btn.pack(side="right", padx=(0, 8), pady=6)
+        self.usb_poll_until = 0
+
+    def check_usb(self):
+        import sys
+        if sys.platform != "win32":
+            return
+
+        def work():
+            try:
+                self.q.put(("usb", podxt.windows_usb_status()))
+            except Exception as e:
+                self.q.put(("usb", ("unknown", f"Couldn't check the USB driver: {e}")))
+
+        threading.Thread(target=work, daemon=True).start()
+
+    def usb_result(self, result):
+        import time
+        state, msg = result
+        self.usb_state = state
+        if state == "ok":
+            self.banner.pack_forget()
+            self.status.config(text="XT connected", fg=INK3)
+            self.usb_poll_until = 0
+            return
+        self.banner_text.configure(text=msg)
+        # the driver step only makes sense once the XT is plugged in
+        if state in ("no_driver", "line6_driver", "other_driver"):
+            self.install_btn.pack(side="right", padx=(0, 8), pady=6)
+        else:
+            self.install_btn.pack_forget()
+        self.banner.pack(fill="x", padx=16, pady=(0, 10), before=self.body)
+        if time.time() < self.usb_poll_until:
+            self.after(3000, self.check_usb)
+
+    def install_driver(self):
+        import time
+        if not messagebox.askyesno(
+                "Install USB driver",
+                "This downloads Zadig 2.9 from the official libwdi GitHub release, checks it is "
+                "signed by Akeo Consulting, and opens it. Windows will ask for admin approval.\n\n"
+                "In Zadig: pick 'PODxt' (USB ID 0E41 5044), make sure the target driver says "
+                "WinUSB, then click Install Driver.\n\n"
+                "WinUSB replaces Line 6 USB audio. Continue?"):
+            return
+        self.usb_poll_until = time.time() + 300
+
+        def done(_r):
+            self.after(3000, self.check_usb)
+        self.run("Installing USB driver", lambda: podxt.install_usb_driver(), done=done)
+
+    def show_setup(self):
+        import webbrowser
+        win = tk.Toplevel(self)
+        win.title("USB setup for Windows 11")
+        win.configure(bg=SHEET)
+        win.transient(self)
+        pad = {"padx": 20}
+        tk.Label(win, text="Set up USB on Windows 11", font=UI_TITLE, bg=SHEET, fg=INK).pack(
+            anchor="w", pady=(18, 4), **pad)
+        tk.Label(win, text="One time only. The XT needs the WinUSB driver so this app can talk to it.",
+                 font=UI_SMALL, bg=SHEET, fg=INK3).pack(anchor="w", **pad)
+        state = getattr(self, "usb_state", None)
+        if state:
+            tk.Label(win, text=self.banner_text.cget("text") if state != "ok" else "The XT is ready.",
+                     font=UI_BOLD, bg=SHEET, fg=PLUM if state != "ok" else INK).pack(
+                anchor="w", pady=(12, 0), **pad)
+        tk.Label(win, text=podxt.USB_SETUP_STEPS, font=UI, bg=SHEET, fg=INK, justify="left",
+                 wraplength=self.px(560)).pack(anchor="w", pady=(12, 16), **pad)
+        row = tk.Frame(win, bg=SHEET)
+        row.pack(fill="x", pady=(0, 18), **pad)
+        ttk.Button(row, text="Install USB driver", style="Primary.TButton",
+                   command=lambda: (win.destroy(), self.install_driver())).pack(side="left")
+        ttk.Button(row, text="Zadig website", command=lambda: webbrowser.open(podxt.ZADIG_URL)).pack(
+            side="left", padx=(8, 0))
+        ttk.Button(row, text="Check again", command=lambda: (self.check_usb(), win.destroy())).pack(
+            side="left", padx=8)
+        ttk.Button(row, text="Close", command=win.destroy).pack(side="right")
+        win.update_idletasks()
+        x = self.winfo_rootx() + (self.winfo_width() - win.winfo_width()) // 2
+        y = self.winfo_rooty() + self.px(80)
+        win.geometry(f"+{max(0, x)}+{max(0, y)}")
 
     # ------------------------------------------------------------ library
 
@@ -517,6 +617,9 @@ class App(tk.Tk):
         try:
             while True:
                 kind, item = self.q.get_nowait()
+                if kind == "usb":
+                    self.usb_result(item)
+                    continue
                 if kind == "done":
                     self.busy = False
                     self.status.config(text="Ready", fg=INK3)
